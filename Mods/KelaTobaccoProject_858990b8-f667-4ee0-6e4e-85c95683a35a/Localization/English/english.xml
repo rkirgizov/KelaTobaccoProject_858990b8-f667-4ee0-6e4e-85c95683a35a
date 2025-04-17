@@ -70,8 +70,8 @@
   <content contentuid="h3ce2a8b7g65e6ga4abg74dag60affc84ebfc" version="12">Noble tobacco, not everyone even in Baldur's Gate can afford it.</content>
   <content contentuid="ha9583872g4e45g1200g1c0ag6d86509091f8" version="1">Mortar and Pestle</content>
   <content contentuid="h5405c71fge089gd931gbdadg81d54caa5af6" version="1">Used for mixing various herbs, including tobacco blends.</content>
-  <content contentuid="h3693fc95g35c8gb187g9e28g604776017323" version="2">Tobacco Chest</content>
-  <content contentuid="hf005a496g6f6eg6bf2g7c81g58eecee848dd" version="2">Convenient and durable alchemist's chest</content>
+  <content contentuid="h3693fc95g35c8gb187g9e28g604776017323" version="4">Tobacco Chest</content>
+  <content contentuid="hf005a496g6f6eg6bf2g7c81g58eecee848dd" version="4">Chest with tobacco accessories</content>
   <content contentuid="h33acc3a2g90afg40fag0cd1g3b191b28686c" version="4">Even the smell of tobacco makes you &lt;LSTag Type="Status" Tooltip="KTP_OVERDOSE_5"&gt;Sick&lt;/LSTag&gt;... It's better to take a break from smoking.</content>
   <content contentuid="hdf735b57gb7f7ge98ag9c24g632f66cb3673" version="2">Malaise</content>
   <content contentuid="h71df1d62g8d9bgecffg7c5cg5118b8bbe21e" version="7">Frequent smoking causes the character to feel unwell. He has &lt;LSTag Type="Status" Tooltip="KTP_OVERDOSE_3_REMOVE_STATUSES"&gt;difficulty concentrating on spells&lt;/LSTag&gt; and has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Dexterity &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;. &lt;br&gt;If you continue to smoke without a long rest, you may experience &lt;LSTag Type="Status" Tooltip="KTP_OVERDOSE_4"&gt;Headaches&lt;/LSTag&gt;.</content>
