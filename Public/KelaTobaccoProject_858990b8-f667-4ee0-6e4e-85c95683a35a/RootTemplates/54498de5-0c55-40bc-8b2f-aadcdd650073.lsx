@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="7" revision="1" build="3" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="54498de5-0c55-40bc-8b2f-aadcdd650073" />
+					<attribute id="Name" type="LSString" value="KTP_CONT_TobaccoChestDebug" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="b1487efd-4ae8-4747-866d-717df74169cd" />
+					<attribute id="VisualTemplate" type="FixedString" value="58428c03-be6e-18ff-6728-3fe4943420f2" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="a77ef121-5f3c-4384-5e0c-9bbe304f3645" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h3693fc95g35c8gb187g9e28g604776017323" version="2" />
+					<attribute id="Icon" type="FixedString" value="Portrait_CONT_PlayerCampChest_D" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ImmutableContainer" />
+					<attribute id="CanBePickedUp" type="bool" value="True" />
+					<attribute id="CanBeMoved" type="bool" value="True" />
+					<attribute id="ExamineRotation" type="fvec3" value="0 0 0" />
+					<attribute id="InventoryType" type="uint8" value="46" />
+					<attribute id="Description" type="TranslatedString" handle="hf005a496g6f6eg6bf2g7c81g58eecee848dd" version="2" />
+					<attribute id="IsPublicDomain" type="bool" value="True" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="KTP_DEBUG_TOBACCO" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

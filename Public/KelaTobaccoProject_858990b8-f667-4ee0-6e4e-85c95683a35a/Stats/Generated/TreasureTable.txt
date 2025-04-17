@@ -1,5 +1,5 @@
 treasure itemtypes "Common","Uncommon","Rare","Epic","Legendary","Divine","Unique"
-new treasuretable "KAP_DEBUG_TOBACCO"
+new treasuretable "KTP_DEBUG_TOBACCO"
 new subtable "1,1"
 object category "I_OBJ_KitchenInstrument_Mortar_A_Stone",1,0,0,0,0,0,0,0
 new subtable "1,1"

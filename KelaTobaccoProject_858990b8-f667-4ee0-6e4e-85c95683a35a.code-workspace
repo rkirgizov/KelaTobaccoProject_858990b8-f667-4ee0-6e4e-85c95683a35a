@@ -4,5 +4,8 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"bg3ModHelper.rootModPath": "d:\\BG3 Kela Mods\\GIT-backup\\KelaTobaccoProject_858990b8-f667-4ee0-6e4e-85c95683a35a",
+		"bg3ModHelper.packingPriority": 0
+	}
 }
