@@ -1,0 +1,101 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_KTP_Notes_Template((ITEMROOT)KTP_BOOK_SmokerNotes_25320b23-171e-4808-b829-98ea2d96f6c5);
+
+DB_KTP_Notes_Header("KTP_Notes_Header");
+DB_KTP_Notes(0,"");
+KBSECTION
+IF
+TemplateUseStarted(_User, _Template, _Item)
+AND
+DB_KTP_Notes_Template(_Template)
+AND
+QRY_KTP_Setup_Notes((CHARACTER)_User)
+AND
+DB_KTP_Notes(_,_NotesName)
+AND 
+NOT DB_OnlyOnce("KTP_Open_Notes")
+THEN
+DB_OnlyOnce("KTP_Open_Notes");
+OpenCustomBookUI(_User,_NotesName);
+TimerLaunch("KTP_Wait_Open_Notes", 100);
+
+QRY
+QRY_KTP_Setup_Notes((CHARACTER)_User)
+AND
+QRY_KTP_SetNotesIndex()
+AND
+DB_KTP_Notes(_, _NotesName)
+AND
+QRY_KTP_NotesHeader(_User,_NotesName)
+AND
+QRY_KTP_NotesBlends(_User,_NotesName)
+THEN
+//SetDualEntityEvent(_User,_User,_NotesName);
+DB_NOOP(1);
+
+QRY
+QRY_KTP_SetNotesIndex()
+AND
+DB_KTP_Notes(_Index, _NotesName)
+AND
+IntegerSum(_Index, 1, _NewIndex)
+AND
+ConcatenateInteger("KTP_Notes_",_NewIndex,_NewNotesName)
+THEN
+DB_KTP_Notes(_NewIndex,_NewNotesName);
+
+QRY
+QRY_KTP_NotesHeader((CHARACTER)_User,(STRING)_NotesName)
+AND
+DB_KTP_Notes_Header(_Header)
+THEN
+AddEntryToCustomBook(_NotesName, _Header);
+
+QRY
+QRY_KTP_NotesBlends((CHARACTER)_User,(STRING)_NotesName)
+AND
+DB_KTP_Known_Blend(_Blend,_)
+THEN
+AddEntryToCustomBook(_NotesName, _Blend);
+
+QRY
+QRY_KTP_NotesBlends((CHARACTER)_User,(STRING)_NotesName)
+AND
+NOT DB_KTP_Known_Blend(_,_)
+THEN
+DB_NOOP(1);
+
+
+//----------------------------------------------------------------
+// TECHNICAL 
+//----------------------------------------------------------------
+//
+// Singleton 
+IF
+DB_KTP_Notes(_NewIndex, _NewCustomBook)
+AND
+DB_KTP_Notes(_OldIndex, _OldCustomBook)
+AND
+_NewIndex != _OldIndex
+AND
+_NewCustomBook != _OldCustomBook
+THEN
+NOT DB_KTP_Notes(_OldIndex, _OldCustomBook);
+
+
+
+//
+// KTP_Wait_Open_Notes
+IF
+TimerFinished("KTP_Wait_Open_Notes")
+AND
+DB_OnlyOnce("KTP_Open_Notes")
+THEN
+NOT DB_OnlyOnce("KTP_Open_Notes");
+//
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "GLO_KelaTobaccoProject"

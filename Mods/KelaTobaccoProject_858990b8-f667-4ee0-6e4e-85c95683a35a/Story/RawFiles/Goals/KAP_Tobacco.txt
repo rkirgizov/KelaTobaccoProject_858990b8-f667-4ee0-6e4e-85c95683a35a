@@ -1,0 +1,898 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+// BASE OF TOBACCO
+// Mugwort - Antidote 
+// Belladonna - Elixir of Peerless Focus
+
+// HERBS 
+// Balsam - Potion of Greater Healing - 
+// Wispweed - Potion of Glorious Vaulting - 
+// Autumncrocus - Potion of Feather Fall
+// Yellow Musk Creeper Petals - Potion of Superior Healing
+// Mergrass - Potion of Mind Reading
+// Night Orchid - Superior Elixir of Arcane Cultivation
+// Weavemoss - Elixir of Arcane Cultivation
+// Black Oleander - Elixir of Necrotic Resistance
+// Dried Fey Flower - Hag's Bane
+// Daggerroot - Oil of Accuracy
+// Corpse Rose - Thisobald's Brewed-Up Bellyglummer
+//
+// MUSHROOMS
+// Acorn Truffle - Potion of Animal Speaking
+// Tongue of Madness - Tadpole Elixir
+// Rogue's Morsel - Potion of Healing
+// Shadowroot Sac - Elixir of Viciousness
+// Dragon Egg Mushroom - Elixir of Fire Resistance
+// Hastening Spores - Haste Spore Grenade
+// Poison Spore - Noxious Spore Grenade
+// Timmask Spores - Fungal Bamboozler
+// Bonecap - Basic Poison
+// Bullywug Trumpet - Simple Toxin
+// Swarming Toadstool - Drow Poison
+//  
+// FOOD
+// Orange
+// Pale Mint
+// Goodberry
+// Lemon
+// Onion
+// Glowcap Mushroom
+// Bluecap
+// Garlic
+// White Mushroom
+// 
+// OTHER
+// Withered Sussur Petal
+// Withered Blue Petal
+// Sussur Bloom
+// Bulbous Fungus
+// Noblestalk
+// Ki-Rin Hair - Potion of Supreme Healing - Poison?
+//
+// 
+
+
+
+// _StatusTurns in Real (turn * 6)
+// DB_KTP_StatusPouch(_StatusTurns,_PuffCount,_Status,_TobaccoPouchTemplate)
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_BELLADONNA_",KTP_CONT_TobaccoPouch_Simple_067acb98-3ffa-49b1-a480-35d837d37ad7);
+DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_MERGRASS_",KTP_CONT_TobaccoPouch_Swamp_a958c3dc-de0b-4ac4-af42-ed19b57f015b);
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_UNDERDARKMUSHROOMS_",KTP_CONT_TobaccoPouch_Underdark_8c730695-655d-4b01-8e2a-efa1f714aec4);
+DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_SHADOWROOTSAC_",KTP_CONT_TobaccoPouch_Cursed_3b8f8514-0a69-47d8-925b-7301bdb4299b);
+DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_PALEMINT_",KTP_CONT_TobaccoPouch_Noble_99912a6b-cb39-427b-bcff-99083ab5f63b);
+
+DB_KTP_StatusBad("");
+
+// Pouch for unknown blend
+DB_KTP_UnknownBlendPouchTemplate(KTP_CONT_TobaccoPouch_Unknown_52fe3672-cbdc-4bb4-bab7-4a2c863d51e4);
+
+// Main ingredient is CONS_Herbs_Mugwort_Plant_A_e03b8342-3c50-4cec-b34c-c50ce1968bc3 
+DB_KTP_MainIngredient("KTP_Mugwort",CONS_Herbs_Mugwort_Bundle_A_a0776643-f25b-4aef-a025-bff959d8dd0f);
+DB_KTP_MainIngredient("KTP_Mugwort",CONS_Herbs_Mugwort_Plant_A_e03b8342-3c50-4cec-b34c-c50ce1968bc3);
+DB_KTP_MainIngredient("KTP_Belladonna",CONS_Herbs_Belladonna_Bundle_A_897f5ff9-d889-4b78-a1d7-afa88ccaadb3);
+DB_KTP_MainIngredient("KTP_Belladonna",CONS_Herbs_Belladonna_Plant_A_1a7d3387-3c57-4ae7-9e7a-eb0eb0199dc3);
+
+// Second Ingredients for Mugwort
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_BELLADONNA_",CONS_Herbs_Belladonna_Bundle_A_897f5ff9-d889-4b78-a1d7-afa88ccaadb3);
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_BELLADONNA_",CONS_Herbs_Belladonna_Plant_A_1a7d3387-3c57-4ae7-9e7a-eb0eb0199dc3);
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_UNDERDARKMUSHROOMS_",CONS_GEN_Food_GlowcapMushroom_A_1463c8da-2f73-4768-b5e3-3b9048901d93);
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_UNDERDARKMUSHROOMS_",CONS_FOOD_Mushroom_Bluecap_87e53fac-efc7-4d4a-b28d-675afa7bd564);
+
+// Second Ingredients for Belladonna
+DB_KTP_Ingredients("KTP_Belladonna","KTP_MUGWORT_BELLADONA_",CONS_Herbs_Mugwort_Bundle_A_a0776643-f25b-4aef-a025-bff959d8dd0f);
+DB_KTP_Ingredients("KTP_Belladonna","KTP_MUGWORT_BELLADONA_",CONS_Herbs_Mugwort_Plant_A_e03b8342-3c50-4cec-b34c-c50ce1968bc3);
+DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_MERGRASS_",CONS_Herbs_Mergrass_Bundle_A_0a494c98-84c0-4055-8208-0e363bd53ed3);
+DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_MERGRASS_",CONS_Herbs_Mergrass_Plant_A_3e518433-1923-43f5-856f-848028ac3bad);
+DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_SHADOWROOTSAC_",ALCH_Ingredient_Mushroom_ShadowrootSac_44eaf801-ed52-4322-ae70-31258dd93c82);
+DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_PALEMINT_",CONS_GEN_Food_PaleMint_A_f35fb09a-696a-41f6-ac04-f9447332d56e);
+
+DB_KTP_HalsinsPipe(S_DEN_NarrativeLoot_HalsinsPipe_24f001b7-802e-4130-b4ab-fc514614e049);
+
+DB_KTP_Known_Blend("KTP_MUGWORT_BELLADONA_",KTP_CONT_TobaccoPouch_Simple_067acb98-3ffa-49b1-a480-35d837d37ad7);
+KBSECTION
+//REGION COMBINE_TOBACCO
+//
+// CLEANING OLD VARIABLES
+IF
+RequestCanCombine(_Player,_Mortar,_Pouch,_,_,_,_RequestID)
+AND
+GetStatString(_Mortar,_MortarStats)
+AND
+_MortarStats == "OBJ_KitchenInstrument_Mortar_A_Stone"
+THEN
+PROC_KTP_ClearOldVariables();
+//
+// START REQUEST AND ITERATING
+// We check and remember the tool and start searching for ingredients
+IF
+RequestCanCombine(_Player,_Mortar,_Pouch,_,_,_,_RequestID)
+AND
+GetStatString(_Mortar,_MortarStats)
+AND
+_MortarStats == "OBJ_KitchenInstrument_Mortar_A_Stone"
+AND
+GetStatString(_Pouch,_PouchStat)
+AND
+_PouchStat == "OBJ_Pouch_Leather_A"
+THEN
+DB_KTP_CurrentMortar(_Player,_Mortar,_Pouch);
+IterateInventory(_Pouch,"EVENT_KTP_CollectIngredients","EVENT_KTP_CollectIngredients_Finish");
+//
+// GET MAIN INGREDIENT
+IF
+EntityEvent((ITEM)_Item,"EVENT_KTP_CollectIngredients")
+AND
+GetTemplate(_Item,_ItemTemplate)
+AND
+DB_KTP_MainIngredient(_Affinity,_ItemTemplate)
+AND
+GetStackAmount(_Item,_Amount,_)
+AND
+QRY_KTP_IngredientsAdd("MAIN",_Affinity,(ITEMROOT)_ItemTemplate,_Amount)
+THEN
+DB_NOOP(1);
+//
+// GET SECOND INGREDIENT
+IF
+EntityEvent((ITEM)_Item,"EVENT_KTP_CollectIngredients")
+AND
+GetTemplate(_Item,_ItemTemplate)
+AND
+DB_KTP_Ingredients(_Affinity,_,_ItemTemplate)
+AND
+GetStackAmount(_Item,_Amount,_)
+AND
+QRY_KTP_IngredientsAdd("SECOND",_Affinity,(ITEMROOT)_ItemTemplate,_Amount)
+THEN
+DB_NOOP(1);
+//
+// FINISH ITERATE POUCH
+// If there are enough ingredients, then we put a mark about it.
+IF
+EntityEvent(_,"EVENT_KTP_CollectIngredients_Finish")
+AND
+DB_KTP_AvailableIngredients(_,"MAIN",_,_,_)
+AND
+DB_KTP_AvailableIngredients(_,"SECOND",_,_,_)
+THEN
+DB_Singleton("DB_KTP_EnoughIngredientsObtained",1);
+//
+// START COMBINED
+// Not enough ingredients
+IF
+Combined(_Mortar,_Pouch,_,_,_,_Player,_PouchTobacco)
+AND
+GetStatString(_Mortar,_MortarStats)
+AND
+_MortarStats == "OBJ_KitchenInstrument_Mortar_A_Stone"
+AND
+NOT DB_Singleton("DB_KTP_EnoughIngredientsObtained",1)
+THEN
+ObjectTimerLaunch(_PouchTobacco,"TIMER_KTP_DeleteFakePouchTobacco",0);
+//
+// Enough ingredients
+IF
+Combined(_Mortar,_Pouch,_,_,_,_Player,_PouchTobacco)
+AND
+GetStatString(_Mortar,_MortarStats)
+AND
+_MortarStats == "OBJ_KitchenInstrument_Mortar_A_Stone"
+AND
+DB_Singleton("DB_KTP_EnoughIngredientsObtained",1)
+THEN
+// SetDualEntityEvent(_Player,_Player,"// START COMBINED");
+ObjectTimerLaunch(_PouchTobacco,"TIMER_KTP_DeleteFakePouchTobacco",5); // We launch a timer to remove the fake pouch
+PROC_KTP_ProcessMainIngredients(); // We go through the main ingredients and process them
+PROC_KTP_RemoveSpentedIngredients(); // Removing spent ingredients
+PROC_KTP_ClearOldVariables();
+
+
+
+
+//
+// START PROCESS MAIN INGREDIENTS
+// We take the index of the main ingredient found and the quantity
+PROC
+PROC_KTP_ProcessMainIngredients()
+AND
+DB_KTP_CurrentMortar(_Player,_,_Pouch)
+AND
+DB_KTP_AvailableIngredients(_MainIndex,"MAIN",_MainAffinity,(ITEMROOT)_MainTemplate,_MainAmount)
+THEN
+// SetDualEntityEvent(_Pouch,_Pouch,"// START PROCESS MAIN INGREDIENT");
+PROC_KTP_ProcessMainIngredient(_MainIndex,_MainAmount,_MainAffinity); // We send the main ingredient for processing
+//
+// CYCLE BY STACK
+// In a loop we go through the stack of the main ingredient
+PROC
+PROC_KTP_ProcessMainIngredient((INTEGER)_MainIndex,(INTEGER)_MainStack,(STRING)_MainAffinity)
+//AND
+//DB_KTP_CurrentMortar(_,_,_Pouch)
+AND
+IntegerSubtract(_MainStack,1,_NewMainStack)
+AND
+_NewMainStack >= 0
+//AND 
+//ConcatenateInteger("// PROCESS MAIN INGREDIENT index: ",_MainIndex,_StringDebug)
+THEN
+//SetDualEntityEvent(_Pouch,_Pouch,_StringDebug);
+NOT DB_OnlyOnce("DB_KTP_PouchCreated"); // The pouches are created one at a time.
+PROC_KTP_TryCreatePouch(_MainIndex,_MainAffinity); // Let's try to create a tobacco pouch
+PROC_KTP_ProcessMainIngredient(_MainIndex,_NewMainStack,_MainAffinity); // Decrease the stack and repeat the cycle
+//
+// TRY CREATE POUCH
+PROC
+PROC_KTP_TryCreatePouch((INTEGER)_MainIndex,(STRING)_MainAffinity)
+AND
+DB_KTP_CurrentMortar(_Player,_,_)
+AND
+DB_KTP_AvailableIngredients(_SecondIndex,"SECOND",_SecondAffinity,(ITEMROOT)_SecondTemplate,_SecondAmount) // We find the first second ingredient that comes our way
+AND
+_SecondAffinity == _MainAffinity
+AND
+_SecondAmount > 0
+AND
+DB_KTP_Ingredients(_SecondAffinity,_PouchStatusPattern,_SecondTemplate)
+AND
+DB_KTP_StatusPouch(_,_,_PouchStatusPattern,_PouchTemplate) // Using the status parrent, we find the result template
+AND
+NOT DB_OnlyOnce("DB_KTP_PouchCreated") // The pouches are created one at a time.
+THEN
+SetDualEntityEvent(_Player,_Player,"// TRY CREATE POUCH");
+DB_OnlyOnce("DB_KTP_PouchCreated");
+PROC_KTP_CreatePouch(_PouchStatusPattern,(ITEMROOT)_PouchTemplate,_MainIndex,_SecondIndex); // Create pouch
+
+
+//
+// CREATE POUCH
+//
+// Known Blend
+PROC
+PROC_KTP_CreatePouch((STRING)_PouchStatusPattern,(ITEMROOT)_PouchTemplate,(INTEGER)_MainIndex,(INTEGER)_SecondIndex)
+AND
+DB_KTP_CurrentMortar(_Player,_,_)
+AND
+DB_KTP_Known_Blend(_,_PouchTemplate) // known blend
+AND
+QRY_KTP_SpentIngredient(_MainIndex,1) // Add the used ingredients to the base
+AND
+QRY_KTP_SpentIngredient(_SecondIndex,1)
+THEN
+SetDualEntityEvent(_Player,_Player,"// Known Blend");
+TemplateAddTo((ITEMROOT)_PouchTemplate,_Player,1,1);
+//
+// Unknown Blend
+PROC
+PROC_KTP_CreatePouch((STRING)_PouchStatusPattern,(ITEMROOT)_PouchTemplate,(INTEGER)_MainIndex,(INTEGER)_SecondIndex)
+AND
+DB_KTP_CurrentMortar(_Player,_,_)
+AND
+NOT DB_KTP_Known_Blend(_,_PouchTemplate) // unknown blend
+AND
+DB_KTP_UnknownBlendPouchTemplate(_UnknownBlendPouchTemplate)
+AND
+QRY_KTP_SpentIngredient(_MainIndex,1) // Add the used ingredients to the base
+AND
+QRY_KTP_SpentIngredient(_SecondIndex,1)
+AND
+CreateAtObject(_UnknownBlendPouchTemplate, _Player, 0, 0, "", 1, _Result)
+THEN
+SetDualEntityEvent(_Player,_Player,"// Unknown Blend");
+ToInventory((ITEM)_Result,_Player,1,1,1);
+DB_KTP_UnknownBlendPouch(_Result,_PouchTemplate,_PouchStatusPattern);
+
+
+
+
+
+
+
+
+
+//
+// PROC for clear db
+PROC
+PROC_KTP_ClearOldVariables()
+THEN
+SysClear("DB_KTP_CurrentMortar",3);
+SysClear("DB_KTP_AvailableIngredients",5);
+SysClear("DB_KTP_SpentedIngredients",3);
+DB_Singleton("DB_KTP_EnoughIngredientsObtained",0);
+
+
+
+//
+// REMOVE SPENTED INGREDIENTS
+PROC
+PROC_KTP_RemoveSpentedIngredients()
+AND
+DB_KTP_SpentedIngredients(_Pouch,_ItemTemplate,_SpentedAmount)
+AND 
+_SpentedAmount > 0
+AND
+TemplateIsInInventory(_ItemTemplate,_Pouch,_ItemTemplateCount)
+AND
+_ItemTemplateCount >= _SpentedAmount
+THEN
+TemplateRemoveFrom(_ItemTemplate,_Pouch,_SpentedAmount);
+NOT DB_KTP_SpentedIngredients(_Pouch,_ItemTemplate,_SpentedAmount);
+//
+// REMOVE FAKE POUCH
+IF
+ObjectTimerFinished(_PouchTobacco,"TIMER_KTP_DeleteFakePouchTobacco")
+THEN
+RequestDelete((ITEM)_PouchTobacco);
+//
+//
+// -----------------------------------------------------------------------------------------
+// QUERIES
+// -----------------------------------------------------------------------------------------
+//
+// ADD INGREDIENT
+// If exist
+QRY
+QRY_KTP_IngredientsAdd((STRING)_Type,(STRING)_Affinity,(ITEMROOT)_ItemTemplate,(INTEGER)_Amount)
+AND
+DB_KTP_AvailableIngredients(_Index,_Type,_Affinity,_ItemTemplate,_CollectedAmount)
+AND
+IntegerSum(_CollectedAmount,_Amount,_NewAmount)
+THEN
+//SetDualEntityEvent(_Pouch,_Pouch,"// ADD INGREDIENT - EXIST");
+DB_KTP_AvailableIngredients(_Index,_Type,_Affinity,_ItemTemplate,_NewAmount);
+// 
+// If new
+QRY
+QRY_KTP_IngredientsAdd((STRING)_Type,(STRING)_Affinity,(ITEMROOT)_ItemTemplate,(INTEGER)_Amount)
+AND
+NOT DB_KTP_AvailableIngredients(_,_Type,_Affinity,_ItemTemplate,_)
+AND
+Random(100000,_RandomIndex) // random index
+THEN
+//SetDualEntityEvent(_Pouch,_Pouch,"// ADD INGREDIENT - NEW");
+DB_KTP_AvailableIngredients(_RandomIndex,_Type,_Affinity,_ItemTemplate,_Amount);
+//
+// SPENT INGREDIENT - DATABASE OF AVAILABLE
+// QRY_KTP_SpentIngredient - we check the database of available ingredients and delete from there
+// IF _NewAmount <= 0 THEN just delete from the database of available ingredients
+QRY
+QRY_KTP_SpentIngredient((INTEGER)_Index,(INTEGER)_Amount)
+AND
+DB_KTP_AvailableIngredients(_Index,_Type,_Affinity,_ItemTemplate,_CollectedAmount)
+AND
+IntegerSubtract(_CollectedAmount,_Amount,_NewAmount)
+AND
+_NewAmount <= 0
+AND
+QRY_KTP_AddToSpentedIngredients(_ItemTemplate,_Amount)  // add the ingredient to the spent database
+THEN
+NOT DB_KTP_AvailableIngredients(_Index,_Type,_Affinity,_ItemTemplate,_CollectedAmount);
+//
+// IF _NewAmount > 0 THEN update the amount in the database of available ingredients
+QRY
+QRY_KTP_SpentIngredient((INTEGER)_Index,(INTEGER)_Amount)
+AND
+DB_KTP_AvailableIngredients(_Index,_Type,_Affinity,_ItemTemplate,_CollectedAmount)
+AND
+IntegerSubtract(_CollectedAmount,_Amount,_NewAmount)
+AND
+_NewAmount > 0
+AND
+QRY_KTP_AddToSpentedIngredients(_ItemTemplate,_Amount) // add the ingredient to the spent database
+THEN
+NOT DB_KTP_AvailableIngredients(_Index,_Type,_Affinity,_ItemTemplate,_CollectedAmount);
+DB_KTP_AvailableIngredients(_Index,_Type,_Affinity,_ItemTemplate,_NewAmount);
+//
+// SPENT INGREDIENT - DATABASE OF SPENT
+// If ingredient exist
+QRY
+QRY_KTP_AddToSpentedIngredients((ITEMROOT)_ItemTemplate,(INTEGER)_Amount)
+AND
+DB_KTP_CurrentMortar(_,_,_Pouch)
+AND
+DB_KTP_SpentedIngredients(_Pouch,_ItemTemplate,_SpentedAmount)
+AND
+IntegerSum(_SpentedAmount,_Amount,_NewAmount)
+//AND
+//ConcatenateGUID("ADD INGREDIENT TO SPENTED - ",_ItemTemplate,_StringDebug)
+THEN
+//SetDualEntityEvent(_Pouch,_Pouch,_StringDebug);
+DB_KTP_SpentedIngredients(_Pouch,_ItemTemplate,_NewAmount);
+// 
+// If ingredient new
+QRY
+QRY_KTP_AddToSpentedIngredients((ITEMROOT)_ItemTemplate,(INTEGER)_Amount)
+AND
+DB_KTP_CurrentMortar(_,_,_Pouch)
+AND
+NOT DB_KTP_SpentedIngredients(_Pouch,_ItemTemplate,_)
+//AND
+//ConcatenateGUID("ADD INGREDIENT TO SPENTED - ",_ItemTemplate,_StringDebug)
+THEN
+//SetDualEntityEvent(_Pouch,_Pouch,_StringDebug);
+DB_KTP_SpentedIngredients(_Pouch,_ItemTemplate,_Amount);
+//
+// -----------------------------------------------------------------------------------------
+// SINGLETONS
+// -----------------------------------------------------------------------------------------
+//
+// SINGLETON FOR SPENTED INGREDIENT
+IF
+DB_KTP_SpentedIngredients(_NewPouch,_NewTemplate,_NewAmount)
+AND
+DB_KTP_SpentedIngredients(_OldPouch,_OldTemplate,_OldAmount)
+AND
+_NewPouch == _OldPouch
+AND
+_NewTemplate == _OldTemplate
+AND
+_NewAmount != _OldAmount
+THEN
+NOT DB_KTP_SpentedIngredients(_OldPouch,_OldTemplate,_OldAmount);
+//
+// SINGLETON FOR AVAILABLE INGREDIENTS
+IF 
+DB_KTP_AvailableIngredients(_NewIndex,_NewType,_NewAffinity,_NewItemTemplate,_NewAmount)
+AND
+DB_KTP_CurrentMortar(_Player,_,_)
+AND
+DB_KTP_AvailableIngredients(_OldIndex,_OldType,_OldAffinity,_OldItemTemplate,_OldAmount)
+AND
+_NewIndex == _OldIndex
+AND
+_NewType == _OldType
+AND
+_NewAffinity == _OldAffinity
+AND
+_NewItemTemplate == _OldItemTemplate
+AND
+_NewAmount != _OldAmount
+THEN
+//SetDualEntityEvent(_Player,_Player,"// SINGLETON FOR INGREDIENT BY AMOUNT");
+NOT DB_KTP_AvailableIngredients(_OldIndex,_OldType,_OldAffinity,_OldItemTemplate,_OldAmount);
+
+//END_REGION
+
+//REGION FILL_USE_PIPE
+//
+// USE PIPE
+IF
+UseFinished(_Player,_SmokingPipe,1)
+AND
+DB_KTP_FilledPipes(_SmokingPipe,_StatusPattern,_PuffCount,_StatusTurns)
+AND
+DB_KTP_StatusPouch(_,_,_StatusPattern,_TobaccoPouchTemplate)
+AND
+NOT HasActiveStatus(_SmokingPipe,"KTP_UNKNOWN",1)
+AND
+_PuffCount > 0
+AND
+IntegerSubtract(_PuffCount,1,_NewPuffCount)
+AND
+NOT HasActiveStatus(_Player,"KTP_OVERDOSE_5",1)
+AND
+Concatenate(_StatusPattern,"STATUS",_StatusPlayer) // status for player
+AND
+QRY_KTP_CheckHalsinPipe(_Player,_SmokingPipe,_StatusPattern)
+AND
+QRY_KTP_CheckForOverdose(_Player)
+THEN
+SetDualEntityEvent(_SmokingPipe,_SmokingPipe,"USE PIPE");
+ApplyStatus(_Player,_StatusPlayer,_StatusTurns,1);
+DB_KTP_FilledPipes(_SmokingPipe,_StatusPattern,_NewPuffCount,_StatusTurns);
+PROC_StudyIngredientsOfTobaccoBlend((STRING)_StatusPattern,(ITEMROOT)_TobaccoPouchTemplate);
+//
+// USE PIPE UNKNOWN BLEND
+IF
+UseFinished(_Player,_SmokingPipe,1)
+AND
+HasActiveStatus(_SmokingPipe,"KTP_UNKNOWN",1)
+AND
+DB_KTP_FilledPipesUnknownBlend(_SmokingPipe,_StatusPattern)
+AND
+DB_KTP_StatusPouch(_StatusTurns,_PuffCount,_StatusPattern,_TobaccoPouchTemplate)
+AND
+IntegerSubtract(_PuffCount,1,_NewPuffCount)
+AND
+NOT HasActiveStatus(_Player,"KTP_OVERDOSE_5",1)
+AND
+Concatenate(_StatusPattern,"STATUS",_StatusPlayer) // status for player
+AND
+QRY_KTP_CheckHalsinPipe(_Player,_SmokingPipe,_StatusPattern)
+AND
+QRY_KTP_CheckForOverdose(_Player)
+THEN
+SetDualEntityEvent(_SmokingPipe,_SmokingPipe,"USE PIPE UNKNOWN BLEND");
+ApplyStatus(_Player,_StatusPlayer,_StatusTurns,1);
+DB_KTP_FilledPipes(_SmokingPipe,_StatusPattern,_NewPuffCount,_StatusTurns);
+PROC_StudyIngredientsOfTobaccoBlend(_StatusPattern,(ITEMROOT)_TobaccoPouchTemplate);
+NOT DB_KTP_FilledPipesUnknownBlend(_SmokingPipe,_StatusPattern);
+
+
+
+
+
+
+
+
+
+
+
+// KTP_OVERDOSE_5
+IF
+UseFinished(_Player,_SmokingPipe,1)
+AND
+DB_KTP_FilledPipes(_SmokingPipe,_StatusPattern,_PuffCount,_StatusTurns)
+AND
+NOT HasActiveStatus(_SmokingPipe,"KTP_UNKNOWN",1)
+AND
+_PuffCount > 0
+AND
+HasActiveStatus(_Player,"KTP_OVERDOSE_5",1)
+THEN
+PROC_PlayCantUseItemAD((CHARACTER)_Player);
+
+
+// (TAG)REALLY_SHADOWHEART_642d2aee-e3df-47e3-9f47-bbcd441bb9e0
+// (TAG)REALLY_HALSIN_9b8709f9-8d2a-4b4e-a465-8505c561d7f5
+
+QRY
+QRY_KTP_CheckHalsinPipe((CHARACTER)_Player,(ITEM)_SmokingPipe,(STRING)_StatusPattern)
+AND
+DB_KTP_HalsinsPipe(_SmokingPipe)
+AND
+NOT DB_KTP_StatusBad(_StatusPattern)
+AND
+IsTagged(_Player,(TAG)REALLY_SHADOWHEART_642d2aee-e3df-47e3-9f47-bbcd441bb9e0,1)
+THEN
+ApplyStatus(_Player,"KTP_HALSIN_HAPPY",120.0,1);
+
+QRY
+QRY_KTP_CheckHalsinPipe((CHARACTER)_Player,(ITEM)_SmokingPipe,(STRING)_StatusPattern)
+AND
+DB_KTP_HalsinsPipe(_SmokingPipe)
+AND
+NOT DB_KTP_StatusBad(_StatusPattern)
+AND
+NOT IsTagged(_Player,(TAG)REALLY_SHADOWHEART_642d2aee-e3df-47e3-9f47-bbcd441bb9e0,1)
+AND
+DB_ORI_Partnered(_Player,_Partner)
+AND
+IsTagged(_Partner,(TAG)REALLY_SHADOWHEART_642d2aee-e3df-47e3-9f47-bbcd441bb9e0,1)
+THEN
+ApplyStatus(_Player,"KTP_HALSIN_PARTNER_HAPPY",60.0,1);
+
+QRY
+QRY_KTP_CheckHalsinPipe((CHARACTER)_Player,(ITEM)_SmokingPipe,(STRING)_StatusPattern)
+THEN
+DB_NOOP(1);
+
+
+QRY
+QRY_KTP_CheckForOverdose((CHARACTER)_Player)
+AND
+DB_KTP_Overdose(_Player,_Count)
+AND
+_Count < 5
+AND
+IntegerSum(_Count,1,_NewCount)
+AND
+ConcatenateInteger("QRY_KTP_CheckForOverdose EXIST",_NewCount,_StringDebug)
+THEN
+SetDualEntityEvent(_Player,_Player,_StringDebug);
+DB_KTP_Overdose(_Player,_NewCount);
+
+QRY
+QRY_KTP_CheckForOverdose((CHARACTER)_Player)
+AND
+DB_KTP_Overdose(_Player,_Count)
+AND
+_Count == 3
+THEN
+SetDualEntityEvent(_Player,_Player,"ApplyStatus 3");
+ApplyStatus(_Player,"KTP_OVERDOSE_3",30.0,1);
+
+QRY
+QRY_KTP_CheckForOverdose((CHARACTER)_Player)
+AND
+DB_KTP_Overdose(_Player,_Count)
+AND
+_Count == 4
+THEN
+SetDualEntityEvent(_Player,_Player,"ApplyStatus 4");
+ApplyStatus(_Player,"KTP_OVERDOSE_4",90.0,1);
+
+QRY
+QRY_KTP_CheckForOverdose((CHARACTER)_Player)
+AND
+DB_KTP_Overdose(_Player,_Count)
+AND
+_Count == 5
+THEN
+SetDualEntityEvent(_Player,_Player,"ApplyStatus 5");
+ApplyStatus(_Player,"KTP_OVERDOSE_5",-1.0,1);
+
+QRY
+QRY_KTP_CheckForOverdose((CHARACTER)_Player)
+AND
+NOT DB_KTP_Overdose(_Player,_)
+THEN
+SetDualEntityEvent(_Player,_Player,"QRY_KTP_CheckForOverdose NEW");
+DB_KTP_Overdose(_Player,1);
+
+QRY
+QRY_KTP_CheckForOverdose((CHARACTER)_Player)
+THEN
+DB_NOOP(1);
+
+
+//
+// -----------------------------------------------------------------------------------------
+// SINGLETONS
+// -----------------------------------------------------------------------------------------
+//
+// SINGLETON FOR SPENTED INGREDIENT
+IF
+DB_KTP_Overdose(_NewPlayer,_NewCount)
+AND
+DB_KTP_Overdose(_OldPlayer,_OldCount)
+AND
+_NewPlayer == _OldPlayer
+AND
+_NewCount != _OldCount
+THEN
+NOT DB_KTP_Overdose(_OldPlayer,_OldCount);
+
+PROC
+PROC_LongRest()
+THEN
+SysClear("DB_KTP_Overdose",2);
+
+IF
+StatusRemoved(_Player,"KTP_OVERDOSE_5",_Cause,_)
+AND
+ConcatenateGUID("KTP_OVERDOSE_5 removed by _Cause ",_Cause,_StringDebug)
+THEN
+SetDualEntityEvent(_Player,_Player,_StringDebug);
+DB_KTP_Overdose((CHARACTER)_Player,4);
+//
+// 
+// FILL PIPE
+// 
+// known blend
+IF
+Combined(_TobaccoPouch,_SmokingPipe,_,_,_,_Player,_EmptyPouch)
+AND
+NOT DB_KTP_UnknownBlendPouch(_TobaccoPouch,_,_)
+AND
+GetTemplate(_TobaccoPouch,_TobaccoPouchTemplate)
+AND
+DB_KTP_StatusPouch(_StatusTurns,_PuffCount,_StatusPattern,_TobaccoPouchTemplate)
+AND
+GetStatString(_SmokingPipe,_SmokingPipeStats)
+AND
+_SmokingPipeStats == "OBJ_Smoking_Pipe"
+THEN
+//SetDualEntityEvent(_SmokingPipe,_SmokingPipe,"FILL PIPE");
+SetTag(_SmokingPipe,KTP_FILLED_d0575f41-9d81-4f26-9f34-530c2162c110); // for condition KapHasTobaccoStatus()
+DB_KTP_FilledPipes(_SmokingPipe,_StatusPattern,_PuffCount,_StatusTurns);
+PROC_KTP_RemoveOrLeaveFakePouchTobacco(_Player,_EmptyPouch);
+
+
+
+//
+// unknown blend
+IF
+Combined(_TobaccoPouchUnknown,_SmokingPipe,_,_,_,_Player,_EmptyPouch)
+AND
+DB_KTP_UnknownBlendPouch(_TobaccoPouchUnknown,_TobaccoPouchUnknownTemplate,_TobaccoPouchUnknownStatusPattern)
+AND
+GetStatString(_SmokingPipe,_SmokingPipeStats)
+AND
+_SmokingPipeStats == "OBJ_Smoking_Pipe"
+THEN
+SetDualEntityEvent(_SmokingPipe,_SmokingPipe,"FILL PIPE WITH UNKNOWN BLEND");
+SetTag(_SmokingPipe,KTP_FILLED_d0575f41-9d81-4f26-9f34-530c2162c110); // for condition KapHasTobaccoStatus()
+DB_KTP_FilledPipesUnknownBlend(_SmokingPipe,_TobaccoPouchUnknownStatusPattern);
+NOT DB_KTP_UnknownBlendPouch(_TobaccoPouchUnknown,_TobaccoPouchUnknownTemplate,_TobaccoPouchUnknownStatusPattern);
+
+//
+// APPLY STATUS
+IF 
+DB_KTP_FilledPipesUnknownBlend(_NewSmokingPipe,_PouchStatusPattern)
+THEN
+//SetDualEntityEvent(_NewSmokingPipe,_NewSmokingPipe,_StringDebug);
+ApplyStatus(_NewSmokingPipe,"KTP_UNKNOWN",-1.0,1);
+
+
+PROC
+PROC_KTP_RemoveOrLeaveFakePouchTobacco((CHARACTER)_Player,(ITEM)_EmptyPouch)
+AND
+GetTemplate(_EmptyPouch,_EmptyPouchTemplate)
+AND
+TemplateIsInInventory((ITEMROOT)_EmptyPouchTemplate,_Player,_Count)
+AND
+_Count > 0
+THEN
+ObjectTimerLaunch(_EmptyPouch,"TIMER_KTP_DeleteFakePouchTobacco",5);
+
+
+
+
+
+
+// STUDY THE INGREDIENTS OF TOBACCO BLEND
+PROC
+PROC_StudyIngredientsOfTobaccoBlend((STRING)_StatusPattern,(ITEMROOT)_TobaccoPouchTemplate)
+AND
+NOT DB_KTP_Known_Blend(_StatusPattern,_TobaccoPouchTemplate)
+THEN
+DB_KTP_Known_Blend(_StatusPattern,_TobaccoPouchTemplate);
+
+
+// CHECK currently known pouchs in inventory  DB_KTP_UnknownBlendPouch(_TobaccoPouchUnknown,_TobaccoPouchUnknownTemplate,_TobaccoPouchUnknownStatusPattern)
+IF
+DB_KTP_Known_Blend(_StatusPattern,_TobaccoPouchTemplate)
+AND
+GetHostCharacter(_Player)
+AND
+DB_KTP_UnknownBlendPouch(_TobaccoPouchUnknown,(ITEMROOT)_TobaccoPouchTemplate,_StatusPattern)
+AND
+ItemIsInPartyInventory((ITEM)_TobaccoPouchUnknown, _Player, 0, 1)
+THEN
+RequestDelete(_TobaccoPouchUnknown);
+TemplateAddTo((ITEMROOT)_TobaccoPouchTemplate,_Player,1,0);
+NOT DB_KTP_UnknownBlendPouch(_TobaccoPouchUnknown,_TobaccoPouchTemplate,_StatusPattern);
+
+
+// CHECK currently known pouchs in inventory  DB_KTP_UnknownBlendPouch(_TobaccoPouchUnknown,_TobaccoPouchUnknownTemplate,_TobaccoPouchUnknownStatusPattern)
+IF
+DB_KTP_Known_Blend(_StatusPattern,_TobaccoPouchTemplate)
+AND
+GetHostCharacter(_Player)
+AND
+DB_KTP_FilledPipesUnknownBlend(_SmokingPipe,_StatusPattern)
+AND
+ItemIsInPartyInventory((ITEM)_SmokingPipe, _Player, 0, 1)
+AND
+DB_KTP_StatusPouch(_StatusTurns,_PuffCount,_StatusPattern,_)
+AND
+Concatenate(_StatusPattern,"3",_StatusPipe) // status for player
+THEN
+RemoveStatus(_SmokingPipe,"KTP_UNKNOWN");
+ApplyStatus(_SmokingPipe,_StatusPipe,-1.0,1);
+DB_KTP_FilledPipes(_SmokingPipe,_StatusPattern,_PuffCount,_StatusTurns);
+NOT DB_KTP_FilledPipesUnknownBlend(_SmokingPipe,_StatusPattern);
+
+
+
+IF
+AddedTo(_TobaccoPouchUnknown, _Player, _)
+AND
+SysCount("DB_KTP_CurrentMortar",3,_Count)
+AND
+DB_KTP_UnknownBlendPouch((ITEM)_TobaccoPouchUnknown,(ITEMROOT)_TobaccoPouchTemplate,_StatusPattern)
+AND
+DB_KTP_Known_Blend(_StatusPattern,_TobaccoPouchTemplate)
+THEN
+SetDualEntityEvent(_Player,_Player,"AddedTo(_TobaccoPouchUnknown, _Player, _)");
+RequestDelete(_TobaccoPouchUnknown);
+TemplateAddTo((ITEMROOT)_TobaccoPouchTemplate,_Player,1,0);
+NOT DB_KTP_UnknownBlendPouch(_TobaccoPouchUnknown,_TobaccoPouchTemplate,_StatusPattern);
+
+IF
+AddedTo(_SmokingPipe, _Player, _)
+AND
+DB_KTP_FilledPipesUnknownBlend((ITEM)_SmokingPipe,_StatusPattern)
+AND
+DB_KTP_Known_Blend(_StatusPattern,_)
+AND
+DB_KTP_StatusPouch(_StatusTurns,_PuffCount,_StatusPattern,_)
+AND
+Concatenate(_StatusPattern,"3",_StatusPipe) // status for player
+THEN
+SetDualEntityEvent(_Player,_Player,"AddedTo(_SmokingPipe, _Player, _)");
+RemoveStatus(_SmokingPipe,"KTP_UNKNOWN");
+ApplyStatus(_SmokingPipe,_StatusPipe,-1.0,1);
+DB_KTP_FilledPipes(_SmokingPipe,_StatusPattern,_PuffCount,_StatusTurns);
+NOT DB_KTP_FilledPipesUnknownBlend(_SmokingPipe,_StatusPattern);
+
+
+IF
+StatusApplied(_Player,"KTP_REMOVE_STATUSES",_,_)
+AND
+DB_KTP_StatusPouch(_,_,_TobaccoStatus,_)
+AND
+Concatenate(_TobaccoStatus,"STATUS",_TobaccoStatusForRemove)
+THEN
+RemoveStatus(_Player,_TobaccoStatusForRemove);
+
+
+
+
+
+
+
+//
+// APPLY STATUS
+IF 
+DB_KTP_FilledPipes(_NewSmokingPipe,_NewStatusPattern,_NewPuffCount,_NewStatusTurns)
+AND
+_NewPuffCount > 0
+AND
+ConcatenateInteger(_NewStatusPattern,_NewPuffCount,_NewStatusPipe)
+AND
+Concatenate("ApplyStatus ",_NewStatusPipe,_StringDebug)
+THEN
+//SetDualEntityEvent(_NewSmokingPipe,_NewSmokingPipe,_StringDebug);
+ApplyStatus(_NewSmokingPipe,_NewStatusPipe,-1.0,1);
+//
+// SINGLETON FOR SMOKINGPIPE BY PUFFCOUNT
+IF 
+DB_KTP_FilledPipes(_NewSmokingPipe,_NewStatusPattern,_NewPuffCount,_NewStatusTurns)
+AND
+DB_KTP_FilledPipes(_OldSmokingPipe,_OldStatusPattern,_OldPuffCount,_OldStatusTurns)
+AND
+_NewSmokingPipe == _OldSmokingPipe
+AND
+_NewStatusPattern == _OldStatusPattern
+AND
+_NewStatusTurns == _OldStatusTurns
+AND
+_NewPuffCount != _OldPuffCount
+AND
+_NewPuffCount > 0
+AND
+ConcatenateInteger(_NewStatusPattern,_NewPuffCount,_NewStatusPipe) // new status for pipe
+THEN
+//SetDualEntityEvent(_NewSmokingPipe,_NewSmokingPipe,"SINGLETON FOR PUFF COUNT");
+ApplyStatus(_NewSmokingPipe,_NewStatusPipe,-1.0,1);
+NOT DB_KTP_FilledPipes(_OldSmokingPipe,_OldStatusPattern,_OldPuffCount,_OldStatusTurns);
+//
+// SINGLETON FOR SMOKINGPIPE BY STATUS
+IF 
+DB_KTP_FilledPipes(_NewSmokingPipe,_NewStatusPattern,_NewPuffCount,_NewStatusTurns)
+AND
+DB_KTP_FilledPipes(_OldSmokingPipe,_OldStatusPattern,_OldPuffCount,_OldStatusTurns)
+AND
+_NewSmokingPipe == _OldSmokingPipe
+AND
+_NewStatusPattern != _OldStatusPattern
+AND
+_NewPuffCount > 0
+AND
+ConcatenateInteger(_NewStatusPattern,_NewPuffCount,_NewStatusPipe)
+THEN
+//SetDualEntityEvent(_NewSmokingPipe,_NewSmokingPipe,"SINGLETON BY STATUS");
+ApplyStatus(_NewSmokingPipe,_NewStatusPipe,-1.0,1);
+NOT DB_KTP_FilledPipes(_OldSmokingPipe,_OldStatusPattern,_OldPuffCount,_OldStatusTurns);
+//
+// CLEAR PIPE IF PUFFCOUNT 0
+IF 
+DB_KTP_FilledPipes(_NewSmokingPipe,_NewStatusPattern,_NewPuffCount,_NewStatusTurns)
+AND
+DB_KTP_FilledPipes(_OldSmokingPipe,_OldStatusPattern,_OldPuffCount,_OldStatusTurns)
+AND
+_NewSmokingPipe == _OldSmokingPipe
+AND
+_NewStatusPattern == _OldStatusPattern
+AND
+_NewStatusTurns == _OldStatusTurns
+AND
+_NewPuffCount != _OldPuffCount
+AND
+_NewPuffCount <= 0
+AND
+ConcatenateInteger(_OldStatusPattern,_OldPuffCount,_OldStatusPipe) // new status for pipe
+THEN
+//SetDualEntityEvent(_NewSmokingPipe,_NewSmokingPipe,"CLEAR PIPE IF PUFFCOUNT 0");
+RemoveStatus(_OldSmokingPipe,_OldStatusPipe);
+ClearTag(_NewSmokingPipe,KTP_FILLED_d0575f41-9d81-4f26-9f34-530c2162c110); //disables use action
+NOT DB_KTP_FilledPipes(_NewSmokingPipe,_NewStatusPattern,_NewPuffCount,_NewStatusTurns);
+NOT DB_KTP_FilledPipes(_OldSmokingPipe,_OldStatusPattern,_OldPuffCount,_OldStatusTurns);
+
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "GLO_KelaTobaccoProject"

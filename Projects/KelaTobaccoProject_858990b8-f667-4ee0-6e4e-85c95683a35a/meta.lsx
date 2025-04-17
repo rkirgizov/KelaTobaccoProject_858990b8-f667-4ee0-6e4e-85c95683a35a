@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="GameProject" type="LSString" value=""/>
+            <attribute id="Module" type="LSString" value="858990b8-f667-4ee0-6e4e-85c95683a35a"/>
+            <attribute id="Name" type="LSString" value="KelaTobaccoProject"/>
+            <attribute id="UUID" type="LSString" value="c3ec2830-06f3-788e-52db-d65da5f67b48"/>
+            <children>
+                <node id="Categories"/>
+            </children>
+        </node>
+    </region>
+</save>

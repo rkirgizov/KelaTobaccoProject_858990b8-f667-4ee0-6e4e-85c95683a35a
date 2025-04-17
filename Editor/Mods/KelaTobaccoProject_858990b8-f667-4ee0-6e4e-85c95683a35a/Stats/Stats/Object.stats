@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e078e210-b9ba-48e5-afe3-c5eb91ba8545">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="85653882-295a-42b7-b7ff-533fa0ec1dba" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Smoking_Pipe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a451f608-ff09-4fc7-a328-99ff05f70491" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b9432719-b2ce-47a0-b349-4b12744dc4ff" />
+        <field name="UseConditions" type="StringTableFieldDefinition" value="not IsSummon() and KapHasTobaccoStatus() and KapPlayerHasMaxOverdoseStatus()" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0.1" />
+        <field name="AddToBottomBar" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="KTP_SmokingPipe_Tooltip_Passive" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="58212be9-fb8f-4e76-9552-27a33d237257" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_Tobacco_Pouch" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a451f608-ff09-4fc7-a328-99ff05f70491" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9baa7663-eca5-40ef-90fe-8a559a8bd9eb" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="1f40e7a6-fb87-41ab-9da9-282a359b7e89" />
+        <field name="InventoryTab" type="EnumerationTableFieldDefinition" value="Misc" enumeration_type_name="InventoryTabs" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="3" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="KTP_TobaccoPouch_Tooltip_Passive" />
+        <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="22103e70-66e3-4be1-a8c3-a4616be2b912" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Pouch_Leather_A" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a451f608-ff09-4fc7-a328-99ff05f70491" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2e40240b-77d3-400b-bd6a-caff66a85833" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0.1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f5d6e424-bd1d-4218-9a86-5208fa52ae16" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_KitchenInstrument_Mortar_A_Stone" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a451f608-ff09-4fc7-a328-99ff05f70491" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="95ed990a-f363-4eb1-908d-d48c353a3d62" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0.9" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="KTP_Mortar_Tooltip_Passive" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

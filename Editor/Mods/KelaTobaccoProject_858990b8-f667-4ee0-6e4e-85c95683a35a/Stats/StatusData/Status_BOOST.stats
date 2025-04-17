@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
+  <stat_objects>
+    <stat_object color="#FF800080" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1d4c7a21-275d-4819-afb4-80b5510c4415" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_TOBACCO" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd3d9d791g2f14g68a7g69c5g7f3109b34ab1" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="KTP_TOBACCO" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ccaa0a74-8dd5-420f-93c8-56a00f9375f6" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_UNKNOWN" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h482dc7d5gacacg9dd7gb2e8g697dd9fa318a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7bf7a44cgcb50gc464g3642gf8bd8a507bd4" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d4c7a21-275d-4819-afb4-80b5510c4415" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f06672c-68a6-450b-8e09-bb1f82a6dfc1" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_BELLADONNA_3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3f0536a8g0f41gbebagf446g3b508c0820d7" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfbdfcedcg33abg3fccg8508gecc43b65226e" version="13" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d4c7a21-275d-4819-afb4-80b5510c4415" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="759b3e42-55ba-4563-b95d-0a0263cf3640" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_BELLADONNA_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3f06672c-68a6-450b-8e09-bb1f82a6dfc1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7a912132g7e91gfaeagc880ge2aa4ae2dfe6" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="87117960-1a7d-4dcb-837a-866cee4cf0bf" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_BELLADONNA_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3f06672c-68a6-450b-8e09-bb1f82a6dfc1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h745d0d67gb805g0e47g7ce6g7a7897341490" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28428a22-ebf1-45f5-9667-fcc83af03cc5" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_BELLADONNA_STATUS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3f06672c-68a6-450b-8e09-bb1f82a6dfc1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h16b8405eg6de9g8726gc6d9ga7a1add94645" version="4" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest;ForceOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Concentration);StatusImmunity(SLEEP);Initiative(-1);Ability(Constitution,-1)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8950f31egf8b0ge01aga14eg323eafffd796" version="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ff6a06e4-3f86-4bd0-ab6b-20e6939bca7b" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_BELLADONNA_MERGRASS_3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbea58753g44c9g2c25gde37g05cb53d84bcb" version="4" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4fe6b17ege697g4271g7669g106b03bedc5a" version="9" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d4c7a21-275d-4819-afb4-80b5510c4415" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9a5ec91c-573e-4d18-9c13-90324097e139" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_BELLADONNA_MERGRASS_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ff6a06e4-3f86-4bd0-ab6b-20e6939bca7b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h28a0d298g8e8bg003fg4731g8bf67e1fffb9" version="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="548d607f-5439-4384-8aa4-a63046f791bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_BELLADONNA_MERGRASS_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ff6a06e4-3f86-4bd0-ab6b-20e6939bca7b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcad58f98gb2aagb957g95b3gb1c12ee6e38c" version="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9c734e95-a79d-4b61-83f7-d37b490122a9" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_BELLADONNA_MERGRASS_STATUS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ff6a06e4-3f86-4bd0-ab6b-20e6939bca7b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h007c9f6aga960gf379gf89agdcec791c1062" version="4" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest;ForceOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Persuasion);ProficiencyBonus(Skill,Deception);Initiative(-1);Ability(Constitution,-1)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd65f4159gac05g9251g8dd2g143d377aab4b" version="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c1afa73c-636c-48b1-813f-5ec5681cb388" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_UNDERDARKMUSHROOMS_3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbbb60017gd8dcgc696g704eg0048cd27242f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5074dcfcg9726gd23fgb0e3gcfebff044b56" version="7" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d4c7a21-275d-4819-afb4-80b5510c4415" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f8ba291f-4de8-4986-9fab-7997517aa33f" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_UNDERDARKMUSHROOMS_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c1afa73c-636c-48b1-813f-5ec5681cb388" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h068d6e1cg53bag5071g31aegd769530d7bf7" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a0dcf8b-1d07-4ca1-9fe7-46a46c928e00" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_UNDERDARKMUSHROOMS_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c1afa73c-636c-48b1-813f-5ec5681cb388" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h873799a9gb704g64c3g74b3g75cc347862e1" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eb217c3c-277b-45f6-9993-00fc70000e5a" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_UNDERDARKMUSHROOMS_STATUS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c1afa73c-636c-48b1-813f-5ec5681cb388" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h198567fcgb684g45a6ga5ffg9fbffd3dbca9" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest;ForceOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(18);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989);Initiative(-1);Ability(Constitution,-1)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8de7e2dfgca42gb7aeg3c63g9542f594bb22" version="4" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
+        <field name="Passives" type="StringTableFieldDefinition" value="KTP_Underdark_Passive" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a8118c4-2878-4b9d-9a2b-82a65811930f" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_BELLADONNA_SHADOWROOTSAC_3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3d543bc3gfad3gb0c9g7a8egd72b2b415017" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h37e0648ag15a0g69b7g3124gd1d954e6d77d" version="8" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d4c7a21-275d-4819-afb4-80b5510c4415" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0dd6720e-905f-4230-bafc-0ea8af771401" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_BELLADONNA_SHADOWROOTSAC_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3a8118c4-2878-4b9d-9a2b-82a65811930f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h77b5a4b5g08d6g46aeg1018g04a9ea5bfd32" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="59457962-2d84-4b33-b5cc-a0beeedc6e79" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_BELLADONNA_SHADOWROOTSAC_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3a8118c4-2878-4b9d-9a2b-82a65811930f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfbed9f6ag5197g2e51g861bg61895badc40f" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="77c05c5d-34ec-4466-9186-9ac5b9c96bde" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_BELLADONNA_SHADOWROOTSAC_STATUS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3a8118c4-2878-4b9d-9a2b-82a65811930f" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h91d20bb2gcdb3ga260gc705g8cd13d1730d3" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest;ForceOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ReduceCriticalAttackThreshold(1);Tag(SHADOW);IncreaseMaxHP(-3);Resistance(Necrotic,Vulnerable);Initiative(-1);Ability(Constitution,-1)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdd0855ccg9240gf083gee52g154c4420464e" version="6" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e7d3cedb-234d-4696-be7a-6b1f77e709f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_BELLADONNA_PALEMINT_3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb732dcf4gb13bgf0b3g71eegedcb075e8510" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h278db764gdce8g8746ge7a7gd482e122609e" version="8" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d4c7a21-275d-4819-afb4-80b5510c4415" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dacd89fd-c079-45c9-8288-895cffedfb61" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_BELLADONNA_PALEMINT_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e7d3cedb-234d-4696-be7a-6b1f77e709f1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd3f27aa8g9e21gce7dg4b9fg42bc248f70bd" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="905991f3-8343-483a-9194-25454406fb9f" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_BELLADONNA_PALEMINT_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e7d3cedb-234d-4696-be7a-6b1f77e709f1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbb327d6bg7c16g4a26g44fegb2691ed6b814" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ce900f2a-053b-4c8b-ba64-5d6a29d8b8df" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_BELLADONNA_PALEMINT_STATUS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e7d3cedb-234d-4696-be7a-6b1f77e709f1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7e3d3bc1g63abgb16bgc14bg6e85c7ae6258" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest;ForceOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(BonusActionPoint,1,0);ProficiencyBonus(Skill,Persuasion);ProficiencyBonus(Skill,Deception);ProficiencyBonus(Skill,Intimidation);Tag(CHARMED_ADV);Initiative(-1);Ability(Constitution,-1)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc4031f25gd389gaad6gf324ge9eded05774b" version="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="94c4f3a2-3c88-4362-b417-6f17a881fea3" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_HALSIN_HAPPY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bcb4d489-6484-474f-a301-a74d6dfadc5d" />
+        <field name="StackId" type="StringTableFieldDefinition" value="KTP_HALSIN_HAPPY" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest;ForceOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7afb97b2-236d-4afc-9740-2ced9fcf10a1" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_HALSIN_PARTNER_HAPPY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="94c4f3a2-3c88-4362-b417-6f17a881fea3" />
+        <field name="StackId" type="StringTableFieldDefinition" value="KTP_HALSIN_PARTNER_HAPPY" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest;ForceOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dbd47a72-cdab-480f-8d9f-dc6b121363f2" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_OVERDOSE_3" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest;ForceOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdf735b57gb7f7ge98ag9c24g632f66cb3673" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h71df1d62g8d9bgecffg7c5cg5118b8bbe21e" version="7" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Debuff" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability, Dexterity)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec;SG_Disease" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="KTP_OVERDOSE_3" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(KTP_OVERDOSE_3_REMOVE_STATUSES,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(KTP_OVERDOSE_3_REMOVE_STATUSES)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(IsConcentrating() and not HasStatus('KTP_OVERDOSE_3_REMOVE_STATUSES')):ApplyStatus(KTP_OVERDOSE_3_REMOVE_STATUSES,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="16c5a912-46d2-4a8b-940e-8125e98daa72" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_OVERDOSE_4" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest;ForceOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h597a4da2g7f17gbb1cgadefg2a2560e190f9" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35166656g93a8g1ddcga4e8gf8bb010cfb59" version="5" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Debuff" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability, Dexterity);Disadvantage(Ability, Charisma);Disadvantage(AttackRoll)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(KTP_OVERDOSE_3);ApplyStatus(KTP_OVERDOSE_4_REMOVE_STATUSES,100,-1)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec;SG_Disease" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="KTP_OVERDOSE_4" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(KTP_OVERDOSE_4_REMOVE_STATUSES)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(IsConcentrating() and not HasStatus('KTP_OVERDOSE_4_REMOVE_STATUSES')):ApplyStatus(KTP_OVERDOSE_4_REMOVE_STATUSES,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="83b47ed2-cd4f-4067-91e2-4f6c9cbd960a" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_OVERDOSE_5" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest;ForceOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5e6b576eg024cg99dfgf9bagf2fabdd3149d" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd6754809g865ag44cag6e39gae91f7356ff0" version="4" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1,Poison)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Debuff" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="BlockSpellCast();Disadvantage(AllAbilities);Disadvantage(AttackRoll)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(IsConcentrating() and not HasStatus('KTP_OVERDOSE_5_REMOVE_STATUSES')):ApplyStatus(KTP_OVERDOSE_5_REMOVE_STATUSES,100,-1);DealDamage(1,Poison)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(KTP_OVERDOSE_3);RemoveStatus(KTP_OVERDOSE_4);ApplyStatus(KTP_OVERDOSE_5_REMOVE_STATUSES,100,-1)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec;SG_Disease;SG_Poisoned" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="KTP_OVERDOSE_5" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(KTP_OVERDOSE_5_REMOVE_STATUSES)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="301762a2-ba9b-4b61-b488-a9aca15d92d4" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_OVERDOSE_3_REMOVE_STATUSES" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h061c3737gbbddg0bf1g67dcgbd5547429637" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7449e829g0e96gd6f6g584dg7c6c317260d1" version="3" />
+        <field name="StackId" type="StringTableFieldDefinition" value="KTP_OVERDOSE_3_REMOVE_STATUSES" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisableOverhead;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, 6)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="BreakConcentration();ApplyStatus(KTP_REMOVE_STATUSES,100,0);RemoveStatus(KTP_OVERDOSE_3_REMOVE_STATUSES)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="6" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Debuff" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e74c8e2-b959-4789-b1b2-5debccd29add" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_OVERDOSE_4_REMOVE_STATUSES" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf48780c8g8a13g127eg48cfg67a5fcb1a25f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc95bc592g849cg0e0bg26b0g8fed5b868da7" version="2" />
+        <field name="StackId" type="StringTableFieldDefinition" value="KTP_OVERDOSE_4_REMOVE_STATUSES" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisableOverhead;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, 12)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="BreakConcentration();ApplyStatus(KTP_REMOVE_STATUSES,100,0);RemoveStatus(KTP_OVERDOSE_4_REMOVE_STATUSES)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="12" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Debuff" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7ef68013-4d0c-4b5d-992d-82d8a9585efc" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_OVERDOSE_5_REMOVE_STATUSES" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8fe001d0g8a63g1de0g8b43g022e5c8a5b9e" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hebb9a108gaec4g6141g974cgb7f903ea67d3" version="2" />
+        <field name="StackId" type="StringTableFieldDefinition" value="KTP_OVERDOSE_5_REMOVE_STATUSES" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisableOverhead;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, 18)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="BreakConcentration();ApplyStatus(KTP_REMOVE_STATUSES,100,0);RemoveStatus(KTP_OVERDOSE_5_REMOVE_STATUSES)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="18" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Debuff" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fc4c11ac-6fa9-4693-bb24-42180d706581" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_REMOVE_STATUSES" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7a07c094g42c9gd722g8d83gbec3dbd0802f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h94b41779g1623g7028gf396g9933ae1d724b" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="KTP_REMOVE_STATUSES" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisableOverhead;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF008080" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dc7138dd-3ace-402c-b092-1e79363fb2eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_MESSAGE_ERROR" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he50147d8gbb4cg9d5fgedddgeb924f811d14" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ForceOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Tooltip_Error_Cross" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdd9c0590ga726gcc61gefbag1156d2b73b64" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c0351ad5-ec49-48bb-bf11-eb911536424b" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_MESSAGE_ERROR_NOT_RESULT" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h169f1e32gdd0fgb3b7gdde2ged40b2999785" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h90de8460g6ea3g92f9g7b0cgdc1357f80d50" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Tooltip_Error_Cross" />
+        <field name="StackId" type="StringTableFieldDefinition" value="KTP_MESSAGE_ERROR_NOT_RESULT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dc7138dd-3ace-402c-b092-1e79363fb2eb" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

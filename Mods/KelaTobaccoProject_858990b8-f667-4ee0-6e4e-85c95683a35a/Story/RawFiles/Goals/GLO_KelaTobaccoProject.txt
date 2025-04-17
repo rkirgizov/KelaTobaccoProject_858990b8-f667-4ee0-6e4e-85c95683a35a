@@ -1,0 +1,22 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+GameModeStarted("Campaign", _, _)
+THEN
+GoalCompleted;
+
+IF
+SavegameLoaded()
+THEN
+GoalCompleted;
+
+IF
+LevelLoaded(_)
+THEN
+GoalCompleted;
+EXITSECTION
+
+ENDEXITSECTION
