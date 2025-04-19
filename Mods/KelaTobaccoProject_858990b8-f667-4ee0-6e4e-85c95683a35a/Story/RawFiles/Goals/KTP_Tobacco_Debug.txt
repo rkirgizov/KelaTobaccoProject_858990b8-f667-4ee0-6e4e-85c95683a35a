@@ -1,0 +1,73 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_KTP_Debug_Show_Notification(0);
+DB_KTP_Debug_Break(1);
+KBSECTION
+// -----------------------------------------------------------------------------------
+// DEBUG 
+// -----------------------------------------------------------------------------------
+//REGION DEBUG region
+//
+// Debag Message 
+// Entity must match
+// DualEntityEvent(_Entity, _Entity, _EventMessage)
+IF
+DualEntityEvent(_Main, _Debug, _EventMessage)
+AND
+GetHostCharacter(_Player)
+AND 
+_Main == _Debug
+AND
+GUIDToString(_Main, _ItemString)
+AND
+GetDisplayName(_Main,_TranslatedStringKey)
+AND
+ResolveTranslatedString(_TranslatedStringKey,_Name)
+AND
+Concatenate("KTP DEBUG (Entity ",_Name,_FirstResult)
+AND
+Concatenate(_FirstResult,"): ",_SecondResult)
+AND
+Concatenate(_SecondResult,_EventMessage,_FinalResult)
+AND
+QRY_KTP_Show_Notification(_Player,_FinalResult)
+AND
+QRY_KTP_Debug_Break(_FinalResult)
+THEN
+DB_NOOP(1);
+//DebugText(_Player, _FinalResult);
+
+QRY
+QRY_KTP_Show_Notification((CHARACTER)_Player,(STRING)_FinalResult)
+AND
+DB_KTP_Debug_Show_Notification(1)
+THEN
+ShowNotification((CHARACTER)_Player, _FinalResult);
+//
+QRY
+QRY_KTP_Show_Notification((CHARACTER)_Player,(STRING)_FinalResult)
+THEN
+DB_NOOP(1);
+//
+QRY
+QRY_KTP_Debug_Break((STRING)_FinalResult)
+AND
+DB_KTP_Debug_Break(1)
+THEN
+DebugBreak(_FinalResult);
+//
+QRY
+QRY_KTP_Debug_Break((STRING)_FinalResult)
+THEN
+DB_NOOP(1);
+
+
+//END_REGION
+// -----------------------------------------------------------------------------------
+// DEBUG 
+// -----------------------------------------------------------------------------------
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "GLO_KelaTobaccoProject"

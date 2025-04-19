@@ -1,13 +1,13 @@
-function KapHasTobaccoStatus(entity)
+function KTPHasTobaccoStatus(entity)
     local entity = entity or context.Target
     local result = Tagged('KTP_TOBACCO_FILLED', entity)
-    return ConditionResult(result.Result, {ConditionError("KapHasNotTobaccoStatus")})
+    return ConditionResult(result.Result, {ConditionError("KTPHasNotTobaccoStatus")})
 end
 
-function KapPlayerHasMaxOverdoseStatus(entity)
+function KTPPlayerHasNotMaxOverdoseStatus(entity)
     local entity = entity or context.Source
-    local result = ~HasStatus('KTP_TOBACCO_OVERDOSE_5', entity)
-    return ConditionResult(result.Result, {ConditionError("KapPlayerHasMaxOverdoseStatus")})
+    local result = ~HasStatus('KTP_OVERDOSE_5', entity)
+    return ConditionResult(result.Result, {ConditionError("KTPPlayerHasMaxOverdoseStatus")})
 end
 
 function CanUseDebug()

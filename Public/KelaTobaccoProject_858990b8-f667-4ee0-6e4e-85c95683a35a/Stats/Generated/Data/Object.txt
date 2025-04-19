@@ -5,7 +5,7 @@ data "RootTemplate" "b9432719-b2ce-47a0-b349-4b12744dc4ff"
 data "Weight" "0.1"
 data "AddToBottomBar" "Yes"
 data "UseCosts" "BonusActionPoint:1"
-data "UseConditions" "not IsSummon() and KapHasTobaccoStatus() and KapPlayerHasMaxOverdoseStatus()"
+data "UseConditions" "not IsSummon() and KTPHasTobaccoStatus() and KTPPlayerHasNotMaxOverdoseStatus()"
 data "PassivesOnEquip" "KTP_SmokingPipe_Tooltip_Passive"
 
 new entry "KTP_Tobacco_Pouch"

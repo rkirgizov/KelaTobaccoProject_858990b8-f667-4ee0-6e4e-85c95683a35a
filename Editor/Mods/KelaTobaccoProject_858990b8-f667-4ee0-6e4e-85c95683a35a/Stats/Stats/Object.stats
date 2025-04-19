@@ -7,7 +7,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="OBJ_Smoking_Pipe" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a451f608-ff09-4fc7-a328-99ff05f70491" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b9432719-b2ce-47a0-b349-4b12744dc4ff" />
-        <field name="UseConditions" type="StringTableFieldDefinition" value="not IsSummon() and KapHasTobaccoStatus() and KapPlayerHasMaxOverdoseStatus()" />
+        <field name="UseConditions" type="StringTableFieldDefinition" value="not IsSummon() and KTPHasTobaccoStatus() and KTPPlayerHasNotMaxOverdoseStatus()" />
         <field name="Weight" type="FloatTableFieldDefinition" value="0.1" />
         <field name="AddToBottomBar" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
