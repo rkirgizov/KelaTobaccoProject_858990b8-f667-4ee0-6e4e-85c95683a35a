@@ -38,11 +38,11 @@
   <content contentuid="hd1f8a5f3gc35cg54d5g8405g3d2fd5f40517" version="1">The pipe is filled with regular tobacco, which gives the smoker a short-term concentration.</content>
   <content contentuid="h28a0d298g8e8bg003fg4731g8bf67e1fffb9" version="4">Swamp Blend (2 puffs)</content>
   <content contentuid="hcad58f98gb2aagb957g95b3gb1c12ee6e38c" version="4">Swamp Blend (1 puff)</content>
-  <content contentuid="h007c9f6aga960gf379gf89agdcec791c1062" version="4">Swamp Blend</content>
+  <content contentuid="h007c9f6aga960gf379gf89agdcec791c1062" version="6">Intuition Blend</content>
   <content contentuid="hd595cde3gfcccg2e1dgb847gc0568b8f8d65" version="1">Affected entity's ability to maintain its spells has increased.&lt;br&gt;&lt;br&gt;It has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; to &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; and for maintaining &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt;.</content>
-  <content contentuid="h0edaf26cga0c1g0457g4b66g8cc724276cd3" version="13">Swamp Blend</content>
-  <content contentuid="hd2f55b3egf09eg4c25gd06eg898362bc632d" version="13">This mix of mugwort and mergrass gives the smoker &lt;LSTag Type="Status" Tooltip="KTP_BELLADONNA_MERGRASS"&gt;a little insight&lt;/LSTag&gt;.</content>
-  <content contentuid="hb6298126ge4f6gdc60ge3c5g90ce0dbed8e8" version="13">The simplest mixture of herbs, used for smoking throughout the Forgotten Realms.</content>
+  <content contentuid="h0edaf26cga0c1g0457g4b66g8cc724276cd3" version="14">Intuition Blend</content>
+  <content contentuid="hd2f55b3egf09eg4c25gd06eg898362bc632d" version="14">This mix of Belladonna and Mergrass gives the smoker &lt;LSTag Type="Status" Tooltip="KTP_BELLADONNA_MERGRASS"&gt;an Intuition&lt;/LSTag&gt;.</content>
+  <content contentuid="hb6298126ge4f6gdc60ge3c5g90ce0dbed8e8" version="14">The simplest mixture of herbs, used for smoking throughout the Forgotten Realms.</content>
   <content contentuid="h4fe6b17ege697g4271g7669g106b03bedc5a" version="9">The pipe is filled with Swamp Tobacco, which gives the smoker &lt;LSTag Type="Status" Tooltip="KTP_BELLADONNA_MERGRASS_STATUS"&gt;a little insight&lt;/LSTag&gt;.</content>
   <content contentuid="hbbb60017gd8dcgc696g704eg0048cd27242f" version="1">Underdark Blend (3 puffs)</content>
   <content contentuid="h5074dcfcg9726gd23fgb0e3gcfebff044b56" version="7">The pipe is filled with Underdark Tobacco, which improves smokers' &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_UNDERDARKMUSHROOMS_STATUS"&gt;vision in the dark&lt;/LSTag&gt;.</content>
@@ -92,7 +92,7 @@
   <content contentuid="hf48780c8g8a13g127eg48cfg67a5fcb1a25f" version="1">Headaches</content>
   <content contentuid="h8fe001d0g8a63g1de0g8b43g022e5c8a5b9e" version="2">Nicotine Toxicity</content>
   <content contentuid="h8950f31egf8b0ge01aga14eg323eafffd796" version="3">Belladonna leaves in regular blend gives the smoker &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; to &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; for maintaining &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; and immunity to magical sleep spells.</content>
-  <content contentuid="hd65f4159gac05g9251g8dd2g143d377aab4b" version="3">Crushed mergrass in a swamp tobacco blend gives the smoker &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Deception and Persuasion.</content>
+  <content contentuid="hd65f4159gac05g9251g8dd2g143d377aab4b" version="5">Gives the smoker &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Deception and Persuasion. Ranged attacks from humanoids have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; against the smoker.</content>
   <content contentuid="h8de7e2dfgca42gb7aeg3c63g9542f594bb22" version="4">Underdark mushrooms mixed into tobacco gives the ability to see in the dark out to a range of [1] and gained a +1 bonus to &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against targets standing in darkness or dim light.</content>
   <content contentuid="hdd0855ccg9240gf083gee52g154c4420464e" version="6">A foul-smelling blend with powder from a shadowroot sac provides temporary resistance to the Shadow Curse and number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while attacking is reduced by 1, but you are &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to Necrotic damage and your vitality reduces by [1].</content>
   <content contentuid="hc4031f25gd389gaad6gf324ge9eded05774b" version="3">The exquisite aroma of this tobacco gives self-confidence and opens many doors. &lt;br&gt; The smoker gets &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Deception, Intimidation, Performance, and Persuasion, an extra &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; and can't be &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt;.</content>
@@ -104,7 +104,7 @@
   <content contentuid="hdc80e9b3gf435g2fe8gf28fg93ab5452229f" version="1">&lt;br&gt;* smoking slightly reduces initiative and physical abilities.</content>
   <content contentuid="he05dc583gfb31g7b58gf9a5g1f1d60110e55" version="1">* smoking slightly reduces initiative and physical abilities.</content>
   <content contentuid="h838ee762gffebg12b4g187egfc6581c53ad7" version="1">Warning</content>
-  <content contentuid="hcbb71db0geb91g841fg6823g4846bc2326fd" version="5">Smoking slightly reduces initiative and physical abilities (-[1]) and can lead to &lt;LSTag Type="Status" Tooltip="KTP_OVERDOSE_3"&gt;Malaise&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="KTP_OVERDOSE_4"&gt;Headaches&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="KTP_OVERDOSE_5"&gt;Nicotine Toxicity&lt;/LSTag&gt;.</content>
+  <content contentuid="hcbb71db0geb91g841fg6823g4846bc2326fd" version="6">Smoking slightly reduces initiative and constitution by [1] and can lead to &lt;LSTag Type="Status" Tooltip="KTP_OVERDOSE_3"&gt;Malaise&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="KTP_OVERDOSE_4"&gt;Headaches&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="KTP_OVERDOSE_5"&gt;Nicotine Toxicity&lt;/LSTag&gt;.</content>
   <content contentuid="hed367dbcg0314g8417gcf5agf25a7e709625" version="2">&lt;br&gt;&lt;br&gt;&lt;b&gt;Regular Blend&lt;/b&gt; - gives the smoker Advantage to Saving Throws for maintaining Concentration and immunity to magical sleep spells. &lt;br&gt;Ingredients: Mugwort + Belladonna.</content>
   <content contentuid="h435a2a16gd6c1g2caag0b48gd753e3d89616" version="2">&lt;br&gt;&lt;br&gt;&lt;b&gt;Swamp Blend&lt;/b&gt; - gives the smoker Proficiency in Deception and Persuasion. &lt;br&gt;Ingredients: Mugwort + Mergrass.</content>
   <content contentuid="h20a2b13agc5d7g66a1g9b07g060e248d7c9e" version="2">&lt;br&gt;&lt;br&gt;&lt;b&gt;Underdark Blend&lt;/b&gt; - gives the ability to see in the dark out to a range of 18 and gained a +1 bonus to Attack Rolls against targets standing in darkness or dim light. &lt;br&gt;Ingredients: Mugwort + Underdark mushroom.</content>
@@ -130,7 +130,7 @@
   <content contentuid="h3e1c6cb8g0308g5a79g0f34g90ec34f50cee" version="1">&lt;br&gt;&lt;br&gt;&lt;b&gt;Underdark Blend&lt;/b&gt; - gives the ability to see in the dark out to a range of 18 and gained a +1 bonus to Attack Rolls against targets standing in darkness or dim light. &lt;br&gt;Ingredients: Mugwort + Underdark mushroom.</content>
   <content contentuid="h17e67292g06e4g8828g61e0g93719b55830c" version="1">&lt;br&gt;&lt;br&gt;&lt;b&gt;Cursed Blend&lt;/b&gt; - provides temporary resistance to the Shadow Curse and number you need to roll a Critical Hit while attacking is reduced by 1, but you are Vulnerable to Necrotic damage and your vitality reduces by 3.&lt;br&gt;Ingredients: Mugwort + Shadowroot Sac.</content>
   <content contentuid="h47186a0cgf17dg5fd6g598fg960bef87ab92" version="1">&lt;br&gt;&lt;br&gt;&lt;b&gt;Noble Blend&lt;/b&gt; - gives self-confidence and opens many doors. The smoker gets Proficiency in Deception, Intimidation, Performance, and Persuasion, an extra bonus action and can't be Charmed. &lt;br&gt;Ingredients: Mugwort + Pale Mint.</content>
-  <content contentuid="he22da098g1e62g2127gc166g8938a0b6ee83" version="11">&lt;b&gt;SMOKER'S NOTES&lt;/b&gt;&lt;br&gt;&lt;i&gt;* for storing notes on smoking.&lt;/i&gt;</content>
+  <content contentuid="he22da098g1e62g2127gc166g8938a0b6ee83" version="37">&lt;b&gt;SMOKER'S NOTES&lt;/b&gt;&lt;br&gt;&lt;i&gt;* for storing notes on smoking.&lt;/i&gt;</content>
   <content contentuid="h72c28663gecd2g431eg978fg08cb88058d11" version="4">Hookah</content>
   <content contentuid="hbbbe119dg7832ge2f2g47a1g6c1ab9c7945a" version="3">Real Regular Blend</content>
   <content contentuid="hf5c43d5bg3cb3ge89ag62afg92bd12e419c3" version="3">A pouch with completely ordinary tobacco, without any interesting properties... But you can smoke yourself sick.</content>
@@ -142,11 +142,11 @@
   <content contentuid="hb5243f7fga8c3ga557ge91cg1832b59f189c" version="2">Underdark Blend</content>
   <content contentuid="h5f1eb083g6f41g723eg3c16gba64588e4998" version="2">Tobacco mix of mugwort and underdark mushrooms improves smokers' &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_UNDERDARKMUSHROOMS"&gt;vision in the dark&lt;/LSTag&gt;.</content>
   <content contentuid="h63a5381eg6f52gadfcg4a62ga9ec5e5bc973" version="2">A rather rare tobacco blend, which is indulged mainly by the inhabitants of the Underdark.</content>
-  <content contentuid="he7cb2df2g5de2g1175g3617g379a482ffe30" version="2">Mugwort with Balsam</content>
-  <content contentuid="hc448fc57gf835g0ec4gd5d5gf770e9c4ac21" version="2">Mugwort with Wispweed</content>
-  <content contentuid="h35240ce3ge074g5c85ge32cg74b60180c622" version="2">Mugwort with Autumncrocus</content>
-  <content contentuid="h1c1755e5g0218gfca4ga188g747ea10af3a8" version="3">Mugwort with Yellow Musk Creeper Petals</content>
-  <content contentuid="h22ca172fgf781g3105gbac5ga3b03dc7f83f" version="2">Mugwort with Mergrass</content>
+  <content contentuid="he7cb2df2g5de2g1175g3617g379a482ffe30" version="5">Blend "Healer's Assistant"</content>
+  <content contentuid="hc448fc57gf835g0ec4gd5d5gf770e9c4ac21" version="3">Tonic Blend</content>
+  <content contentuid="h35240ce3ge074g5c85ge32cg74b60180c622" version="3">Blessed Blend</content>
+  <content contentuid="h1c1755e5g0218gfca4ga188g747ea10af3a8" version="4">Muscat Blend</content>
+  <content contentuid="h22ca172fgf781g3105gbac5ga3b03dc7f83f" version="3">Insightful Blend</content>
   <content contentuid="h5606571dga034g50f7ga8b4g0991f69d6932" version="2">Mugwort with Night Orchid</content>
   <content contentuid="hc6b54010ge052g3465gc099g28b765de9fa9" version="2">Mugwort with Weavemoss</content>
   <content contentuid="h6fc7be84g85b7ga02ag3f51gfa97159f9f1e" version="2">Mugwort with Black Oleander</content>
@@ -160,8 +160,8 @@
   <content contentuid="h914f723bg4724g0839g1c8bgcc507394a2f3" version="2">Belladonna with </content>
   <content contentuid="ha34d2cb8g6fbegbe55g4843g033271fbfa06" version="1">An unremarkable tobacco blend based on Belladonna</content>
   <content contentuid="h55bf1fb4gd58bg3987g713bgc279255d88f5" version="1">An unremarkable tobacco blend based on Mugwort</content>
-  <content contentuid="hdff2f723gfe14g0cceg3420g58f5304dda1b" version="1">Mugwort with Acorn Truffle</content>
-  <content contentuid="h6472d579g5710gcf46g13b6gbd86b2a1c80c" version="1">Belladonna with Acorn Truffle</content>
+  <content contentuid="hdff2f723gfe14g0cceg3420g58f5304dda1b" version="2">Truffle Blend</content>
+  <content contentuid="h6472d579g5710gcf46g13b6gbd86b2a1c80c" version="3">Hunter's Blend</content>
   <content contentuid="h0c073603g3181geae1gc1bcg089fffe77080" version="1">Mugwort with Corpse Rose</content>
   <content contentuid="h2d723dddg8155g34dagb0ccg2a6332bc8429" version="1">Mugwort with Bullywug Trumpet</content>
   <content contentuid="hfbd5caeagd593g41e0g20cag7fa1ec7c66a1" version="1">Mugwort with Bulbous Fungus</content>
@@ -169,8 +169,8 @@
   <content contentuid="hdf5d0f9cg7368g7611gf18bg9a40ae032897" version="1">Mugwort with Blushcap Mushroom</content>
   <content contentuid="h2649eb86g6394gbaefg777eg4f03bfd3b3c0" version="1">Mugwort with Bluecap</content>
   <content contentuid="h0e3a91bfg5bcagb28dgf6b4ga63bb0eeadf5" version="1">Mugwort with Black Oleander</content>
-  <content contentuid="h0bb44876gfa30g3116gacf0g9a44b7875b8a" version="1">Mugwort with Balsam</content>
-  <content contentuid="he995f18bga6d0g72a0ge6e5g6701135d3aad" version="1">Mugwort with Autumncrocus</content>
+  <content contentuid="h0bb44876gfa30g3116gacf0g9a44b7875b8a" version="3">Blend "Healer's Assistant"</content>
+  <content contentuid="he995f18bga6d0g72a0ge6e5g6701135d3aad" version="2">Blessed Blend</content>
   <content contentuid="h3bb3e690gadc9ge62agd3cegf196b9b905b4" version="1">Mugwort with Daggerroot</content>
   <content contentuid="h771d686fg636cg856cg0d52g5216faf4a1ca" version="1">Mugwort with Dragon Egg Mushroom</content>
   <content contentuid="h296cc5c1gc4f6g9d1cgf022gce715bb572b2" version="1">Mugwort with Dried Fey Flower</content>
@@ -180,17 +180,17 @@
   <content contentuid="hb5879874gcf36g8490gf8dagce8ab8c3ff3c" version="1">Mugwort with Hastening Spores</content>
   <content contentuid="hd9d6c31dg77edg6abegb38ag81d5627a3bc9" version="1">Mugwort with Ki-Rin Hair</content>
   <content contentuid="hee95f3dfg2cf2g5da5gb1c9ge137877050e8" version="1">Mugwort with Lemon</content>
-  <content contentuid="h72e99ac6g18bbg70afgd6b0gdceaffe034a9" version="1">Mugwort with Mergrass</content>
+  <content contentuid="h72e99ac6g18bbg70afgd6b0gdceaffe034a9" version="2">Insightful Blend</content>
   <content contentuid="h294dcc9ag3c80g96ebgdaccgc96f7367fb0d" version="1">Mugwort with Night Orchid</content>
   <content contentuid="h153560a8g5b73gf606gb18eg7987669133d1" version="1">Mugwort with Noblestalk</content>
   <content contentuid="h0c889957gc9fdgcfe3g319eg4451e85d2ccd" version="1">Mugwort with Onion</content>
   <content contentuid="hb9d14bd4gd58egcbe1g7f73g1d4136cc700b" version="1">Mugwort with Orange</content>
   <content contentuid="hb546b249g2b43gd44ag2a8fg272a68f15a85" version="1">Mugwort with Pale Mint</content>
   <content contentuid="h10793c54gae41gab9dg729dg3bc1ac12e863" version="1">Mugwort with Poison Spore</content>
-  <content contentuid="h75ad99eeg001ag6bd7g4365gb90d44c7d17a" version="1">Mugwort with Rogue's Morsel</content>
+  <content contentuid="h75ad99eeg001ag6bd7g4365gb90d44c7d17a" version="2">Thieves' tobacco</content>
   <content contentuid="h3905aeebg5458g2a88g71dfg5b5f07b2d7be" version="1">Mugwort with Sussur Bloom</content>
   <content contentuid="ha32799d7g19f7g668dgcb66g0a22b82b3be8" version="1">Belladonna with Autumncrocus</content>
-  <content contentuid="haf963cd4g518ag4eeegd09ega02d7da13493" version="1">Belladonna with Balsam</content>
+  <content contentuid="haf963cd4g518ag4eeegd09ega02d7da13493" version="3">Blend "Placebo"</content>
   <content contentuid="hbb16de7bga44ag87bagc590g9dce358decc1" version="1">Belladonna with Black Oleander</content>
   <content contentuid="h18307385gbdf7g746aga569g5f3f0ddfcc19" version="1">Belladonna with Bluecap</content>
   <content contentuid="h414eb332g48e4gc77bg0257gb5c574375425" version="1">Belladonna with Blushcap Mushroom</content>
@@ -205,15 +205,15 @@
   <content contentuid="h859d0683gbdf2gdcd4g8f1ag9e58472a073a" version="1">Belladonna with Glowcap Mushroom</content>
   <content contentuid="ha60b24b4g4632gb6b1g1d4egdfc3a124cd1e" version="1">Belladonna with Goodberry</content>
   <content contentuid="h27657b83g8f58g56e4g12ccg4ecc0781f082" version="1">Belladonna with Hastening Spores</content>
-  <content contentuid="h7a738263g634cg5aa8gfbc9gae6edfa592b7" version="1">Belladonna with Ki-Rin Hair</content>
+  <content contentuid="h7a738263g634cg5aa8gfbc9gae6edfa592b7" version="2">Blend "Celestial Smoke"</content>
   <content contentuid="h95e642a5gbfb2gbf71g0ce8g1dd5ce573d89" version="1">Belladonna with Lemon</content>
   <content contentuid="h4da8afcdgfd7bg40e3ga7d8g67b1ebba272f" version="1">Belladonna with Mugwort</content>
-  <content contentuid="h4ba581b5gebdeg47c2g650cg5970d70739aa" version="1">Belladonna with Night Orchid</content>
+  <content contentuid="h4ba581b5gebdeg47c2g650cg5970d70739aa" version="2">Arcane Blend</content>
   <content contentuid="h2e10c1f3gbc20gc14agafcag7971df6b3e5b" version="1">Belladonna with Noblestalk</content>
   <content contentuid="h386e617cg46fag7250g90edg0e3db8e7d494" version="1">Belladonna with Onion</content>
   <content contentuid="hcc759344g0d72gdc78g7ed2g293eafb851a4" version="1">Belladonna with Orange</content>
   <content contentuid="h7e286a80gb9dageb33gb474g5f83e56969f6" version="1">Belladonna with Poison Spore</content>
-  <content contentuid="h0bd3b766g555eg25cfg3545g54487e2cbeb0" version="1">Belladonna with Rogue's Morsel</content>
+  <content contentuid="h0bd3b766g555eg25cfg3545g54487e2cbeb0" version="2">Assassin's Tobacco</content>
   <content contentuid="hf0054359g9f47gbae9ge487g7bdb6fd93586" version="1">Belladonna with Sussur Bloom</content>
   <content contentuid="h77189adag9731gfffdgf6c8g38d5003d8921" version="1">Mugwort with Shadowroot Sac</content>
   <content contentuid="hae720b19g13f9gfc56g6a15g08444b4b9ad0" version="1">Mugwort with Swarming Toadstool</content>
@@ -221,10 +221,10 @@
   <content contentuid="hf13d0639g7f8egf8b7g892dgf2fe01428082" version="1">Mugwort with Tongue of Madness</content>
   <content contentuid="hb8474437geb45g9445g9114g6013b9ad49b1" version="1">Mugwort with Weavemoss</content>
   <content contentuid="hc11bec5fg4d56g2a34ga3b2g8d427ecebcc6" version="1">Mugwort with White Mushroom</content>
-  <content contentuid="h431d35ebga5b0gb3a9g0c63g46dd6ec89599" version="1">Mugwort with Wispweed</content>
+  <content contentuid="h431d35ebga5b0gb3a9g0c63g46dd6ec89599" version="2">Tonic Blend</content>
   <content contentuid="hd70c9a24g645aga32bg3c6aga399b9fc6df6" version="1">Mugwort with Withered Blue Petal</content>
   <content contentuid="h0a39930cg5f9dg0c02gd7e5g773bc9a1a1a4" version="1">Mugwort with Withered Sussur Petal</content>
-  <content contentuid="hec3def4cg096ag390age2bag862a7e4579ac" version="1">Mugwort with Yellow Musk Creeper Petals</content>
+  <content contentuid="hec3def4cg096ag390age2bag862a7e4579ac" version="2">Muskat Blend</content>
   <content contentuid="h65a6d05aged9bg1fcag5d9cgcb987f6c50ed" version="1">Belladonna with Swarming Toadstool</content>
   <content contentuid="h12c86210gc026gce7bg9441g588937cfc8c2" version="1">Belladonna with Timmask Spores</content>
   <content contentuid="hee204530g74b0gc6c5g039dg768cf1292925" version="1">Belladonna with Tongue of Madness</content>
@@ -238,10 +238,10 @@
   <content contentuid="hab289e5cg9c95gca7bgbfe6g28b1b3d1aac5" version="1">1 puff</content>
   <content contentuid="hfc721663g25b0g33c1gd521g43e1d505abbc" version="1">Enough tobacco for [1]</content>
   <content contentuid="h02ba6bcag24b3g7451gc786g3bd9ff3a5fbc" version="1">Smoker</content>
-  <content contentuid="hc8088bd9g74bcgc123gf890g659e23b25d21" version="1">Smoking slightly reduces initiative and physical abilities (-[1]).</content>
+  <content contentuid="hc8088bd9g74bcgc123gf890g659e23b25d21" version="2">Smoking slightly reduces initiative and constitution by [1].</content>
   <content contentuid="he50147d8gbb4cg9d5fgedddgeb924f811d14" version="2">Error</content>
   <content contentuid="h90de8460g6ea3g92f9g7b0cgdc1357f80d50" version="3">Something went wrong</content>
-  <content contentuid="h12dd4a2cga417gfd3cg1d74g25d079b565c8" version="2">Mugwort with Acorn Truffle</content>
+  <content contentuid="h12dd4a2cga417gfd3cg1d74g25d079b565c8" version="4">Truffle Blend</content>
   <content contentuid="hf66528e2g4b7cg29aagde82g7a25e0050818" version="2">Mugwort with Blushcap Mushroom</content>
   <content contentuid="h550d8092g4c41gf1d4g55b7g2f09c126260a" version="2">Mugwort with Bonecap</content>
   <content contentuid="h89d78477g5eb1g36c0gd0dfga84cf542d17a" version="2">Mugwort with Bulbous Fungus</content>
@@ -251,14 +251,14 @@
   <content contentuid="h25e81be8g8efbg7fd5g45d0ge8e3369d6213" version="2">Mugwort with Garlic </content>
   <content contentuid="h8df43b9eg6fa3g5db4gf486g848ba7c3fc6c" version="2">Mugwort with Goodberry</content>
   <content contentuid="h0a0860e1g03f9g05ddgf219g0f6f26f1a7eb" version="2">Mugwort with Hastening Spores</content>
-  <content contentuid="h54a180fage385gb9d3g46b3g6b5ed2b2fcc0" version="2">Mugwort with Ki-Rin Hair</content>
+  <content contentuid="h54a180fage385gb9d3g46b3g6b5ed2b2fcc0" version="3">Mugwort with Ki-Rin Hair</content>
   <content contentuid="he8e047b5gbf28gdf16g5dc4g932dfb32abd4" version="2">Mugwort with Lemon</content>
   <content contentuid="h874da533gcf67g976aga23dgeaf434f49c1e" version="2">Mugwort with Noblestalk</content>
   <content contentuid="hf1fceff1ga2faga8e3gd87cg71a0ec33dd37" version="2">Mugwort with Onion</content>
   <content contentuid="hb1aa93bcg563cgbe67g5d65g86593806b063" version="2">Mugwort with Orange</content>
   <content contentuid="h5bf28d58g3f02g6e11gbf45gd4078504a3ae" version="2">Mugwort with Pale Mint</content>
   <content contentuid="hd7aa80f1g12b0geda1g765eg37d29034e9bd" version="2">Mugwort with Poison Spore</content>
-  <content contentuid="hdea94602g84fegd392g0ad5ge9fe78ffc0f7" version="2">Mugwort with Rogue's Morsel</content>
+  <content contentuid="hdea94602g84fegd392g0ad5ge9fe78ffc0f7" version="3">Thieves' tobacco</content>
   <content contentuid="he6e0a917g03e6ge1ceg384cg485ad96ea42f" version="2">Mugwort with Shadowroot Sac</content>
   <content contentuid="h4192f615g5d01g7f2eg42a7g2f2657f3d6eb" version="2">Mugwort with Sussur Bloom</content>
   <content contentuid="hd5228457g30c7gf17fgfeb5gfe7638ba9af3" version="2">Mugwort with Swarming Toadstool</content>
@@ -267,9 +267,9 @@
   <content contentuid="h68c59234ge8fag4844g32a5gcd4c84ba344a" version="2">Mugwort with White Mushroom</content>
   <content contentuid="h98962c2fgee62g8b6fg0a19g9ac401905d94" version="2">Mugwort with Withered Blue Petal</content>
   <content contentuid="h58bf5fabga715g5c9eg9510gb0a6f20930e9" version="3">Mugwort with Withered Sussur Petal</content>
-  <content contentuid="h3110dff3gaf73g1ec9g7450gcda90a619803" version="2">Belladonna with Acorn Truffle</content>
-  <content contentuid="h1f26cfbdg1765g83bcgf6edgdb0f2d10249a" version="2">Belladonna with Autumncrocus</content>
-  <content contentuid="h2bc22c15ge264g2c23g107dg751d113753f9" version="2">Belladonna with Balsam</content>
+  <content contentuid="h3110dff3gaf73g1ec9g7450gcda90a619803" version="3">Hunter's Blend</content>
+  <content contentuid="h1f26cfbdg1765g83bcgf6edgdb0f2d10249a" version="3">Belladonna with Autumncrocus</content>
+  <content contentuid="h2bc22c15ge264g2c23g107dg751d113753f9" version="8">Blend "Placebo"</content>
   <content contentuid="h4800429cg5d78g08bagfca0g4f07d28e56c2" version="2">Belladonna with Black Oleander</content>
   <content contentuid="he5737f26g0b5eg26cegc933ge70e23163245" version="2">Belladonna with Bluecap</content>
   <content contentuid="h5f3bf5dcg6a1cg3dadga13fgc14feff4e7d7" version="2">Belladonna with Blushcap Mushroom</content>
@@ -284,101 +284,166 @@
   <content contentuid="h16de8910gcb27g4e5ag1411gcacbd5ea0c2c" version="2">Belladonna with Glowcap Mushroom</content>
   <content contentuid="ha40a85c7g3ca8ge34fg6705gd7d492bb12ef" version="2">Belladonna with Goodberry</content>
   <content contentuid="ha14ebe31gaa41g9f98gbbaegf3f1f3dcb391" version="2">Belladonna with Hastening Spores</content>
-  <content contentuid="h8043f2c8gce46ga706ge701g9aadb536ce8d" version="2">Belladonna with Ki-Rin Hair</content>
+  <content contentuid="h8043f2c8gce46ga706ge701g9aadb536ce8d" version="5">Blend "Celestial Smoke"</content>
   <content contentuid="h89978b01g5174gbc62gd1d4g62e4ecd8ff7f" version="2">Belladonna with Lemon</content>
   <content contentuid="h3545fd50g253bgf90eg934dg5bad44bc0ce7" version="2">Belladonna with Night Orchid</content>
   <content contentuid="h590abc1egc16fgb486g3d09g8ff8787710b4" version="2">Belladonna with Noblestalk</content>
   <content contentuid="ha2face02g0358g962cg54c5g401dd518d1f8" version="2">Belladonna with Onion</content>
   <content contentuid="ha1e7fffag2bf5gdea5gc9cfg3422dc5df412" version="2">Belladonna with Orange</content>
   <content contentuid="hf187e16eg4be3g9df3g5a89g5508312bad63" version="2">Belladonna with Poison Spore</content>
-  <content contentuid="ha196ce4fg28ceg5bf0g5ba5g584d00131392" version="2">Belladonna with Rogue's Morsel</content>
+  <content contentuid="ha196ce4fg28ceg5bf0g5ba5g584d00131392" version="6">Assassin's Tobacco</content>
   <content contentuid="h75f81e62ga945gb389gb290g0d0ac33f4f53" version="2">Belladonna with Sussur Bloom</content>
   <content contentuid="hd186a99agfa0dg6064g2870g96d88ca11d7c" version="2">Belladonna with Swarming Toadstool</content>
   <content contentuid="h4d56ceb8g018fg49fcg6f62g115b76316da6" version="2">Belladonna with Timmask Spores</content>
   <content contentuid="hd2ff9709g3dadga7ceg759fg1622544b807f" version="2">Belladonna with Tongue of Madness</content>
   <content contentuid="h32a166b5g1ddbg4e41g7570g58688b22aa8b" version="2">Belladonna with Weavemoss</content>
   <content contentuid="h150da9d2g8508g8090gdbaegf0f8d0087b50" version="2">Belladonna with White Mushroom</content>
-  <content contentuid="h2285d1e5ge222ge718gec97gcb8ae97c74cc" version="2">Belladonna with Wispweed</content>
+  <content contentuid="h2285d1e5ge222ge718gec97gcb8ae97c74cc" version="3">Belladonna with Wispweed</content>
   <content contentuid="h3a625ab9g13f1gd55cg8b1agb48175c7133b" version="2">Belladonna with Withered Blue Petal</content>
   <content contentuid="hbe3c2d69g179eg1d29gab07g22bdfc2f0bb5" version="2">Belladonna with Withered Sussur Petal</content>
-  <content contentuid="he59e8918g0714g0f36g1125g0156838cb165" version="2">Belladonna with Yellow Musk Creeper Petals</content>
-  <content contentuid="h72238e02g65c6gd5b9g72e6g6bc474a75b24" version="10">&lt;br&gt;&lt;br&gt;&lt;b&gt;Regular Blend&lt;/b&gt; - gives the smoker Advantage to Saving Throws for maintaining Concentration and immunity to magical sleep spells. &lt;br&gt;Ingredients: Mugwort + Belladonna.</content>
-  <content contentuid="hed5fc4begc9f0ge4a8g1eabg470058fabef0" version="10">&lt;br&gt;&lt;br&gt;&lt;b&gt;Swamp Blend&lt;/b&gt; - gives the smoker Proficiency in Deception and Persuasion. &lt;br&gt;Ingredients: Mugwort + Mergrass.</content>
-  <content contentuid="h54ef8342g552bg99abg5336g9772a9a70114" version="10">&lt;br&gt;&lt;br&gt;&lt;b&gt;Underdark Blend&lt;/b&gt; - gives the ability to see in the dark out to a range of 18 and gained a +1 bonus to Attack Rolls against targets standing in darkness or dim light. &lt;br&gt;Ingredients: Mugwort + Underdark mushroom.</content>
-  <content contentuid="hdb3a248eg191dgde95g5dcag0edfe90b3e39" version="10">&lt;br&gt;&lt;br&gt;&lt;b&gt;Cursed Blend&lt;/b&gt; - provides temporary resistance to the Shadow Curse and number you need to roll a Critical Hit while attacking is reduced by 1, but you are Vulnerable to Necrotic damage and your vitality reduces by 3.&lt;br&gt;Ingredients: Mugwort + Shadowroot Sac.</content>
-  <content contentuid="haee2393eg59fcg0206gb3d3gee913ce052e4" version="10">&lt;br&gt;&lt;br&gt;&lt;b&gt;Noble Blend&lt;/b&gt; - gives self-confidence and opens many doors. The smoker gets Proficiency in Deception, Intimidation, Performance, and Persuasion, an extra bonus action and can't be Charmed. &lt;br&gt;Ingredients: Mugwort + Pale Mint.</content>
-  <content contentuid="he208d28cg650eg9a5cg55ccg3e2426eabea0" version="7">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Sussur Bloom&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="h82379751g73efg091agae64g8dc5c1682a5e" version="7">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Swarming Toadstool&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="h3793462cg465ag59e9g1cd8g5b4ad1947cbc" version="7">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Tongue of Madness&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="h7f4530b3g14aagffe9g46abg7b0fa3a6b72b" version="7">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Weavemoss&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="h003cd2fbga208g017agf805g539a9da0ee7e" version="7">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with White Mushroom&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="h08756c14g73ebg9414gff04gcbc0d8efecd1" version="7">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Wispweed&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="hf071d6a7g4c35g800cg6cfeg1de964b1987e" version="7">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Withered Sussur Petal&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="hcdcd3b42g8dd9g6879g600bg2031a2db2689" version="7">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Yellow Musk Creeper Petals&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="h4d7b3a02g48f0gffaag654fg0c730376bf8d" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Acorn Truffle&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h2942df91g0ddeg8198g0cc0ge4d95047323b" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Autumncrocus&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h2610643eg2784g5d9age991g52679f642c34" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Balsam&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h0972b000gecf5g1e30g3192g8946c77631b6" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Black Oleander&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h4e193e9agfceegfaefg43c8g71d543ddbb09" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Bluecap&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h1c8a60abgff41gd4c6gcf2eg04312feee95f" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Blushcap Mushroom&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h75a67069ga9cbgf8b5g0549g47e439d08250" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Bonecap&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h9193298cg208ag8537gf214gf5e29dc9e1ba" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Bulbous Fungus&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="ha076c4cagea37gcfdfg4fb0g533c7915cd7f" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Bullywug Trumpet&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h492e841bg4454g8cccg49ccg4c945fdcf72c" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Corpse Rose&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h4613f014g6ba1g77e6gcfb9g1567011e6fa2" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Daggerroot&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h11588395gfa8eg4693gb177g8688caf20cd2" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Dragon Egg Mushroom&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h84ffa92fg5879gfb0fg8e04gc086686a7706" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Dried Fey Flower&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h1e31dbf0g2560g0f36g9041gb1c0e53aecb7" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Garlic &lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h3cac6061gf3feg7a92gb1e7g747720c17a15" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Glowcap Mushroom&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h1efe5dcfgf089g797bgfe85gb17eeccbc4a4" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Goodberry&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="he22a96b5g91e5gfed8g2b31g1ffba0406a83" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Hastening Spores&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h86411931gcb28g5587g610eg264fdb697d1b" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Ki-Rin Hair&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h696c63c0g1be7g93f1g7254g43c826deaaaf" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Lemon&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="he59e8918g0714g0f36g1125g0156838cb165" version="3">Belladonna with Yellow Musk Creeper Petals</content>
+  <content contentuid="h72238e02g65c6gd5b9g72e6g6bc474a75b24" version="36">&lt;br&gt;&lt;br&gt;&lt;b&gt;Regular Blend&lt;/b&gt; - gives the smoker Advantage to Saving Throws for maintaining Concentration and immunity to magical sleep spells. &lt;br&gt;Ingredients: Mugwort + Belladonna.</content>
+  <content contentuid="hed5fc4begc9f0ge4a8g1eabg470058fabef0" version="36">&lt;br&gt;&lt;br&gt;&lt;b&gt;Intuition Blend&lt;/b&gt; - gives the smoker Proficiency in Deception and Persuasion and ranged attacks from humanoids have Disadvantage against the smoker. &lt;br&gt;Ingredients: Belladonna + Mergrass.</content>
+  <content contentuid="h54ef8342g552bg99abg5336g9772a9a70114" version="36">&lt;br&gt;&lt;br&gt;&lt;b&gt;Underdark Blend&lt;/b&gt; - gives the ability to see in the dark out to a range of 18 and gained a +1 bonus to Attack Rolls against targets standing in darkness or dim light. &lt;br&gt;Ingredients: Mugwort + Underdark mushroom.</content>
+  <content contentuid="hdb3a248eg191dgde95g5dcag0edfe90b3e39" version="36">&lt;br&gt;&lt;br&gt;&lt;b&gt;Cursed Blend&lt;/b&gt; - provides temporary resistance to the Shadow Curse and number you need to roll a Critical Hit while attacking is reduced by 1, but you are Vulnerable to Necrotic damage and your vitality reduces by 3.&lt;br&gt;Ingredients: Mugwort + Shadowroot Sac.</content>
+  <content contentuid="haee2393eg59fcg0206gb3d3gee913ce052e4" version="36">&lt;br&gt;&lt;br&gt;&lt;b&gt;Noble Blend&lt;/b&gt; - gives self-confidence and opens many doors. The smoker gets Proficiency in Deception, Intimidation, Performance, and Persuasion, an extra bonus action and can't be Charmed. &lt;br&gt;Ingredients: Mugwort + Pale Mint.</content>
+  <content contentuid="he208d28cg650eg9a5cg55ccg3e2426eabea0" version="33">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Sussur Bloom&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="h82379751g73efg091agae64g8dc5c1682a5e" version="33">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Swarming Toadstool&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="h3793462cg465ag59e9g1cd8g5b4ad1947cbc" version="33">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Tongue of Madness&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="h7f4530b3g14aagffe9g46abg7b0fa3a6b72b" version="33">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Weavemoss&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="h003cd2fbga208g017agf805g539a9da0ee7e" version="33">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with White Mushroom&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="h08756c14g73ebg9414gff04gcbc0d8efecd1" version="33">&lt;br&gt;&lt;br&gt;&lt;b&gt;Tonic Blend&lt;/b&gt; - relaxes muscles and increases the physical abilities of the smoker. Strength and Dexterity score has increased by 2, and also gain Proficiency in this abilities. Jump distance is doubled. But at the end it gives you a Malaise for 5 turns. &lt;br&gt;Ingredients: Mugwort or Belladonna + Wispweed </content>
+  <content contentuid="hf071d6a7g4c35g800cg6cfeg1de964b1987e" version="33">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Withered Sussur Petal&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="hcdcd3b42g8dd9g6879g600bg2031a2db2689" version="33">&lt;br&gt;&lt;br&gt;&lt;b&gt;Muskat Blend&lt;/b&gt; - the Smoker has Immune to Poison damage and can't be Poisoned. He also gains 10 temporary HP, and regains 2 HP each turn if health is less than 50%.  &lt;br&gt;Ingredients: Mugwort + Yellow Musk Creeper Petals</content>
+  <content contentuid="h4d7b3a02g48f0gffaag654fg0c730376bf8d" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Hunter's Blend&lt;/b&gt; - gain a +1d4 bonus to attack and damage rolls with weapons against beasts. Have Proficiency in Animal Handling. &lt;br&gt;Ingredients: Belladonna + Acorn Truffle.</content>
+  <content contentuid="h2942df91g0ddeg8198g0cc0ge4d95047323b" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Blessed Blend&lt;/b&gt; - the smoker is protected against undead, that have Disadvantage on Attack Rolls against him. The target can't be Frightened, or Possessed by undead. &lt;br&gt;Ingredients: Mugwort or Belladonna + Autumncrocus</content>
+  <content contentuid="h2610643eg2784g5d9age991g52679f642c34" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Blend "Placebo"&lt;/b&gt; - give temporary HP per turn while concentrating on a spell and Advantage to Saving Throws for maintaining Concentration.&lt;br&gt;Ingredients: Belladonna + Balsam.</content>
+  <content contentuid="h0972b000gecf5g1e30g3192g8946c77631b6" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Black Oleander&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="h4e193e9agfceegfaefg43c8g71d543ddbb09" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Bluecap&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="h1c8a60abgff41gd4c6gcf2eg04312feee95f" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Blushcap Mushroom&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="h75a67069ga9cbgf8b5g0549g47e439d08250" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Bonecap&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="h9193298cg208ag8537gf214gf5e29dc9e1ba" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Bulbous Fungus&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="ha076c4cagea37gcfdfg4fb0g533c7915cd7f" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Bullywug Trumpet&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="h492e841bg4454g8cccg49ccg4c945fdcf72c" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Corpse Rose&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="h4613f014g6ba1g77e6gcfb9g1567011e6fa2" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Daggerroot&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="h11588395gfa8eg4693gb177g8688caf20cd2" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Dragon Egg Mushroom&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="h84ffa92fg5879gfb0fg8e04gc086686a7706" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Dried Fey Flower&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="h1e31dbf0g2560g0f36g9041gb1c0e53aecb7" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Garlic &lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="h3cac6061gf3feg7a92gb1e7g747720c17a15" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Glowcap Mushroom&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="h1efe5dcfgf089g797bgfe85gb17eeccbc4a4" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Goodberry&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="he22a96b5g91e5gfed8g2b31g1ffba0406a83" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Hastening Spores&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="h86411931gcb28g5587g610eg264fdb697d1b" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Blend "Celestial Smoke"&lt;/b&gt; - the Smoker increase maxHP by 10  and regain 2 HP each turn if health is less than 70% with the legendary magic resistance inherent to the Ki-Rin. And charisma reduced by 3 with Disadvantage on her Checks.&lt;br&gt;Ingredients: Belladonna + Ki-Rin Hair.</content>
+  <content contentuid="h696c63c0g1be7g93f1g7254g43c826deaaaf" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Lemon&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
   <content contentuid="h05fd3c0dg717cg93b4g432fgd93f2934c990" version="5">&lt;br&gt;&lt;br&gt;&lt;b&gt;Regular Blend&lt;/b&gt; - gives the smoker Advantage to Saving Throws for maintaining Concentration and immunity to magical sleep spells. &lt;br&gt;Ingredients: Mugwort + Belladonna.</content>
-  <content contentuid="ha1743f71g4017gdfccg249egae3becc81dd1" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Night Orchid&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h7f071faag3701gffceg0671gf16a72accce2" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Noblestalk&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="ha3a2194fgcd47g2573g8fc4gb90828d7fe53" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Onion&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h5da9807cg9e82g404ag60ddg4f825b226438" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Orange&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h71fe9f2eg37fag4bc7gfdafg797ad55941d8" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Poison Spore&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h29c52d54g3e1cg3da8g2c5fg361e9e29dd51" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Rogue's Morsel&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h23400dd1gd2d1g9695ga949g50dacb8354c3" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Sussur Bloom&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="hfbd170ebg548bg38ddgb452g8ef60c5d5e2c" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Swarming Toadstool&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="hf9021dc5g3466gb7bag951eg7651881b8099" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Timmask Spores&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="hef8165eag1a50gab93g02bag20089315073b" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Tongue of Madness&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="hab5b4eeagf11fge32cg78fag73fdbcd28004" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Weavemoss&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="hdc82bfb8g8a3cg6210gf792g3e6b4ad00e70" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with White Mushroom&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h32260571gc846g729bg4934g3ee7cd8228b7" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Wispweed&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h379940fag6be7ge293gc123g50e2c0197b9a" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Withered Blue Petal&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="hf4ed4ad9g15efg3fd4gaf12gfdfa9d105fce" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Withered Sussur Petal&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="h3a371f45g214ag639egbf11gdfab1fabd8fc" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Yellow Musk Creeper Petals&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
-  <content contentuid="hb75c5974g482fgbdffg4ea3ge398847446a8" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Acorn Truffle&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="h0572e002g9e41g89b4g7f2bg5dbdf34cc3cb" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Autumncrocus&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="h23b7fd55g54c7ga35bg1286g68dcd0cb5c50" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Balsam&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="hbf8385d5gb29egcb20gcb9dgd5f53989e979" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Black Oleander&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="ha2856eeeg6011gbeb6gfa01g6e6876d3bb89" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Bluecap&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="h2f471eb0g0382g75adgcd6eg6108ff677fcc" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Blushcap Mushroom&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="hcc68ba9agc746gda6fg5dc4gbc55c453d0e0" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Bonecap&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="h9d955829g4656gd9ccg8325g8c9520dd6532" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Bulbous Fungus&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="hc064bc88gdd77gc9d3g52ddg81ca666b34cb" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Bullywug Trumpet&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="h3507f3bfg7cf8g473cg508fg024e78c582ac" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Corpse Rose&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="h96a00bd2g4a4dg7171g928ag7e11311f8ad7" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Daggerroot&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="hdf1db5d1g3184g974agd20fgbd9bb5eef5ae" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Dragon Egg Mushroom&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="hfb808f1dgaf38g8f29gbf26g7b4957f315b5" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Dried Fey Flower&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="he36cefe4gca8fg32a0g9102g96fc53ee6288" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Garlic&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="hf0622ac5g7b10ge2d0gda44g41780e11ddc4" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Glowcap Mushroom&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="h88d1fc21g3c71g6e59gb0e8gb63aef423feb" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Goodberry&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="h666abe8dg75edg56dag197bg750b9b5c653f" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Hastening Spores&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="hece84a90gd883g76a0g0233g87e1cf6cc7d3" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Ki-Rin Hair&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="h7bcedf80gd4dfg7abaga735gab51d8b5ea24" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Lemon&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="hd85f2e72g3339gf31cg8643g193f2aa6ecb8" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Mergrass&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="h5e10af4ag3090g1b97g1d0ag641493c09d2f" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Night Orchid&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="h14f13d40gf8c7g0c50g28e6g0c568cb2affb" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Noblestalk&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="h21c5f7d1g7a97g867fgf665gd33995f86b23" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Onion&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="h56eba790g7c51g0235g2ae3g980805e94797" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Orange&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="h04bcfd0cgea03g94a5g513egda888c46edc8" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Pale Mint&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="hed7abbabg2afbge6e1g36d3g9af24031023c" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Poison Spore&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="hd0dffc05gbb54gd10bgb450g8aebedd98676" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Rogue's Morsel&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="hea51a508g71fege78cgd09agc31a175099af" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Shadowroot Sac&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="hb8348bebge4cdge852gc5d5ge03ac30907b8" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Timmask Spores&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
-  <content contentuid="hc462b4aeg524agdc99gb8b3ga3cd1791f945" version="6">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Withered Blue Petal&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="ha1743f71g4017gdfccg249egae3becc81dd1" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Night Orchid&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="h7f071faag3701gffceg0671gf16a72accce2" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Noblestalk&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="ha3a2194fgcd47g2573g8fc4gb90828d7fe53" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Onion&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="h5da9807cg9e82g404ag60ddg4f825b226438" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Orange&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="h71fe9f2eg37fag4bc7gfdafg797ad55941d8" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Poison Spore&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="h29c52d54g3e1cg3da8g2c5fg361e9e29dd51" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Assassin's Tobacco&lt;/b&gt; - Unlocks Assassin's sneak attack with additional damage (based on level) and immediately restore your action and bonus action at the start of combat. &lt;br&gt;Ingredients: Belladonna + Rogue's Morsel</content>
+  <content contentuid="h23400dd1gd2d1g9695ga949g50dacb8354c3" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Sussur Bloom&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="hfbd170ebg548bg38ddgb452g8ef60c5d5e2c" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Swarming Toadstool&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="hf9021dc5g3466gb7bag951eg7651881b8099" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Timmask Spores&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="hef8165eag1a50gab93g02bag20089315073b" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Tongue of Madness&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="hab5b4eeagf11fge32cg78fag73fdbcd28004" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Weavemoss&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="hdc82bfb8g8a3cg6210gf792g3e6b4ad00e70" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with White Mushroom&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="h32260571gc846g729bg4934g3ee7cd8228b7" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Tonic Blend&lt;/b&gt; - relaxes muscles and increases the physical abilities of the smoker. Strength and Dexterity score has increased by 2, and also gain Proficiency in this abilities. Jump distance is doubled. But at the end it gives you a Malaise for 5 turns.. &lt;br&gt;Ingredients: Mugwort or Belladonna + Wispweed </content>
+  <content contentuid="h379940fag6be7ge293gc123g50e2c0197b9a" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Withered Blue Petal&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="hf4ed4ad9g15efg3fd4gaf12gfdfa9d105fce" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Withered Sussur Petal&lt;/b&gt; - an unremarkable tobacco blend based on Belladonna.</content>
+  <content contentuid="h3a371f45g214ag639egbf11gdfab1fabd8fc" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Belladonna with Yellow Musk Creeper Petals&lt;/b&gt; - A plant poisoned by corpse poison... A Poison that is absolutely impossible to smoke! Only an alchemist could make something from these petals.</content>
+  <content contentuid="hb75c5974g482fgbdffg4ea3ge398847446a8" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Truffle Blend&lt;/b&gt; - can comprehend and communicate with beasts and have Proficiency in Animal Handling. &lt;br&gt;Ingredients: Mugwort + Acorn Truffle.</content>
+  <content contentuid="h0572e002g9e41g89b4g7f2bg5dbdf34cc3cb" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Blessed Blend&lt;/b&gt; - the smoker is protected against undead, that have Disadvantage on Attack Rolls against him. The target can't be Frightened, or Possessed by undead. &lt;br&gt;Ingredients: Mugwort or Belladonna + Autumncrocus</content>
+  <content contentuid="h23b7fd55g54c7ga35bg1286g68dcd0cb5c50" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Blend "Healer's Assistant"&lt;/b&gt; - smoker has immune to Diseases, and regains 1 each turn if health is less than 50%.&lt;br&gt;Ingredients: Mugwort + Balsam.</content>
+  <content contentuid="hbf8385d5gb29egcb20gcb9dgd5f53989e979" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Black Oleander&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="ha2856eeeg6011gbeb6gfa01g6e6876d3bb89" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Bluecap&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="h2f471eb0g0382g75adgcd6eg6108ff677fcc" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Blushcap Mushroom&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="hcc68ba9agc746gda6fg5dc4gbc55c453d0e0" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Bonecap&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="h9d955829g4656gd9ccg8325g8c9520dd6532" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Bulbous Fungus&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="hc064bc88gdd77gc9d3g52ddg81ca666b34cb" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Bullywug Trumpet&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="h3507f3bfg7cf8g473cg508fg024e78c582ac" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Corpse Rose&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="h96a00bd2g4a4dg7171g928ag7e11311f8ad7" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Daggerroot&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="hdf1db5d1g3184g974agd20fgbd9bb5eef5ae" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Dragon Egg Mushroom&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="hfb808f1dgaf38g8f29gbf26g7b4957f315b5" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Dried Fey Flower&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="he36cefe4gca8fg32a0g9102g96fc53ee6288" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Garlic&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="hf0622ac5g7b10ge2d0gda44g41780e11ddc4" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Glowcap Mushroom&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="h88d1fc21g3c71g6e59gb0e8gb63aef423feb" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Goodberry&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="h666abe8dg75edg56dag197bg750b9b5c653f" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Hastening Spores&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="hece84a90gd883g76a0g0233g87e1cf6cc7d3" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Ki-Rin Hair&lt;/b&gt; - He thought of smoking hair, no matter whose it was... A Poison that is absolutely impossible to smoke! Even mugwort doesn't help.</content>
+  <content contentuid="h7bcedf80gd4dfg7abaga735gab51d8b5ea24" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Lemon&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="hd85f2e72g3339gf31cg8643g193f2aa6ecb8" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Insightful Blend&lt;/b&gt; - gives Advantage on Deception and Persuasion checks.  &lt;br&gt;Ingredients: Mugwort + Mergrass.</content>
+  <content contentuid="h5e10af4ag3090g1b97g1d0ag641493c09d2f" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Night Orchid&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="h14f13d40gf8c7g0c50g28e6g0c568cb2affb" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Noblestalk&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="h21c5f7d1g7a97g867fgf665gd33995f86b23" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Onion&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="h56eba790g7c51g0235g2ae3g980805e94797" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Orange&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="h04bcfd0cgea03g94a5g513egda888c46edc8" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Pale Mint&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="hed7abbabg2afbge6e1g36d3g9af24031023c" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Poison Spore&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="hd0dffc05gbb54gd10bgb450g8aebedd98676" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Thieves' tobacco&lt;/b&gt; - gain an additional bonus action and has Advantage on Sleight of Hand Checks. &lt;br&gt;Ingredients: Mugwort + Rogue's Morsel</content>
+  <content contentuid="hea51a508g71fege78cgd09agc31a175099af" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Shadowroot Sac&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="hb8348bebge4cdge852gc5d5ge03ac30907b8" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Timmask Spores&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="hc462b4aeg524agdc99gb8b3ga3cd1791f945" version="32">&lt;br&gt;&lt;br&gt;&lt;b&gt;Mugwort with Withered Blue Petal&lt;/b&gt; - an unremarkable tobacco blend based on Mugwort.</content>
+  <content contentuid="hdfb4d1acg1127gd808g5e5age3775922b491" version="1">Boon of Servitude</content>
+  <content contentuid="hb8653fbbg326cgce58gbe60g2dafac6a85e3" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increased by 2. Regains [1] each turn.</content>
+  <content contentuid="h7c48a102g4502ge899g3befg0d29b4521159" version="3">This blend is often used by healers to fumigate a patient, but no one forbids simply smoking it. Smoker has immune to Diseases, and regains [1] each turn if health is less than 50%. </content>
+  <content contentuid="ha05ae183g046dg5aa0g6a01g595d3946cfe0" version="3">Tobacco mix of mugwort and balsam that improves &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_BALSAM"&gt;the smoker's well-being&lt;/LSTag&gt;.</content>
+  <content contentuid="h127029d6gfc37gc102gbd2bga1c782cada14" version="1">AAAAAAA</content>
+  <content contentuid="h52be5839gccbdg124egfe9cgf968ee902079" version="1">%%%EMPTY</content>
+  <content contentuid="h624f27a2gfdb5g4ec2gea27g62cb69a73c38" version="1">Poisonous Synergy</content>
+  <content contentuid="h4a9ee054gec95g5f9cg6ce9g5cf54e838e6b" version="1">While &lt;LSTag Tooltip="Concentration"&gt;concentrating&lt;/LSTag&gt;, your melee weapon attacks deal an additional [1].</content>
+  <content contentuid="h3b3d09bcg875dg071fgc077gce9e60d45ea2" version="1">%%%TECHNICAL</content>
+  <content contentuid="h97e9c2fbga395g2033g6bd5gda8b8efdf549" version="1">%%%EMPTY</content>
+  <content contentuid="hf1d07094g16d1g0dfag91e7gb1daa00399fb" version="2">The Smoker gains [1] per turn while concentrating on a spell. And his &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; for maintaining &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; get the &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+  <content contentuid="h1702c090ga4a1gf439gc36fga6eef2c11eed" version="1">Belladonna Balsam</content>
+  <content contentuid="h7c1e1ff7g4fefg9fa9ga09ag962fb60f55f2" version="2">%%%EMPTY</content>
+  <content contentuid="hb0e4f0b6g2480g7900g6d0fg733f296d0585" version="6">Tobacco mix of belladonna and balsam, which teaches smokers to be more &lt;LSTag Type="Status" Tooltip="KTP_BELLADONNA_BALSAM"&gt;attentive to their health&lt;/LSTag&gt;.</content>
+  <content contentuid="h9a7b0cbcgc0b8g3001g2c33g91c0c88bf181" version="4">This blend relaxes muscles and increases the physical abilities of the smoker. &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; and &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; score has increased by [1], and also gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in this abilities. &lt;LSTag Type="Spell" Tooltip="Projectile_Jump"&gt;Jump&lt;/LSTag&gt; distance is doubled. &lt;br&gt;But at the end it gives you a &lt;LSTag Type="Status" Tooltip="KTP_MALAISE"&gt;Malaise&lt;/LSTag&gt; for [2] turns.</content>
+  <content contentuid="h566a1cc0g9da6g3cd1g8361g658e2529b537" version="1">Malaise</content>
+  <content contentuid="h5cf6f6dbg5727gaa70g9526gb49e007c1594" version="2">Frequent smoking causes the character to feel unwell. He has &lt;LSTag Type="Status" Tooltip="KTP_OVERDOSE_3_REMOVE_STATUSES"&gt;difficulty concentrating on spells&lt;/LSTag&gt; and has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on Dexterity &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+  <content contentuid="h4c517810g22b2g0d4agfcbcg2538dea3e73d" version="1">A tobacco blend with wispweed based on mugwort or belladonna reveals &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_WISPWEED"&gt;the physical abilities&lt;/LSTag&gt; of the smoker.</content>
+  <content contentuid="ha2431fc4gfd9bg5a5egb980g8c46412b82af" version="2">Regular Blend</content>
+  <content contentuid="h1a1a08b2g9049ge0c8g5bd6g228d3efe89c2" version="18">&lt;br&gt;&lt;br&gt;&lt;b&gt;Regular Blend&lt;/b&gt; - gives the smoker Advantage to Saving Throws for maintaining Concentration and immunity to magical sleep spells. &lt;br&gt;Ingredients: Mugwort + Belladonna.</content>
+  <content contentuid="h677737cfg5a97g0a2dg5a0bg4a9adb5ce53d" version="2">He thought of smoking hair, no matter whose it was... A &lt;LSTag Type="Status" Tooltip="KTP_UNKNOWN_TOBACCO_POISONED"&gt;Poison&lt;/LSTag&gt; that is absolutely impossible to smoke! Even mugwort doesn't help.</content>
+  <content contentuid="h1273ee76gc4feg3404g7cedg6869cd9328ce" version="6">If you focus on smoking this tobacco, then, in combination with belladonna in the blend, you can get an excellent effect!  The Smoker increase max HP by [1] and regain [2] each turn if health is less than 70% with the legendary magic resistance inherent to the Ki-Rin. &lt;br&gt;But it still smells like burnt hair - Charisma reduced by [3] with &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on her &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+  <content contentuid="h2afff2cbg659egada8g0a1fg27d7345bd3bb" version="1">A &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_KIRINHAIR"&gt;useless&lt;/LSTag&gt; tobacco blend of mugwort and Ki-Rin Hair.</content>
+  <content contentuid="h9b8489a8g728bga915g0776g5b48824477b4" version="3">Tobacco mix of belladonna and Ki-Rin Hair that, when used correctly, gives &lt;LSTag Type="Status" Tooltip="KTP_BELLADONNA_KIRINHAIR"&gt;a great effect&lt;/LSTag&gt;.</content>
+  <content contentuid="h07bcd347g8fabgc8d0g5a1bgaaa2256917c1" version="13">&lt;br&gt;&lt;br&gt;&lt;b&gt;Bad tobacco blends&lt;/b&gt;&lt;br&gt;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~&lt;br&gt;&lt;i&gt;* blends that won't do any good.&lt;/i&gt;</content>
+  <content contentuid="ha4360857g51b7g0e7bg8b6cg73d87fb6d13e" version="3">Gain an additional bonus action and has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Sleight of Hand &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;. </content>
+  <content contentuid="hfb76614bg776fg1b0fg2674ga8de8ba6d63c" version="3">Unlocks Assassin's sneak attack with additional damage (based on level) and immediately restore your &lt;LSTag Tooltip="Action"&gt;action&lt;/LSTag&gt; and &lt;LSTag Tooltip="Bonus_Action"&gt;bonus action&lt;/LSTag&gt; at the start of combat.</content>
+  <content contentuid="h2ac95905gfd5bg8b56g88ffga2f25348f03c" version="1">Mugwort RoguesMarsel</content>
+  <content contentuid="h798c64fag87aegc8fagb9f5ga3fbe3fd02b8" version="1">%%%EMPTY</content>
+  <content contentuid="h0feebcf2g4ef7gd65eg66e5g3695b1dffc10" version="1">Sneak Attack (Melee)</content>
+  <content contentuid="h6fcaa26ag1678gd2f1g4445gb634d7190048" version="1">Deal extra damage to a foe you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against.</content>
+  <content contentuid="hfbd3327dg2a1eg0b5age6fegd2fdebc5a2dc" version="1">Also works if you have an ally within [1] of the target and you don't have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
+  <content contentuid="h8ff7509bgf8d0g9dd1g9784gf324643b38d6" version="1">Sneak Attack (Ranged)</content>
+  <content contentuid="h4400c622gde52g0230g58dag7b33c1a8f482" version="1">Deal extra damage to a foe you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against.</content>
+  <content contentuid="hbd1e3a2agfcc1g3a91ge189g70f9d49a1c94" version="1">You can also use this attack if you have an ally within [1] of the target and you don't have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
+  <content contentuid="h4b5b5c69g214ag1380gbda0gc2e4f96ce2ab" version="1">Tobacco mix of mugwort and rogue's morsel, which gives the smoker &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_ROGUESMORSEL"&gt;thief's luck&lt;/LSTag&gt;.</content>
+  <content contentuid="h68525d4bg3faegaaddgd9a3g8a1221badfdc" version="4">Tobacco mix of belladona and rogue's morsel, which gives the smoker &lt;LSTag Type="Status" Tooltip="KTP_BELLADONNA_ROGUESMORSEL"&gt;the grip of an assassin&lt;/LSTag&gt;.</content>
+  <content contentuid="h36b97159g6003g67bag6252gbaca49863d33" version="1">Belladonna Balsam</content>
+  <content contentuid="hdb19e200g94ebg5060g8d6ag258d9947927f" version="1">%%%EMPTY</content>
+  <content contentuid="h5d675abdgea46g55e8gb7dcgd063d8748fe4" version="3">Hunter's Blend</content>
+  <content contentuid="h58c92ae5ga739g07a3gcfc6g153a7c30c42c" version="1">%%%EMPTY</content>
+  <content contentuid="h25b936fdg152dg3f82gf26fg8b9d3d67e131" version="1">Can comprehend and communicate with beasts and have &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in &lt;LSTag Tooltip="AnimalHandling"&gt;Animal Handling&lt;/LSTag&gt;.</content>
+  <content contentuid="hd42c21d6g5a78g39c8g4babg5dcffb431e1b" version="2">Gain a +[1] bonus to attack and damage rolls with weapons against beasts. Have &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in &lt;LSTag Tooltip="AnimalHandling"&gt;Animal Handling&lt;/LSTag&gt;.</content>
+  <content contentuid="h4cf2e55egff9dg957ag6f7bg0ada37052387" version="1">Tobacco mix of belladonna and acorn truffle, that brings the smoker &lt;LSTag Type="Status" Tooltip="KTP_BELLADONNA_ACORNTRUFFLE"&gt;closer to the animal world&lt;/LSTag&gt;.</content>
+  <content contentuid="h1ae3cf52gc20bg692eg002bg760c19b35374" version="2">Tobacco mix of mugwort and acorn truffle, that brings the smoker &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_ACORNTRUFFLE"&gt;closer to the animal world&lt;/LSTag&gt;.</content>
+  <content contentuid="h3fe59d5fg2578g67e4gc921g59859021071f" version="1">Protection from Evil and Good</content>
+  <content contentuid="hc00c1a96g2b1dge5d8g4158ga4fb967e5f4f" version="1">The target is protected against aberrations, celestials, elementals, fey, fiends, and undead. These creatures have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against the target, and the target can't be Charmed, Frightened, or Possessed by them.</content>
+  <content contentuid="hcb0198bbg61dcg125dg7a67geb9072321359" version="1">The smoker is protected against undead, that have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against him. The target can't be Frightened, or Possessed by undead.</content>
+  <content contentuid="h8eeadf77g0fefg76d3gc5e5g3762e0df4d9c" version="1">A tobacco blend with autumncrocus based on mugwort or belladonna gives &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_AUTUMNCROCUS"&gt;the protection of Lathander&lt;/LSTag&gt;.</content>
+  <content contentuid="hf94ad126gb518g9f22gac1ag4f7581806a69" version="1">A tobacco blend with autumncrocus based on mugwort or belladonna gives &lt;LSTag Type="Status" Tooltip="KTP_BELLADONNA_AUTUMNCROCUS"&gt;the protection of Lathander&lt;/LSTag&gt;.</content>
+  <content contentuid="h06d5a6b3gfaa0g79bdgad94g3d8070d5319f" version="1">A plant poisoned by corpse poison... A &lt;LSTag Type="Status" Tooltip="KTP_UNKNOWN_TOBACCO_POISONED"&gt;Poison&lt;/LSTag&gt; that is absolutely impossible to smoke! Only an alchemist could make something from these petals.</content>
+  <content contentuid="h5f569af8g15d4g0689ge1a9g1d8fa9908f39" version="1">A &lt;LSTag Type="Status" Tooltip="KTP_BELLADONNA_YELLOWMUSKCREEPERPETALS"&gt;useless&lt;/LSTag&gt; tobacco blend of Belladonna and Yellow Musk Creeper Petals.</content>
+  <content contentuid="h6a3e8dd7ge63ag58e2g76c9gd0556b9a4598" version="1">Blend "Healer's Assistant"</content>
+  <content contentuid="hc4bd136ag46e5gde7age857g574927a4988c" version="1">This blend is often used by healers to fumigate a patient, but no one forbids simply smoking it. Smoker has immune to Diseases, and regains [1] each turn if health is less than 50%. </content>
+  <content contentuid="he1f2a6e4g8829g995dg60a5ge3319fb6083e" version="2">The Smoker has &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to Poison damage and can't be &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt;. He also gains [1], and regains [2] each turn if health is less than 50%. </content>
+  <content contentuid="h2aab62a2g1b70gef01gcb4eg1cd9aa5b2503" version="1">Thanks to Mugwort, the corpse poison of the Yellow Musk Creeper Petals is neutralized and this tobacco blend confirms that &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_YELLOWMUSKCREEPERPETALS"&gt;poison is a medicine&lt;/LSTag&gt; when used correctly.</content>
+  <content contentuid="hdec109fcg8590gab33gb577g4c9698ce9183" version="2">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Deception and Persuasion &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;. </content>
+  <content contentuid="h2423263dg2261g69f5g4887g24ee51c7e786" version="1">This mix of Mugwort and Mergrass helps the smoker &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_MERGRASS"&gt;to speak convincingly&lt;/LSTag&gt;.</content>
+  <content contentuid="he22e1126ge04fgc438g6f71gad5b2ab0bac7" version="1">%%%TECHNICAL</content>
+  <content contentuid="hb265b8begecfegc1b3g58ebge4a555d39c43" version="1">%%%EMPTY</content>
+  <content contentuid="hf2b96d07gba31ga97fg40aag0cbdb65c1d7c" version="3">If the smoker is focused while this tobacco is active, then each turn a Level 1 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; is restored, but he takes damage [1] and the effect duration is reduced by [2] turns. If the smoker has less than 20% of his maxHP left, the effect is removed. &lt;br&gt;At the end effect gives you a &lt;LSTag Type="Status" Tooltip="KTP_MALAISE"&gt;Malaise&lt;/LSTag&gt; for [3] turns.</content>
+  <content contentuid="h68167bc5g1f00gb588g5cc7g4f08b02226cd" version="1">%%%TECHNICAL</content>
+  <content contentuid="h6f0e8252gd175gdfa1gd7d0g9f346618e7b7" version="1">%%%EMPTY</content>
+  <content contentuid="h7fa44b7dg1ccbg49d4g7634gfe34b5f682e5" version="1">Mugwort NightOrchid</content>
+  <content contentuid="h90e3cc48g2484g3e6bg1613g47e2d445a84d" version="1">%%%EMPTY</content>
 </contentList>

@@ -35,7 +35,7 @@ DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_GARLIC",KTP_MUGWORT_GARLIC_910f21e7-0a5e
 DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_GLOWCAPMUSHROOM",KTP_MUGWORT_GLOWCAPMUSHROOM_8c730695-655d-4b01-8e2a-efa1f714aec4); // MUSHROOMS
 DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_GOODBERRY",KTP_MUGWORT_GOODBERRY_8d7573b1-b88f-48eb-8e37-36f1e82efac0); // FOOD
 DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_HASTENINGSPORES",KTP_MUGWORT_HASTENINGSPORES_254ef733-4e91-452d-b7d4-c400c102a42e); // SPORES
-DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_KIRINHAIR",KTP_MUGWORT_KIRINHAIR_e457ad63-98af-4a98-b258-4469bfbe01ba); // OTHER
+DB_KTP_StatusPouch(6.0,3,"KTP_MUGWORT_KIRINHAIR",KTP_MUGWORT_KIRINHAIR_e457ad63-98af-4a98-b258-4469bfbe01ba); // OTHER // KTP_UNKNOWN_TOBACCO_POISONED
 DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_LEMON",KTP_MUGWORT_LEMON_575e1184-b29f-46c3-b6dd-805ccd9e1a8f); // FOOD
 DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_MERGRASS",KTP_MUGWORT_MERGRASS_d497d5ea-eaa1-4fc3-96c5-cca66131c883);
 DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_NIGHTORCHID",KTP_MUGWORT_NIGHTORCHID_0e32d602-8192-4c94-9229-b00924f9e12d);
@@ -52,7 +52,7 @@ DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_TIMMASKSPORES",KTP_MUGWORT_TIMMASKSPORES
 DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_TONGUEOFMADNESS",KTP_MUGWORT_TONGUEOFMADNESS_d848634b-ec4e-4e95-a606-3970d787ba25);
 DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_WEAVEMOSS",KTP_MUGWORT_WEAVEMOSS_b33d0ff8-0bcc-494e-9427-0b2e96950542);
 DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_WHITEMUSHROOM",KTP_MUGWORT_WHITEMUSHROOM_11b18118-ae42-47c8-813b-d084c14cb6d0); // FOOD
-DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_WISPWEED",KTP_MUGWORT_WISPWEED_97520b6f-11fe-4cc0-aad4-50cdfd5a3e2a);
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_WISPWEED",KTP_MUGWORT_WISPWEED_97520b6f-11fe-4cc0-aad4-50cdfd5a3e2a); 
 DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_WITHEREDBLUEPETAL",KTP_MUGWORT_WITHEREDBLUEPETAL_2c819d38-e8de-46cf-8157-b8a144b4ea9e); // OTHER
 DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_WITHEREDSUSSURPETAL",KTP_MUGWORT_WITHEREDSUSSURPETAL_ad2fa307-d204-45c0-9cb0-2259baf822eb); // OTHER
 DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_YELLOWMUSKCREEPERPETALS",KTP_MUGWORT_YELLOWMUSKCREEPERPETALS_0c25f0e5-f8a7-4645-85ef-d3288253e08f);
@@ -122,7 +122,7 @@ DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_YELLOWMUSKCREEPERPETALS",ALCH_Ingr
 // BELLADONNA-BASED BLENDS
 // --------------------------------------------------------------------------------------------------------
 DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_ACORNTRUFFLE",KTP_BELLADONNA_ACORNTRUFFLE_80db12b8-ae47-419f-83f7-a782135fa1f2); // MUSHROOMS
-DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_AUTUMNCROCUS",KTP_BELLADONNA_AUTUMNCROCUS_54094ffe-42de-4a5d-955b-e0e388046d72); // HERBS
+DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_AUTUMNCROCUS",KTP_MUGWORT_AUTUMNCROCUS_7996b1ee-38d5-42f0-a332-7b89f5e8bf5d); // HERBS // ANALOG KTP_MUGWORT_AUTUMNCROCUS
 DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_BALSAM",KTP_BELLADONNA_BALSAM_8a56aa35-5cd2-428e-949f-f33e33e54a2d); // HERBS
 DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_BLACKOLEANDER",KTP_BELLADONNA_BLACKOLEANDER_c2b83d3b-4a8f-44bf-8dd0-c22f414aff95); // HERBS
 DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_BLUECAP",KTP_BELLADONNA_BLUECAP_9156b605-c3ce-4fca-b104-6950dca58930); // FOOD
@@ -141,6 +141,7 @@ DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_HASTENINGSPORES",KTP_BELLADONNA_HASTE
 DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_KIRINHAIR",KTP_BELLADONNA_KIRINHAIR_d519739c-b938-45bb-8a4e-c3ef728eb05a); // OTHER
 DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_LEMON",KTP_BELLADONNA_LEMON_ce0b67b3-9a85-4a63-a2ee-2c0a302584ab); // FOOD
 DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_MERGRASS",KTP_BELLADONNA_MERGRASS_a958c3dc-de0b-4ac4-af42-ed19b57f015b); // HERBS
+DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_MUGWORT",KTP_MUGWORT_BELLADONNA_067acb98-3ffa-49b1-a480-35d837d37ad7); // HERBS // ANALOG KTP_MUGWORT_BELLADONNA
 DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_NIGHTORCHID",KTP_BELLADONNA_NIGHTORCHID_1e602396-86c6-4d80-9576-a1b782e99d08); // HERBS
 DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_NOBLESTALK",KTP_BELLADONNA_NOBLESTALK_45e17f00-dbb2-407e-b8c6-9f463580eb5f); // OTHER
 DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_ONION",KTP_BELLADONNA_ONION_798bb774-2c2d-4864-bfc5-a6205352ec22); // FOOD
@@ -155,16 +156,16 @@ DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_TIMMASKSPORES",KTP_BELLADONNA_TIMMASK
 DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_TONGUEOFMADNESS",KTP_BELLADONNA_TONGUEOFMADNESS_4a54ef67-ed80-4a4f-b73d-5c21df131dc5); // MUSHROOMS
 DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_WEAVEMOSS",KTP_BELLADONNA_WEAVEMOSS_fa86ffc7-ee5c-4143-8bff-cdd3121a1997); // HERBS
 DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_WHITEMUSHROOM",KTP_BELLADONNA_WHITEMUSHROOM_f2ea0b24-97e0-445a-a106-8cfc8525397a); // FOOD
-DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_WISPWEED",KTP_BELLADONNA_WISPWEED_e17fc768-56ed-4f53-86bf-78c01da605fe); // HERBS
+DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_WISPWEED",KTP_MUGWORT_WISPWEED_97520b6f-11fe-4cc0-aad4-50cdfd5a3e2a); // HERBS // ANALOG KTP_MUGWORT_WISPWEED
 DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_WITHEREDBLUEPETAL",KTP_BELLADONNA_WITHEREDBLUEPETAL_ef9c31a9-97b6-4012-8e23-65b98b8b432a); // OTHER
 DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_WITHEREDSUSSURPETAL",KTP_BELLADONNA_WITHEREDSUSSURPETAL_9241d7d7-9386-453c-8712-c931d9dfbff3); // OTHER
-DB_KTP_StatusPouch(180.0,3,"KTP_BELLADONNA_YELLOWMUSKCREEPERPETALS",KTP_BELLADONNA_YELLOWMUSKCREEPERPETALS_318770d6-41fd-44f5-9174-6ca7a9c04149); // HERBS
+DB_KTP_StatusPouch(6.0,3,"KTP_BELLADONNA_YELLOWMUSKCREEPERPETALS",KTP_BELLADONNA_YELLOWMUSKCREEPERPETALS_318770d6-41fd-44f5-9174-6ca7a9c04149); // HERBS // KTP_UNKNOWN_TOBACCO_POISONED
 //
 // Second Ingredients for Belladona
 DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_ACORNTRUFFLE",LOOT_Underdark_Mushroom_Silvantruffle_A_754ace50-43a4-4741-b8c8-53ec09df754f); // MUSHROOMS
 DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_ACORNTRUFFLE",LOOT_Underdark_Mushroom_Silvantruffle_B_1e6070d3-74e5-4c42-933a-2f151e6b5a0f); // MUSHROOMS
-DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_AUTUMNCROCUS",CONS_Herbs_Autumncrocus_Bundle_A_06f3a0c4-af50-4a79-8c1a-1ace6d1282f2); // HERBS
-DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_AUTUMNCROCUS",CONS_Herbs_Autumncrocus_Plant_A_691da3f8-0fca-4aa9-b5cd-89bc96e3cc74); // HERBS
+DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_AUTUMNCROCUS",CONS_Herbs_Autumncrocus_Bundle_A_06f3a0c4-af50-4a79-8c1a-1ace6d1282f2); // HERBS // ANALOG KTP_MUGWORT_AUTUMNCROCUS
+DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_AUTUMNCROCUS",CONS_Herbs_Autumncrocus_Plant_A_691da3f8-0fca-4aa9-b5cd-89bc96e3cc74); // HERBS // ANALOG KTP_MUGWORT_AUTUMNCROCUS
 DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_BALSAM",CONS_Herbs_Balsam_Bundle_A_fb318355-d2d9-48c5-8ef1-d0e574cef0d5); // HERBS
 DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_BALSAM",CONS_Herbs_Balsam_Plant_A_9a524608-1ad1-4d01-ae99-76fb3c513b3c); // HERBS
 DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_BLACKOLEANDER",ALCH_Ingredient_Herb_BlackOleander_bc79fef0-6e8d-4703-9ed6-caa9abda3212); // HERBS
@@ -190,8 +191,8 @@ DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_KIRINHAIR",ALCH_Ingredient_L
 DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_LEMON",CONS_FOOD_Fruit_Lemon_A_6cd7804b-31c3-4eac-b9fd-c8692d609a08); // FOOD
 DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_MERGRASS",CONS_Herbs_Mergrass_Bundle_A_0a494c98-84c0-4055-8208-0e363bd53ed3); // HERBS
 DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_MERGRASS",CONS_Herbs_Mergrass_Plant_A_3e518433-1923-43f5-856f-848028ac3bad); // HERBS
-DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_MUGWORT",CONS_Herbs_Mugwort_Bundle_A_a0776643-f25b-4aef-a025-bff959d8dd0f); // HERBS
-DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_MUGWORT",CONS_Herbs_Mugwort_Plant_A_e03b8342-3c50-4cec-b34c-c50ce1968bc3); // HERBS
+DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_MUGWORT",CONS_Herbs_Mugwort_Bundle_A_a0776643-f25b-4aef-a025-bff959d8dd0f); // HERBS // ANALOG KTP_BELLADONNA_MUGWORT
+DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_MUGWORT",CONS_Herbs_Mugwort_Plant_A_e03b8342-3c50-4cec-b34c-c50ce1968bc3); // HERBS // ANALOG KTP_BELLADONNA_MUGWORT
 DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_NIGHTORCHID",ALCH_Ingredient_Herb_NightOrchid_11f6de17-4682-419c-808f-8a328d2cce15); // HERBS
 DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_NOBLESTALK",PUZ_Underdark_Mushroom_Noblestalk_A_48c679c1-b713-4d2f-9bba-1c43ed654404); // OTHER
 DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_ONION",CONS_FOOD_Vegetable_Onion_A_746153c2-5aa1-440d-819d-b93dc31b7e10); // FOOD
@@ -211,21 +212,24 @@ DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_TONGUEOFMADNESS",LOOT_Underd
 DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_WEAVEMOSS",CONS_Herbs_Weavemoss_Bundle_A_0a64fa93-9123-4810-a656-2c8b27c87563); // HERBS
 DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_WEAVEMOSS",CONS_Herbs_Weavemoss_Plant_A_35878644-f61a-47c5-9256-d724ac88217c); // HERBS
 DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_WHITEMUSHROOM",CONS_FOOD_Vegetable_Mushroom_A_cd3920b3-1706-4d34-9982-7dd2ad8e67b6); // FOOD
-DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_WISPWEED",CONS_Herbs_Wispweed_Bundle_A_4faa8cef-27ee-4085-aa90-78fcf8e2e72d); // HERBS
-DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_WISPWEED",CONS_Herbs_Wispweed_Plant_A_7b8e0fa5-8f8d-4679-b42a-800f5e703bdb); // HERBS
+DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_WISPWEED",CONS_Herbs_Wispweed_Bundle_A_4faa8cef-27ee-4085-aa90-78fcf8e2e72d); // HERBS // ANALOG KTP_MUGWORT_WISPWEED
+DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_WISPWEED",CONS_Herbs_Wispweed_Plant_A_7b8e0fa5-8f8d-4679-b42a-800f5e703bdb); // HERBS // ANALOG KTP_MUGWORT_WISPWEED
 DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_WITHEREDBLUEPETAL",UNI_UND_WitheredBluePetals_f5f07e9e-98e5-407d-827e-47ad1f41aeb5); // OTHER
 DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_WITHEREDSUSSURPETAL",UNI_UND_WitheredSussurPetals_a05c2c63-23b4-4700-8a51-655053d832b5); // OTHER
 DB_KTP_Ingredients("KTP_Belladonna","KTP_BELLADONNA_YELLOWMUSKCREEPERPETALS",ALCH_Ingredient_Loot_YellowMuskCreeper_A_87d2b517-1777-4bee-96be-f79ba52edfcc); // HERBS
 
+
+
 // Bad statuses
-DB_KTP_StatusBad("");
+DB_KTP_StatusBad("KTP_MUGWORT_KIRINHAIR");
+DB_KTP_StatusBad("KTP_BELLADONNA_YELLOWMUSKCREEPERPETALS");
+
 
 // Pouch for unknown blend
 DB_KTP_UnknownBlendPouchTemplate(KTP_CONT_TobaccoPouch_Unknown_52fe3672-cbdc-4bb4-bab7-4a2c863d51e4);
 
 DB_KTP_HalsinsPipe(S_DEN_NarrativeLoot_HalsinsPipe_24f001b7-802e-4130-b4ab-fc514614e049);
 
-DB_KTP_Known_Blend("KTP_MUGWORT_BELLADONA",KTP_CONT_TobaccoPouch_Simple_067acb98-3ffa-49b1-a480-35d837d37ad7);
 KBSECTION
 // -----------------------------------------------------------------------------------------
 // -----------------------------------------------------------------------------------------
@@ -662,6 +666,18 @@ RemoveStatus(_Character,_TobaccoStatus);
 // USE PIPE 
 // -----------------------------------------------------------------------------------------
 //
+// Remove old status
+IF
+UseStarted(_Player, _SmokingPipe)
+AND
+DB_KTP_FilledPipes(_SmokingPipe,_,_,_)
+AND
+DB_KTP_StatusPouch(_,_,_TobaccoStatus,_)
+AND
+HasActiveStatus(_Player,_TobaccoStatus,1)
+THEN
+RemoveStatus(_Player,_TobaccoStatus);
+//
 // known blend
 IF
 UseFinished(_Player,_SmokingPipe,1)
@@ -681,8 +697,10 @@ AND
 QRY_KTP_CheckHalsinPipe(_Player,_SmokingPipe,_Status)
 AND
 QRY_KTP_CheckForOverdose(_Player)
+AND
+Concatenate("USE PIPE KNOWN BLEND - ",_Status,_StringDebug)
 THEN
-//SetDualEntityEvent(_SmokingPipe,_SmokingPipe,"USE PIPE KNOWN BLEND");
+SetDualEntityEvent(_SmokingPipe,_SmokingPipe,_StringDebug);
 PlayEffect(_Player,(EFFECTRESOURCE)VFX_Status_Tharchiate_False_Life_Apply_01_e34f6123-0933-e70d-339e-d5a8c3490cb0,"Chest_M",1.0);
 PlaySound(_Player, "GOB_GoblinKing_Scrying_SmokeStart");
 ApplyStatus(_Player,_Status,_StatusTurns,1);
@@ -707,7 +725,7 @@ QRY_KTP_CheckHalsinPipe(_Player,_SmokingPipe,_Status)
 AND
 QRY_KTP_CheckForOverdose(_Player)
 THEN
-//SetDualEntityEvent(_SmokingPipe,_SmokingPipe,"USE PIPE UNKNOWN BLEND");
+SetDualEntityEvent(_SmokingPipe,_SmokingPipe,"USE PIPE UNKNOWN BLEND");
 PlayEffect(_Player,(EFFECTRESOURCE)VFX_Status_Tharchiate_False_Life_Apply_01_e34f6123-0933-e70d-339e-d5a8c3490cb0,"Chest_M",1.0);
 PlaySound(_Player, "GOB_GoblinKing_Scrying_SmokeStart");
 ApplyStatus(_Player,_Status,_StatusTurns,1);
@@ -870,7 +888,7 @@ PROC_StudyIngredientsOfTobaccoBlend((STRING)_Status,(ITEMROOT)_TobaccoPouchTempl
 //AND
 //GetHostCharacter(_Player)
 AND
-NOT DB_KTP_Known_Blend(_Status,_TobaccoPouchTemplate)
+NOT DB_KTP_Known_Blend(_Status,_)
 THEN
 //SetDualEntityEvent(_Player,_Player,"PROC_StudyIngredientsOfTobaccoBlend");
 DB_KTP_Known_Blend(_Status,_TobaccoPouchTemplate);
@@ -987,7 +1005,7 @@ IntegerSum(_Count,1,_NewCount)
 AND
 ConcatenateInteger("QRY_KTP_CheckForOverdose EXIST ",_NewCount,_StringDebug)
 THEN
-//SetDualEntityEvent(_Player,_Player,_StringDebug);
+SetDualEntityEvent(_Player,_Player,_StringDebug);
 DB_KTP_Overdose(_Player,_NewCount);
 //
 // IF Count 3 we need apply status
@@ -998,7 +1016,7 @@ DB_KTP_Overdose(_Player,_Count)
 AND
 _Count == 3
 THEN
-//SetDualEntityEvent(_Player,_Player,"ApplyStatus 3");
+SetDualEntityEvent(_Player,_Player,"ApplyStatus KTP_OVERDOSE_3");
 ApplyStatus(_Player,"KTP_OVERDOSE_3",30.0,1);
 //
 // IF Count 4 we need apply status
@@ -1009,7 +1027,7 @@ DB_KTP_Overdose(_Player,_Count)
 AND
 _Count == 4
 THEN
-//SetDualEntityEvent(_Player,_Player,"ApplyStatus 4");
+SetDualEntityEvent(_Player,_Player,"ApplyStatus KTP_OVERDOSE_4");
 ApplyStatus(_Player,"KTP_OVERDOSE_4",90.0,1);
 //
 // IF Count 5 we need apply status
@@ -1020,7 +1038,7 @@ DB_KTP_Overdose(_Player,_Count)
 AND
 _Count == 5
 THEN
-//SetDualEntityEvent(_Player,_Player,"ApplyStatus 5");
+SetDualEntityEvent(_Player,_Player,"ApplyStatus KTP_OVERDOSE_5");
 ApplyStatus(_Player,"KTP_OVERDOSE_5",-1.0,1);
 //
 // New Overdose
@@ -1029,7 +1047,7 @@ QRY_KTP_CheckForOverdose((CHARACTER)_Player)
 AND
 NOT DB_KTP_Overdose(_Player,_)
 THEN
-//SetDualEntityEvent(_Player,_Player,"QRY_KTP_CheckForOverdose NEW");
+SetDualEntityEvent(_Player,_Player,"QRY_KTP_CheckForOverdose NEW");
 DB_KTP_Overdose(_Player,1);
 //
 // QRY Must always be successful
@@ -1060,6 +1078,8 @@ IF
 StatusApplied(_Player,"KTP_REMOVE_STATUSES",_,_)
 AND
 DB_KTP_StatusPouch(_,_,_TobaccoStatus,_)
+AND
+HasActiveStatus(_Player,_TobaccoStatus,1)
 THEN
 RemoveStatus(_Player,_TobaccoStatus);
 //

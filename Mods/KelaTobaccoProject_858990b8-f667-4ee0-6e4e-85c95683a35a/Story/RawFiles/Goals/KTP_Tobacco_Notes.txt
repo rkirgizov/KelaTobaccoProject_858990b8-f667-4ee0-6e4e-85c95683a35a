@@ -5,7 +5,18 @@ DB_KTP_Notes_Template((ITEMROOT)KTP_BOOK_SmokerNotes_25320b23-171e-4808-b829-98e
 
 DB_KTP_Notes_Header("KTP_Notes_Header");
 DB_KTP_Notes(0,"");
+
+
+DB_KTP_Known_Blend("KTP_MUGWORT_BELLADONA",KTP_MUGWORT_BELLADONNA_067acb98-3ffa-49b1-a480-35d837d37ad7);
+DB_KTP_Known_Blend("KTP_BELLADONNA_MUGWORT",KTP_MUGWORT_BELLADONNA_067acb98-3ffa-49b1-a480-35d837d37ad7);
 KBSECTION
+IF
+TemplateUseStarted(_User, _Template, _Item)
+AND
+DB_KTP_Notes_Template(_Template)
+THEN
+SysClear("DB_KTP_Added_Blend",1);
+
 IF
 TemplateUseStarted(_User, _Template, _Item)
 AND
@@ -31,6 +42,10 @@ AND
 QRY_KTP_NotesHeader(_User,_NotesName)
 AND
 QRY_KTP_NotesBlends(_User,_NotesName)
+AND
+QRY_KTP_NotesBlendsBadHeader(_User,_NotesName)
+AND
+QRY_KTP_NotesBlendsBad(_User,_NotesName)
 THEN
 //SetDualEntityEvent(_User,_User,_NotesName);
 DB_NOOP(1);
@@ -53,17 +68,45 @@ DB_KTP_Notes_Header(_Header)
 THEN
 AddEntryToCustomBook(_NotesName, _Header);
 
-QRY
-QRY_KTP_NotesBlends((CHARACTER)_User,(STRING)_NotesName)
-AND
-DB_KTP_Known_Blend(_Blend,_)
-THEN
-AddEntryToCustomBook(_NotesName, _Blend);
 
 QRY
 QRY_KTP_NotesBlends((CHARACTER)_User,(STRING)_NotesName)
 AND
-NOT DB_KTP_Known_Blend(_,_)
+DB_KTP_Known_Blend(_Blend,_BlendTemplate)
+AND
+NOT DB_KTP_StatusBad(_Blend)
+AND
+NOT DB_KTP_Added_Blend(_BlendTemplate)
+THEN
+DB_KTP_Added_Blend(_BlendTemplate);
+AddEntryToCustomBook(_NotesName, _Blend);
+
+QRY
+QRY_KTP_NotesBlends((CHARACTER)_User,(STRING)_NotesName)
+THEN
+DB_NOOP(1);
+
+QRY
+QRY_KTP_NotesBlendsBadHeader((CHARACTER)_User,(STRING)_NotesName)
+AND
+DB_KTP_Notes_Header(_Header)
+THEN
+AddEntryToCustomBook(_NotesName, "KTP_Notes_Bad_Blends");
+
+QRY
+QRY_KTP_NotesBlendsBad((CHARACTER)_User,(STRING)_NotesName)
+AND
+DB_KTP_Known_Blend(_Blend,_BlendTemplate)
+AND
+DB_KTP_StatusBad(_Blend)
+AND
+NOT DB_KTP_Added_Blend(_BlendTemplate)
+THEN
+DB_KTP_Added_Blend(_BlendTemplate);
+AddEntryToCustomBook(_NotesName, _Blend);
+
+QRY
+QRY_KTP_NotesBlendsBad((CHARACTER)_User,(STRING)_NotesName)
 THEN
 DB_NOOP(1);
 
