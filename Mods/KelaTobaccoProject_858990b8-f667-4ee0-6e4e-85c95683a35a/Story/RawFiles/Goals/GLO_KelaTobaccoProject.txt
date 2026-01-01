@@ -17,6 +17,7 @@ IF
 LevelLoaded(_)
 THEN
 GoalCompleted;
+GoalCompleted;
 
 EXITSECTION
 

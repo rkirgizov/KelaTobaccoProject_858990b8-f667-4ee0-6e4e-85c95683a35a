@@ -3,8 +3,7 @@ Alchemy <https://dev.bg3.wiki/wiki/Alchemy>
 Food <https://dev.bg3.wiki/wiki/Camp_Supplies#List_of_Camp_Supplies>  
 
 ## BASE OF TOBACCO
-MUGWORT - ANTIDOTE   
-BELLADONNA - ELIXIR OF PEERLESS FOCUS
+MUGWORT
 
 ## HERBS 
 BALSAM - POTION OF GREATER HEALING -   
