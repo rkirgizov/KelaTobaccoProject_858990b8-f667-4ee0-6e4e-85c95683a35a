@@ -4,9 +4,9 @@
 
     <ls:StateMachine.States>
 
-         <!--STATE: Combine UI-->
-        <ls:State Name="Combine" DisableStatesBelow="False" Layout="Player" Owner="Player">
-            <!-- <ls:State.Widgets>
+        <!--STATE: Combine UI-->
+        <ls:State Name="Combine" DisableStatesBelow="False" Layout="Player" Owner="Player" ModType="Override">
+            <ls:State.Widgets>
                 <ls:StateWidget Filename="Combine.xaml" Layer="PopupPanels" SoundLayer="NonHUDWidget"/>
             </ls:State.Widgets>
             <ls:State.Events>
@@ -20,9 +20,8 @@
                         <ls:RemoveState/>
                     </ls:StateEvent.Actions>
                 </ls:StateEvent>
-            </ls:State.Events> -->
+            </ls:State.Events>
         </ls:State>
-
 
     </ls:StateMachine.States>
 </ls:StateMachine>

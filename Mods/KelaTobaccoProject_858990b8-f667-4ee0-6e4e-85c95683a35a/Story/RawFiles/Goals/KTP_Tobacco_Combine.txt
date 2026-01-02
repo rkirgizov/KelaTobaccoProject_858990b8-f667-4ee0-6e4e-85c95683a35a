@@ -1,0 +1,547 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+// MUGWORT - BASE INGREDIENT
+DB_KTP_MainIngredient("KTP_Mugwort",CONS_Herbs_Mugwort_Bundle_A_a0776643-f25b-4aef-a025-bff959d8dd0f);
+DB_KTP_MainIngredient("KTP_Mugwort",CONS_Herbs_Mugwort_Plant_A_e03b8342-3c50-4cec-b34c-c50ce1968bc3);
+//
+// --------------------------------------------------------------------------------------------------------
+// MUGWORT-BASED BLENDS
+// --------------------------------------------------------------------------------------------------------
+//
+// HERBAL BLENDS
+//
+// KTP_MUGWORT_BELLADONNA
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_BELLADONNA",KTP_MUGWORT_BELLADONNA_067acb98-3ffa-49b1-a480-35d837d37ad7); // SIMPLE BASE
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_BELLADONNA",CONS_Herbs_Belladonna_Bundle_A_897f5ff9-d889-4b78-a1d7-afa88ccaadb3); // HERBS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_BELLADONNA",CONS_Herbs_Belladonna_Plant_A_1a7d3387-3c57-4ae7-9e7a-eb0eb0199dc3); // HERBS
+// KTP_MUGWORT_BALSAM
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_BALSAM",KTP_MUGWORT_BALSAM_4f5c0da0-babb-467c-9ead-5e6695b30efb);
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_BALSAM",CONS_Herbs_Balsam_Bundle_A_fb318355-d2d9-48c5-8ef1-d0e574cef0d5);
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_BALSAM",CONS_Herbs_Balsam_Plant_A_9a524608-1ad1-4d01-ae99-76fb3c513b3c);
+// KTP_MUGWORT_WISPWEED
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_WISPWEED",KTP_MUGWORT_WISPWEED_97520b6f-11fe-4cc0-aad4-50cdfd5a3e2a); 
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_WISPWEED",CONS_Herbs_Wispweed_Bundle_A_4faa8cef-27ee-4085-aa90-78fcf8e2e72d); // HERBS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_WISPWEED",CONS_Herbs_Wispweed_Plant_A_7b8e0fa5-8f8d-4679-b42a-800f5e703bdb); // HERBS
+// KTP_MUGWORT_AUTUMNCROCUS
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_AUTUMNCROCUS",KTP_MUGWORT_AUTUMNCROCUS_7996b1ee-38d5-42f0-a332-7b89f5e8bf5d);
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_AUTUMNCROCUS",CONS_Herbs_Autumncrocus_Bundle_A_06f3a0c4-af50-4a79-8c1a-1ace6d1282f2); // HERBS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_AUTUMNCROCUS",CONS_Herbs_Autumncrocus_Plant_A_691da3f8-0fca-4aa9-b5cd-89bc96e3cc74); // HERBS
+// KTP_MUGWORT_YELLOWMUSKCREEPERPETALS
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_YELLOWMUSKCREEPERPETALS",KTP_MUGWORT_YELLOWMUSKCREEPERPETALS_0c25f0e5-f8a7-4645-85ef-d3288253e08f);
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_YELLOWMUSKCREEPERPETALS",ALCH_Ingredient_Loot_YellowMuskCreeper_A_87d2b517-1777-4bee-96be-f79ba52edfcc); // HERBS
+// KTP_MUGWORT_MERGRASS
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_MERGRASS",KTP_MUGWORT_MERGRASS_d497d5ea-eaa1-4fc3-96c5-cca66131c883);
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_MERGRASS",CONS_Herbs_Mergrass_Bundle_A_0a494c98-84c0-4055-8208-0e363bd53ed3); // HERBS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_MERGRASS",CONS_Herbs_Mergrass_Plant_A_3e518433-1923-43f5-856f-848028ac3bad); // HERBS
+// KTP_MUGWORT_NIGHTORCHID
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_NIGHTORCHID",KTP_MUGWORT_NIGHTORCHID_0e32d602-8192-4c94-9229-b00924f9e12d);
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_NIGHTORCHID",ALCH_Ingredient_Herb_NightOrchid_11f6de17-4682-419c-808f-8a328d2cce15); // HERBS
+// KTP_MUGWORT_WEAVEMOSS
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_WEAVEMOSS",KTP_MUGWORT_WEAVEMOSS_b33d0ff8-0bcc-494e-9427-0b2e96950542);
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_WEAVEMOSS",CONS_Herbs_Weavemoss_Bundle_A_0a64fa93-9123-4810-a656-2c8b27c87563); // HERBS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_WEAVEMOSS",CONS_Herbs_Weavemoss_Plant_A_35878644-f61a-47c5-9256-d724ac88217c); // HERBS
+// KTP_MUGWORT_BLACKOLEANDER
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_BLACKOLEANDER",KTP_MUGWORT_BLACKOLEANDER_1bd0fd69-b91b-4c13-b595-05c4f3e56010);
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_BLACKOLEANDER",ALCH_Ingredient_Herb_BlackOleander_bc79fef0-6e8d-4703-9ed6-caa9abda3212); // HERBS
+// KTP_MUGWORT_DRIEDFEYFLOWER
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_DRIEDFEYFLOWER",KTP_MUGWORT_DRIEDFEYFLOWER_96ebc9cd-df7b-4ea7-be5d-c4ffddef883f); // EXTRACTS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_DRIEDFEYFLOWER",ALCH_Extract_RegenerationPreventionGrenade_3b31efae-7361-4ccc-a9e3-bf8b82e9f36d); // EXTRACTS
+// KTP_MUGWORT_DAGGERROOT
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_DAGGERROOT",KTP_MUGWORT_DAGGERROOT_10d6edcf-ea10-4195-8589-a12d5dd8006d);
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_DAGGERROOT",CONS_Herbs_Daggeroot_Bundle_A_12126dc3-50ce-48cd-836f-c4d769a85134); // HERBS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_DAGGERROOT",CONS_Herbs_Daggeroot_Plant_A_374c2898-cea4-43c9-9687-6d99a0c92ad7); // HERBS
+// KTP_MUGWORT_CORPSEROSE
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_CORPSEROSE",DEC_GEN_Corpse_Rose_A_61edb466-ed1c-4225-aed6-ebeae9c19247); // HERBS
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_CORPSEROSE",KTP_MUGWORT_CORPSEROSE_23faaf0a-afe8-4bde-a9db-1ee79a7a79bb);
+//
+// MUSHROOM BLENDS
+//
+// KTP_MUGWORT_ACORNTRUFFLE
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_ACORNTRUFFLE",KTP_MUGWORT_ACORNTRUFFLE_c842de2e-bd40-4d91-b64b-69f5a33bae43); // MUSHROOMS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_ACORNTRUFFLE",LOOT_Underdark_Mushroom_Silvantruffle_A_754ace50-43a4-4741-b8c8-53ec09df754f); // MUSHROOMS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_ACORNTRUFFLE",LOOT_Underdark_Mushroom_Silvantruffle_B_1e6070d3-74e5-4c42-933a-2f151e6b5a0f); // MUSHROOMS
+// KTP_MUGWORT_TONGUEOFMADNESS
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_TONGUEOFMADNESS",KTP_MUGWORT_TONGUEOFMADNESS_d848634b-ec4e-4e95-a606-3970d787ba25);
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_TONGUEOFMADNESS",CONS_Mushrooms_TongueOfMadness_714a8375-9eb4-438d-a191-f5b4b1e86cc3); // MUSHROOMS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_TONGUEOFMADNESS",LOOT_Underdark_MushroomPieces_D_9409a9f8-5700-4a06-a8fa-fd3202550310); // MUSHROOMS
+// KTP_MUGWORT_ROGUESMORSEL
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_ROGUESMORSEL",KTP_MUGWORT_ROGUESMORSEL_e88f1449-428d-4b13-af2e-13a39a8e8d37); // MUSHROOMS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_ROGUESMORSEL",LOOT_Underdark_Mushroom_Roguemorsel_A_93705907-9366-478f-8ff7-a23862e1884b); // MUSHROOMS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_ROGUESMORSEL",LOOT_Underdark_Mushroom_Roguemorsel_B_a09f8033-f5d8-44de-97ad-09499d967989); // MUSHROOMS
+// KTP_MUGWORT_SHADOWROOTSAC
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_SHADOWROOTSAC",KTP_MUGWORT_SHADOWROOTSAC_2eba9d9f-fcea-4a61-9375-5806587f193c); // MUSHROOMS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_SHADOWROOTSAC",ALCH_Ingredient_Mushroom_ShadowrootSac_44eaf801-ed52-4322-ae70-31258dd93c82); // MUSHROOMS
+// KTP_MUGWORT_DRAGONEGGMUSHROOM
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_DRAGONEGGMUSHROOM",KTP_MUGWORT_DRAGONEGGMUSHROOM_00781ae2-6c8f-41fe-bb61-14ac7b661c08); // MUSHROOMS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_DRAGONEGGMUSHROOM",LOOT_Mushroom_Dragonegg_A_ca00a2d6-3108-4868-b295-7729e8aafabf); // MUSHROOMS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_DRAGONEGGMUSHROOM",LOOT_Mushroom_Dragonegg_B_19c9becf-ab0e-4e2f-9253-12456ff9b465); // MUSHROOMS
+// KTP_MUGWORT_HASTENINGSPORES
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_HASTENINGSPORES",KTP_MUGWORT_HASTENINGSPORES_254ef733-4e91-452d-b7d4-c400c102a42e); // SPORES
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_HASTENINGSPORES",ALCH_Ingredient_Part_MyconidSpore_Haste_7860b790-b34f-4569-9da7-d8657e60551e); // MUSHROOMS
+// KTP_MUGWORT_POISONSPORE
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_POISONSPORE",KTP_MUGWORT_POISONSPORE_988fcec1-dee5-4679-9357-0c4fd48796d4); // SPORES
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_POISONSPORE",ALCH_Ingredient_Part_MyconidSpore_Poison_e9d39b0d-bcd6-4b5b-9d54-c68b3b650b54); // MUSHROOMS
+// KTP_MUGWORT_TIMMASKSPORES
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_TIMMASKSPORES",KTP_MUGWORT_TIMMASKSPORES_fc7c92b8-981b-43d0-84d0-65dd1e1a172d); // SPORES
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_TIMMASKSPORES",CONS_Mushrooms_SporeTimmask_8e2dd06c-c62f-4235-b0f8-f353c6b1ec9d); // MUSHROOMS
+// KTP_MUGWORT_BONECAP
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_BONECAP",KTP_MUGWORT_BONECAP_ea9381ff-3d2f-43ca-ad07-e4a04815c020); // MUSHROOMS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_BONECAP",LOOT_Mushroom_Bonecap_A_7ea30dc7-4ccd-465a-b91f-9fd2d31c38c0); // MUSHROOMS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_BONECAP",LOOT_Mushroom_Bonecap_B_e9f6d6d3-bd95-414d-903a-b697bb222ae7); // MUSHROOMS
+// KTP_MUGWORT_BULLYWUGTRUMPET
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_BULLYWUGTRUMPET",KTP_MUGWORT_BULLYWUGTRUMPET_94e6e25d-ce24-4825-aa0a-41bdb3a406f1); // MUSHROOMS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_BULLYWUGTRUMPET",LOOT_Mushroom_Bullywugtrumpet_A_aef13d72-15d7-4e1a-a0db-402b77596b14); // MUSHROOMS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_BULLYWUGTRUMPET",LOOT_Mushroom_Bullywugtrumpet_B_4c7df0ef-2262-472f-af6e-9289a78cf371); // MUSHROOMS
+// KTP_MUGWORT_SWARMINGTOADSTOOL
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_SWARMINGTOADSTOOL",KTP_MUGWORT_SWARMINGTOADSTOOL_2546662e-52c3-4093-95bb-59ce5f4eb28a); // MUSHROOMS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_SWARMINGTOADSTOOL",CONS_Mushroom_Swarmingtoadstool_A_0180607d-dbf8-48e6-98d9-89e67aa9f13a); // MUSHROOMS
+//
+// FOOD BLENDS
+//
+// KTP_MUGWORT_ORANGE
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_ORANGE",KTP_MUGWORT_ORANGE_75fb46b1-9b19-411c-bff7-bea5dc409489); // FOOD
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_ORANGE",CONS_FOOD_Fruit_Orange_A_0206650c-76b0-4ca3-9060-8efb5b739ede); // FOOD
+// KTP_MUGWORT_PALEMINT
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_PALEMINT",KTP_MUGWORT_PALEMINT_9a2c03d9-6fe2-411b-a41c-2f858af30dab); // FOOD
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_PALEMINT",CONS_GEN_Food_PaleMint_A_f35fb09a-696a-41f6-ac04-f9447332d56e); // FOOD
+// KTP_MUGWORT_GOODBERRY
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_GOODBERRY",KTP_MUGWORT_GOODBERRY_8d7573b1-b88f-48eb-8e37-36f1e82efac0); // FOOD
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_GOODBERRY",UNI_CONS_Goodberry_de6b186e-839e-41d0-87af-a1a9d9327785); // FOOD
+// KTP_MUGWORT_LEMON
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_LEMON",KTP_MUGWORT_LEMON_575e1184-b29f-46c3-b6dd-805ccd9e1a8f); // FOOD
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_LEMON",CONS_FOOD_Fruit_Lemon_A_6cd7804b-31c3-4eac-b9fd-c8692d609a08); // FOOD
+// KTP_MUGWORT_ONION
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_ONION",KTP_MUGWORT_ONION_e455d996-4f7a-4b58-9b12-378df05b610b); // FOOD
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_ONION",CONS_FOOD_Vegetable_Onion_A_746153c2-5aa1-440d-819d-b93dc31b7e10); // FOOD
+// KTP_MUGWORT_GLOWCAPMUSHROOM
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_GLOWCAPMUSHROOM",KTP_MUGWORT_GLOWCAPMUSHROOM_8c730695-655d-4b01-8e2a-efa1f714aec4); // MUSHROOMS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_GLOWCAPMUSHROOM",CONS_GEN_Food_GlowcapMushroom_A_1463c8da-2f73-4768-b5e3-3b9048901d93); // FOOD
+// KTP_MUGWORT_BLUECAP
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_BLUECAP",KTP_MUGWORT_BLUECAP_dc94ae2f-e5a8-4a33-b2fb-8b28d3474a10); // MUSHROOMS
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_BLUECAP",CONS_FOOD_Mushroom_Bluecap_87e53fac-efc7-4d4a-b28d-675afa7bd564); // FOOD
+// KTP_MUGWORT_BLUSHCAPMUSHROOM
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_BLUSHCAPMUSHROOM",KTP_MUGWORT_BLUSHCAPMUSHROOM_d2bbd693-e0e2-4726-98ad-c3adf82e0065); // FOOD
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_BLUSHCAPMUSHROOM",CONS_Fungi_Mushroom_Agaric_A_f55f45ec-e30b-4745-9f22-431af1b308f6); // FOOD
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_BLUSHCAPMUSHROOM",CONS_Fungi_Mushroom_Agaric_B_2399fb4a-b0fd-41f3-b15b-1d9a8e6f8293); // FOOD
+//KTP_MUGWORT_GARLIC
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_GARLIC",KTP_MUGWORT_GARLIC_910f21e7-0a5e-44ee-9534-254fc5b3ac98); // FOOD
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_GARLIC",CONS_FOOD_GEN_Vegetable_Garlic_A_743428c1-f916-4188-9162-20d38bfc166b); // FOOD
+// KTP_MUGWORT_WHITEMUSHROOM
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_WHITEMUSHROOM",KTP_MUGWORT_WHITEMUSHROOM_11b18118-ae42-47c8-813b-d084c14cb6d0); // FOOD
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_WHITEMUSHROOM",CONS_FOOD_Vegetable_Mushroom_A_cd3920b3-1706-4d34-9982-7dd2ad8e67b6); // FOOD
+//
+// OTHER BLENDS
+//
+// KTP_MUGWORT_WITHEREDSUSSURPETAL
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_WITHEREDSUSSURPETAL",KTP_MUGWORT_WITHEREDSUSSURPETAL_ad2fa307-d204-45c0-9cb0-2259baf822eb); // OTHER
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_WITHEREDSUSSURPETAL",UNI_UND_WitheredSussurPetals_a05c2c63-23b4-4700-8a51-655053d832b5); // OTHER
+// KTP_MUGWORT_WITHEREDBLUEPETAL
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_WITHEREDBLUEPETAL",KTP_MUGWORT_WITHEREDBLUEPETAL_2c819d38-e8de-46cf-8157-b8a144b4ea9e); // OTHER
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_WITHEREDBLUEPETAL",UNI_UND_WitheredBluePetals_f5f07e9e-98e5-407d-827e-47ad1f41aeb5); // OTHER
+// KTP_MUGWORT_SUSSURBLOOM
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_SUSSURBLOOM",KTP_MUGWORT_SUSSURBLOOM_7efe5db5-b426-44ac-b27e-c15af529578a); // OTHER
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_SUSSURBLOOM",UNI_UND_SussurTreeFlower_8706eab3-e05b-478d-833e-308379972dad); // OTHER
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_SUSSURBLOOM",UNI_UND_SussurTreeFlower_B_bf2e05d1-5a39-4d92-afbe-afe63022a6c2); // OTHER
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_SUSSURBLOOM",UNI_UND_SussurTreeFlower_C_44aaa3df-e08c-4554-8d4d-fb11e97622b4); // OTHER
+// KTP_MUGWORT_BULBOUSFUNGUS
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_BULBOUSFUNGUS",KTP_MUGWORT_BULBOUSFUNGUS_b37c10ec-ad8a-4c93-b949-4a877ca47f1d); // OTHER
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_BULBOUSFUNGUS",LOOT_Alchemy_Mushroom_Negative_A_DONOTUSE_dc060d63-a18b-42c9-9e08-fe038268bac7); // OTHER
+// KTP_MUGWORT_NOBLESTALK
+DB_KTP_StatusPouch(180.0,3,"KTP_MUGWORT_NOBLESTALK",KTP_MUGWORT_NOBLESTALK_f78a5442-055a-4e05-8fa6-1f3233ff22b0); // OTHER
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_NOBLESTALK",PUZ_Underdark_Mushroom_Noblestalk_A_48c679c1-b713-4d2f-9bba-1c43ed654404); // OTHER
+// KTP_MUGWORT_KIRINHAIR
+DB_KTP_StatusPouch(6.0,3,"KTP_MUGWORT_KIRINHAIR",KTP_MUGWORT_KIRINHAIR_e457ad63-98af-4a98-b258-4469bfbe01ba); // OTHER // KTP_UNKNOWN_TOBACCO_POISONED
+DB_KTP_Ingredients("KTP_Mugwort","KTP_MUGWORT_KIRINHAIR",ALCH_Ingredient_Loot_KiRinHair_d8ecc728-bfd9-401d-9dcd-ac87ea3b7e0e); // OTHER
+
+// Bad statuses
+DB_KTP_StatusBad("KTP_MUGWORT_KIRINHAIR");
+
+// Pouch for unknown blend
+DB_KTP_UnknownBlendPouchTemplate(KTP_CONT_TobaccoPouch_Unknown_52fe3672-cbdc-4bb4-bab7-4a2c863d51e4);
+KBSECTION
+// -----------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------
+// COMBINE_TOBACCO
+// -----------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------
+//REGION COMBINE_TOBACCO
+//
+// CLEANING OLD VARIABLES
+IF
+RequestCanCombine(_Player,_Mortar,_Pouch,_,_,_,_RequestID)
+AND
+GetStatString(_Mortar,_MortarStats)
+AND
+_MortarStats == "OBJ_KitchenInstrument_Mortar_A_Stone"
+THEN
+PROC_KTP_ClearOldVariables();
+//
+// START REQUEST AND ITERATING
+// We check and remember the tool and start searching for ingredients
+IF
+RequestCanCombine(_Player,_Mortar,_Pouch,_,_,_,_RequestID)
+AND
+GetStatString(_Mortar,_MortarStats)
+AND
+_MortarStats == "OBJ_KitchenInstrument_Mortar_A_Stone"
+AND
+GetStatString(_Pouch,_PouchStat)
+AND
+_PouchStat == "OBJ_Pouch_Leather_A"
+THEN
+DB_KTP_CurrentMortar(_Player,_Mortar,_Pouch);
+IterateInventory(_Pouch,"EVENT_KTP_CollectIngredients","EVENT_KTP_CollectIngredients_Finish");
+//
+// ADD MAIN INGREDIENT TO DB_KTP_AVAILABLEINGREDIENTS
+IF
+EntityEvent((ITEM)_Item,"EVENT_KTP_CollectIngredients")
+AND
+GetTemplate(_Item,_ItemTemplate)
+AND
+DB_KTP_MainIngredient(_Affinity,_ItemTemplate)
+AND
+GetStackAmount(_Item,_Amount,_)
+AND
+QRY_KTP_IngredientsAdd(_Affinity,(ITEMROOT)_ItemTemplate,_Amount)
+THEN
+DB_NOOP(1);
+//
+// ADD SECOND INGREDIENTS TO DB_KTP_AVAILABLEINGREDIENTS
+IF
+EntityEvent((ITEM)_Item,"EVENT_KTP_CollectIngredients")
+AND
+GetTemplate(_Item,_ItemTemplate)
+AND
+DB_KTP_Ingredients(_Affinity,_,_ItemTemplate)
+AND
+GetStackAmount(_Item,_Amount,_)
+AND
+QRY_KTP_IngredientsAdd(_Affinity,(ITEMROOT)_ItemTemplate,_Amount)
+THEN
+DB_NOOP(1);
+//
+// FINISH ITERATE POUCH
+// If there are enough ingredients, then we put a mark about it.
+IF
+EntityEvent(_,"EVENT_KTP_CollectIngredients_Finish")
+AND
+DB_KTP_CurrentMortar(_Player,_,_)
+AND
+DB_KTP_AvailableIngredients(_,_,_MainTemplate,_)
+AND
+DB_KTP_MainIngredient(_,_MainTemplate)
+AND
+DB_KTP_AvailableIngredients(_,_,_SecondTemplate,_)
+AND
+_SecondTemplate != _MainTemplate
+THEN
+SetDualEntityEvent(_Player,_Player,"// FINISH ITERATE POUCH");
+DB_Singleton("DB_KTP_EnoughIngredientsObtained",1);
+//
+// START COMBINED
+// Not enough ingredients
+IF
+Combined(_Mortar,_Pouch,_,_,_,_Player,_PouchTobacco)
+AND
+DB_KTP_CurrentMortar(_Player,_,_)
+AND
+GetStatString(_Mortar,_MortarStats)
+AND
+_MortarStats == "OBJ_KitchenInstrument_Mortar_A_Stone"
+AND
+NOT DB_Singleton("DB_KTP_EnoughIngredientsObtained",1)
+THEN
+SetDualEntityEvent(_Player,_Player,"// START COMBINED - Not enough ingredients");
+ObjectTimerLaunch(_PouchTobacco,"TIMER_KTP_DeleteFakePouchTobacco",30);
+//
+// Enough ingredients
+IF
+Combined(_Mortar,_Pouch,_,_,_,_Player,_PouchTobacco)
+AND
+GetStatString(_Mortar,_MortarStats)
+AND
+_MortarStats == "OBJ_KitchenInstrument_Mortar_A_Stone"
+AND
+DB_Singleton("DB_KTP_EnoughIngredientsObtained",1)
+THEN
+SetDualEntityEvent(_Player,_Player,"// START COMBINED - Enough ingredients");
+ObjectTimerLaunch(_PouchTobacco,"TIMER_KTP_DeleteFakePouchTobacco",30); // We launch a timer to remove the fake pouch
+PROC_KTP_ProcessMainIngredients(); // We go through the main ingredients and process them
+PROC_KTP_RemoveSpentedIngredients(); // Removing spent ingredients
+PROC_KTP_ClearOldVariables();
+//
+// START PROCESS MAIN INGREDIENTS
+// We take the index of the main ingredient found and the quantity
+PROC
+PROC_KTP_ProcessMainIngredients()
+//AND
+//DB_KTP_CurrentMortar(_Player,_,_)
+AND
+DB_KTP_MainIngredient(_MainAffinity,_MainTemplate)
+AND
+DB_KTP_AvailableIngredients(_MainIndex,_,(ITEMROOT)_MainTemplate,_MainAmount)
+THEN
+//SetDualEntityEvent(_Player,_Player,"// START PROCESS MAIN INGREDIENT");
+PROC_KTP_ProcessMainIngredient(_MainIndex,_MainAmount,_MainAffinity); // We send the main ingredient for processing
+//
+// CYCLE BY STACK
+// In a loop we go through the stack of the main ingredient
+PROC
+PROC_KTP_ProcessMainIngredient((INTEGER)_MainIndex,(INTEGER)_MainStack,(STRING)_MainAffinity)
+//AND
+//DB_KTP_CurrentMortar(_,_,_Pouch)
+AND
+IntegerSubtract(_MainStack,1,_NewMainStack)
+AND
+_NewMainStack >= 0
+//AND 
+//ConcatenateInteger("// PROCESS MAIN INGREDIENT index: ",_MainIndex,_StringDebug)
+THEN
+//SetDualEntityEvent(_Pouch,_Pouch,_StringDebug);
+NOT DB_OnlyOnce("DB_KTP_PouchCreated"); // The pouches are created one at a time.
+PROC_KTP_TryCreatePouch(_MainIndex,_MainAffinity); // Let's try to create a tobacco pouch
+PROC_KTP_ProcessMainIngredient(_MainIndex,_NewMainStack,_MainAffinity); // Decrease the stack and repeat the cycle
+//
+// TRY CREATE POUCH
+PROC
+PROC_KTP_TryCreatePouch((INTEGER)_MainIndex,(STRING)_MainAffinity)
+//AND
+//DB_KTP_CurrentMortar(_Player,_,_)
+AND
+DB_KTP_AvailableIngredients(_SecondIndex,_SecondAffinity,(ITEMROOT)_SecondTemplate,_SecondAmount) // We find the first second ingredient that comes our way
+AND
+_MainIndex != _SecondIndex
+AND
+_SecondAffinity == _MainAffinity
+AND
+_SecondAmount > 0
+AND
+DB_KTP_Ingredients(_SecondAffinity,_PouchStatusPattern,_SecondTemplate)
+AND
+DB_KTP_StatusPouch(_,_,_PouchStatusPattern,_PouchTemplate) // Using the status parrent, we find the result template
+AND
+NOT DB_OnlyOnce("DB_KTP_PouchCreated") // The pouches are created one at a time.
+THEN
+//SetDualEntityEvent(_Player,_Player,"// TRY CREATE POUCH");
+DB_OnlyOnce("DB_KTP_PouchCreated");
+PROC_KTP_CreatePouch(_PouchStatusPattern,(ITEMROOT)_PouchTemplate,_MainIndex,_SecondIndex); // Create pouch
+//
+// CREATE POUCH
+//
+// Known Blend
+PROC
+PROC_KTP_CreatePouch((STRING)_PouchStatusPattern,(ITEMROOT)_PouchTemplate,(INTEGER)_MainIndex,(INTEGER)_SecondIndex)
+AND
+DB_KTP_CurrentMortar(_Player,_,_)
+AND
+DB_KTP_Known_Blend(_,_PouchTemplate) // known blend
+AND
+QRY_KTP_SpentIngredient(_MainIndex,1) // Add the used ingredients to the base
+AND
+QRY_KTP_SpentIngredient(_SecondIndex,1)
+THEN
+SetDualEntityEvent(_Player,_Player,"// Known Blend");
+TemplateAddTo((ITEMROOT)_PouchTemplate,_Player,1,1);
+//
+// Unknown Blend
+PROC
+PROC_KTP_CreatePouch((STRING)_PouchStatusPattern,(ITEMROOT)_PouchTemplate,(INTEGER)_MainIndex,(INTEGER)_SecondIndex)
+AND
+DB_KTP_CurrentMortar(_Player,_,_)
+AND
+NOT DB_KTP_Known_Blend(_,_PouchTemplate) // unknown blend
+AND
+DB_KTP_UnknownBlendPouchTemplate(_UnknownBlendPouchTemplate)
+AND
+QRY_KTP_SpentIngredient(_MainIndex,1) // Add the used ingredients to the base
+AND
+QRY_KTP_SpentIngredient(_SecondIndex,1)
+AND
+CreateAtObject(_UnknownBlendPouchTemplate, _Player, 0, 0, "", 1, _Result)
+THEN
+SetDualEntityEvent(_Player,_Player,"// Unknown Blend");
+ToInventory((ITEM)_Result,_Player,1,1,1);
+DB_KTP_UnknownBlendPouch(_Result,_PouchTemplate,_PouchStatusPattern);
+//
+// REMOVE SPENTED INGREDIENTS
+PROC
+PROC_KTP_RemoveSpentedIngredients()
+AND
+DB_KTP_SpentedIngredients(_Pouch,_ItemTemplate,_SpentedAmount)
+AND 
+_SpentedAmount > 0
+AND
+TemplateIsInInventory(_ItemTemplate,_Pouch,_ItemTemplateCount)
+AND
+_ItemTemplateCount >= _SpentedAmount
+THEN
+SetDualEntityEvent(_Pouch,_Pouch,"// REMOVE SPENTED INGREDIENTS");
+TemplateRemoveFrom(_ItemTemplate,_Pouch,_SpentedAmount);
+NOT DB_KTP_SpentedIngredients(_Pouch,_ItemTemplate,_SpentedAmount);
+//
+// REMOVE FAKE POUCH
+IF
+ObjectTimerFinished(_PouchTobacco,"TIMER_KTP_DeleteFakePouchTobacco")
+THEN
+RequestDelete((ITEM)_PouchTobacco);
+//
+// -----------------------------------------------------------------------------------------
+// ADD INGREDIENT
+// -----------------------------------------------------------------------------------------
+//
+// If exist
+QRY
+QRY_KTP_IngredientsAdd((STRING)_Affinity,(ITEMROOT)_ItemTemplate,(INTEGER)_Amount)
+AND
+DB_KTP_CurrentMortar(_,_,_Pouch)
+AND
+DB_KTP_AvailableIngredients(_Index,_Affinity,_ItemTemplate,_CollectedAmount)
+AND
+IntegerSum(_CollectedAmount,_Amount,_NewAmount)
+THEN
+SetDualEntityEvent(_Pouch,_Pouch,"// ADD INGREDIENT - EXIST");
+DB_KTP_AvailableIngredients(_Index,_Affinity,_ItemTemplate,_NewAmount);
+// 
+// If new
+QRY
+QRY_KTP_IngredientsAdd((STRING)_Affinity,(ITEMROOT)_ItemTemplate,(INTEGER)_Amount)
+AND
+DB_KTP_CurrentMortar(_,_,_Pouch)
+AND
+NOT DB_KTP_AvailableIngredients(_,_Affinity,_ItemTemplate,_)
+AND
+Random(100000,_RandomIndex) // random index
+THEN
+SetDualEntityEvent(_Pouch,_Pouch,"// ADD INGREDIENT - NEW");
+DB_KTP_AvailableIngredients(_RandomIndex,_Affinity,_ItemTemplate,_Amount);
+//
+// -----------------------------------------------------------------------------------------
+// SPENT INGREDIENTS
+// -----------------------------------------------------------------------------------------
+//
+// SPENT INGREDIENT - CHECK DATABASE OF AVAILABLE
+// We check the database of available ingredients and delete from there
+//
+// IF _NewAmount <= 0 THEN just delete from the database of available ingredients
+QRY
+QRY_KTP_SpentIngredient((INTEGER)_Index,(INTEGER)_Amount)
+//AND
+//DB_KTP_CurrentMortar(_Player,_,_)
+AND
+DB_KTP_AvailableIngredients(_Index,_Affinity,_ItemTemplate,_CollectedAmount)
+AND
+IntegerSubtract(_CollectedAmount,_Amount,_NewAmount)
+AND
+_NewAmount <= 0
+AND
+QRY_KTP_AddToSpentedIngredients(_ItemTemplate,_Amount)  // add the ingredient to the spent database
+THEN
+//SetDualEntityEvent(_Player,_Player,"// SPENT INGREDIENT - _NewAmount <= 0");
+NOT DB_KTP_AvailableIngredients(_Index,_Affinity,_ItemTemplate,_CollectedAmount);
+//
+// IF _NewAmount > 0 THEN update the amount in the database of available ingredients
+QRY
+QRY_KTP_SpentIngredient((INTEGER)_Index,(INTEGER)_Amount)
+//AND
+//DB_KTP_CurrentMortar(_Player,_,_)
+AND
+DB_KTP_AvailableIngredients(_Index,_Affinity,_ItemTemplate,_CollectedAmount)
+AND
+IntegerSubtract(_CollectedAmount,_Amount,_NewAmount)
+AND
+_NewAmount > 0
+AND
+QRY_KTP_AddToSpentedIngredients(_ItemTemplate,_Amount) // add the ingredient to the spent database
+THEN
+//SetDualEntityEvent(_Player,_Player,"// SPENT INGREDIENT - _NewAmount > 0");
+NOT DB_KTP_AvailableIngredients(_Index,_Affinity,_ItemTemplate,_CollectedAmount);
+DB_KTP_AvailableIngredients(_Index,_Affinity,_ItemTemplate,_NewAmount);
+//
+// SPENT INGREDIENT - ADD TO DATABASE OF SPENT for remove ingredients from inventory at the end of a process
+// If ingredient exist
+QRY
+QRY_KTP_AddToSpentedIngredients((ITEMROOT)_ItemTemplate,(INTEGER)_Amount)
+AND
+DB_KTP_CurrentMortar(_,_,_Pouch)
+AND
+DB_KTP_SpentedIngredients(_Pouch,_ItemTemplate,_SpentedAmount)
+AND
+IntegerSum(_SpentedAmount,_Amount,_NewAmount)
+AND
+ConcatenateGUID("ADD INGREDIENT TO SPENTED - ",_ItemTemplate,_StringDebug)
+THEN
+SetDualEntityEvent(_Pouch,_Pouch,_StringDebug);
+DB_KTP_SpentedIngredients(_Pouch,_ItemTemplate,_NewAmount);
+// 
+// If ingredient new
+QRY
+QRY_KTP_AddToSpentedIngredients((ITEMROOT)_ItemTemplate,(INTEGER)_Amount)
+AND
+DB_KTP_CurrentMortar(_,_,_Pouch)
+AND
+NOT DB_KTP_SpentedIngredients(_Pouch,_ItemTemplate,_)
+AND
+ConcatenateGUID("ADD INGREDIENT TO SPENTED - ",_ItemTemplate,_StringDebug)
+THEN
+SetDualEntityEvent(_Pouch,_Pouch,_StringDebug);
+DB_KTP_SpentedIngredients(_Pouch,_ItemTemplate,_Amount);
+//
+// -----------------------------------------------------------------------------------------
+// SINGLETONS
+// -----------------------------------------------------------------------------------------
+//
+// SINGLETON FOR SPENTED INGREDIENT
+IF
+DB_KTP_SpentedIngredients(_NewPouch,_NewTemplate,_NewAmount)
+AND
+DB_KTP_SpentedIngredients(_OldPouch,_OldTemplate,_OldAmount)
+AND
+_NewPouch == _OldPouch
+AND
+_NewTemplate == _OldTemplate
+AND
+_NewAmount != _OldAmount
+THEN
+NOT DB_KTP_SpentedIngredients(_OldPouch,_OldTemplate,_OldAmount);
+//
+// SINGLETON FOR AVAILABLE INGREDIENTS
+IF 
+DB_KTP_AvailableIngredients(_NewIndex,_NewAffinity,_NewItemTemplate,_NewAmount)
+//AND
+//DB_KTP_CurrentMortar(_Player,_,_)
+AND
+DB_KTP_AvailableIngredients(_OldIndex,_OldAffinity,_OldItemTemplate,_OldAmount)
+AND
+_NewIndex == _OldIndex
+AND
+_NewAffinity == _OldAffinity
+AND
+_NewItemTemplate == _OldItemTemplate
+AND
+_NewAmount != _OldAmount
+THEN
+//SetDualEntityEvent(_Player,_Player,"// SINGLETON FOR INGREDIENT BY AMOUNT");
+NOT DB_KTP_AvailableIngredients(_OldIndex,_OldAffinity,_OldItemTemplate,_OldAmount);
+//
+// -----------------------------------------------------------------------------------------
+// CLEAR OLD VARIABLES
+// -----------------------------------------------------------------------------------------
+//
+PROC
+PROC_KTP_ClearOldVariables()
+THEN
+SysClear("DB_KTP_CurrentMortar",3);
+SysClear("DB_KTP_AvailableIngredients",4);
+SysClear("DB_KTP_SpentedIngredients",3);
+DB_Singleton("DB_KTP_EnoughIngredientsObtained",0);
+
+//END_REGION
+//
+//
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "GLO_KelaTobaccoProject"

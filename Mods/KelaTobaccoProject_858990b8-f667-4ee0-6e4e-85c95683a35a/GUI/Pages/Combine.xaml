@@ -47,7 +47,7 @@
                         <Border BorderThickness="2" x:Name="SlotBorder" BorderBrush="{StaticResource LS_accent100TxtColor}" Width="{StaticResource ContInvSlotSize}" Height="{StaticResource ContInvSlotSize}" Visibility="{Binding IsMouseOver, ElementName=Container, Converter={StaticResource BoolToVisibleConverter}}"/>
                         <b:Interaction.Behaviors>
                             <ls:DragGenericBehavior x:Name="DragBehavior" StartDragCommand="{Binding DataContext.StartDragCommand, RelativeSource={RelativeSource AncestorType={x:Type ls:UIWidget}}}" AllowDrag="{Binding DataContext, ElementName=Slot, Converter={StaticResource NullToBoolFalseConverter}}"/>
-                            <ls:DropOnGenericBehavior DropCommand="{Binding DataContext.DropSlotCommand, RelativeSource={RelativeSource AncestorType={x:Type ls:UIWidget}}}"/>
+                            <ls:DropOnGenericBehavior DropCommand="{Binding DataContext.DropSlotCommand, RelativeSource={RelativeSource AncestorType={x:Type ls:UIWidget}}}" DropCommandParameter="{Binding Tag, ElementName=Presenter}"/>
                         </b:Interaction.Behaviors>
                     </Grid>
                     <b:Interaction.Triggers>
@@ -91,31 +91,137 @@
                 <DataTrigger Binding="{Binding DataContext.CurrentState, RelativeSource={RelativeSource AncestorType={x:Type ls:UIWidget}}}" Value="Working">
                     <Setter TargetName="Presenter" Property="IsEnabled" Value="False"/>
                 </DataTrigger>
-                <DataTrigger Binding="{Binding DataContext.CurrentState, RelativeSource={RelativeSource AncestorType={x:Type ls:UIWidget}}}" Value="Success">
-                    <!-- KELA -->
-                    <Setter TargetName="Arrow" Property="Source" Value="{DynamicResource ArrowActive}"/>
-                    <Setter TargetName="Container" Property="IsEnabled" Value="True"/>
-                    <Setter TargetName="Presenter" Property="IsEnabled" Value="True"/>
-                    <Setter TargetName="Presenter" Property="Opacity" Value="1.75"/>
-                    <Setter TargetName="Light" Property="Source" Value="pack://application:,,,/Core;component/Assets/Combine/combineOrigin_active.png"/>
-                    <!-- KELA -->
-                    <!-- <Setter TargetName="Arrow" Property="Source" Value="{DynamicResource ArrowActive}"/> -->
-                    <!-- <Setter TargetName="Container" Property="IsEnabled" Value="False"/>
+
+                <!-- KELA -->
+                <MultiDataTrigger>
+                    <MultiDataTrigger.Conditions>
+                        <Condition Binding="{Binding DataContext.CurrentState, RelativeSource={RelativeSource AncestorType={x:Type ls:UIWidget}}}" Value="Success"/>
+                        <Condition Binding="{Binding Ingredients.Count}" Value="1"/>
+                        <Condition Binding="{Binding Ingredients[0].IsContainer}" Value="True"/>
+                    </MultiDataTrigger.Conditions>
+                    <MultiDataTrigger.Setters>
+                        <Setter TargetName="Container" Property="IsEnabled" Value="True"/>
+                        <Setter TargetName="Presenter" Property="IsEnabled" Value="True"/>
+                        <Setter TargetName="Presenter" Property="Opacity" Value="1.75"/>
+                        <Setter TargetName="Light" Property="Source" Value="pack://application:,,,/Core;component/Assets/Combine/combineOrigin_active.png"/>
+                        <Setter TargetName="Arrow" Property="Source" Value="{DynamicResource ArrowActive}"/>
+                    </MultiDataTrigger.Setters>
+                </MultiDataTrigger>
+                <MultiDataTrigger>
+                    <MultiDataTrigger.Conditions>
+                        <Condition Binding="{Binding DataContext.CurrentState, RelativeSource={RelativeSource AncestorType={x:Type ls:UIWidget}}}" Value="Success"/>
+                        <Condition Binding="{Binding Ingredients.Count}" Value="2"/>
+                        <Condition Binding="{Binding Ingredients[0].IsContainer}" Value="True"/>
+                        <Condition Binding="{Binding Ingredients[1].IsContainer}" Value="True"/>
+                    </MultiDataTrigger.Conditions>
+                    <MultiDataTrigger.Setters>
+                        <Setter TargetName="Container" Property="IsEnabled" Value="True"/>
+                        <Setter TargetName="Presenter" Property="IsEnabled" Value="True"/>
+                        <Setter TargetName="Presenter" Property="Opacity" Value="1.75"/>
+                        <Setter TargetName="Light" Property="Source" Value="pack://application:,,,/Core;component/Assets/Combine/combineOrigin_active.png"/>
+                        <Setter TargetName="Arrow" Property="Source" Value="{DynamicResource ArrowActive}"/>
+                    </MultiDataTrigger.Setters>
+                </MultiDataTrigger>
+                <MultiDataTrigger>
+                    <MultiDataTrigger.Conditions>
+                        <Condition Binding="{Binding DataContext.CurrentState, RelativeSource={RelativeSource AncestorType={x:Type ls:UIWidget}}}" Value="Success"/>
+                        <Condition Binding="{Binding Ingredients.Count}" Value="3"/>
+                        <Condition Binding="{Binding Ingredients[0].IsContainer}" Value="True"/>
+                        <Condition Binding="{Binding Ingredients[1].IsContainer}" Value="True"/>
+                        <Condition Binding="{Binding Ingredients[2].IsContainer}" Value="True"/>
+                    </MultiDataTrigger.Conditions>
+                    <MultiDataTrigger.Setters>
+                        <Setter TargetName="Container" Property="IsEnabled" Value="True"/>
+                        <Setter TargetName="Presenter" Property="IsEnabled" Value="True"/>
+                        <Setter TargetName="Presenter" Property="Opacity" Value="1.75"/>
+                        <Setter TargetName="Light" Property="Source" Value="pack://application:,,,/Core;component/Assets/Combine/combineOrigin_active.png"/>
+                        <Setter TargetName="Arrow" Property="Source" Value="{DynamicResource ArrowActive}"/>
+                    </MultiDataTrigger.Setters>
+                </MultiDataTrigger>
+                <MultiDataTrigger>
+                    <MultiDataTrigger.Conditions>
+                        <Condition Binding="{Binding DataContext.CurrentState, RelativeSource={RelativeSource AncestorType={x:Type ls:UIWidget}}}" Value="Success"/>
+                        <Condition Binding="{Binding Ingredients.Count}" Value="4"/>
+                        <Condition Binding="{Binding Ingredients[0].IsContainer}" Value="True"/>
+                        <Condition Binding="{Binding Ingredients[1].IsContainer}" Value="True"/>
+                        <Condition Binding="{Binding Ingredients[2].IsContainer}" Value="True"/>
+                        <Condition Binding="{Binding Ingredients[3].IsContainer}" Value="True"/>
+                    </MultiDataTrigger.Conditions>
+                    <MultiDataTrigger.Setters>
+                        <Setter TargetName="Container" Property="IsEnabled" Value="True"/>
+                        <Setter TargetName="Presenter" Property="IsEnabled" Value="True"/>
+                        <Setter TargetName="Presenter" Property="Opacity" Value="1.75"/>
+                        <Setter TargetName="Light" Property="Source" Value="pack://application:,,,/Core;component/Assets/Combine/combineOrigin_active.png"/>
+                        <Setter TargetName="Arrow" Property="Source" Value="{DynamicResource ArrowActive}"/>
+                    </MultiDataTrigger.Setters>
+                </MultiDataTrigger>
+                <!-- KELA -->
+
+                <!-- ORIGINAL -->
+                <!-- <DataTrigger Binding="{Binding DataContext.CurrentState, RelativeSource={RelativeSource AncestorType={x:Type ls:UIWidget}}}" Value="Success">
+                    <Setter TargetName="Container" Property="IsEnabled" Value="False"/>
                     <Setter TargetName="Presenter" Property="IsEnabled" Value="False"/>
                     <Setter TargetName="Presenter" Property="Opacity" Value="0.75"/>
                     <Setter TargetName="Light" Property="Source" Value="pack://application:,,,/Core;component/Assets/Combine/combineOrigin_inactive.png"/>
-                    <Setter TargetName="Arrow" Property="Source" Value="{DynamicResource ArrowInactive}"/> -->
-                </DataTrigger>
+                    <Setter TargetName="Arrow" Property="Source" Value="{DynamicResource ArrowInactive}"/>
+                </DataTrigger> -->
+                <!-- ORIGINAL -->
+
+                <!-- KELA -->
                 <MultiDataTrigger>
                     <MultiDataTrigger.Conditions>
                         <Condition Binding="{Binding Path=Tag, ElementName=Container, Converter={StaticResource NullToBoolTrueConverter}}" Value="False"/>
                         <Condition Binding="{Binding DataContext.CurrentState, RelativeSource={RelativeSource AncestorType={x:Type ls:UIWidget}}}" Value="Success"/>
+                        <Condition Binding="{Binding Ingredients.Count}" Value="1"/>
+                        <Condition Binding="{Binding Ingredients[0].IsContainer}" Value="True"/>
                     </MultiDataTrigger.Conditions>
-                    <!-- KELA -->
                     <Setter TargetName="Light" Property="Source" Value="pack://application:,,,/Core;component/Assets/Combine/combineAddition_active.png"/>
-                    <!-- KELA -->
-                    <!-- <Setter TargetName="Light" Property="Source" Value="pack://application:,,,/Core;component/Assets/Combine/combineAddition_inactive.png"/> -->
                 </MultiDataTrigger>
+                <MultiDataTrigger>
+                    <MultiDataTrigger.Conditions>
+                        <Condition Binding="{Binding Path=Tag, ElementName=Container, Converter={StaticResource NullToBoolTrueConverter}}" Value="False"/>
+                        <Condition Binding="{Binding DataContext.CurrentState, RelativeSource={RelativeSource AncestorType={x:Type ls:UIWidget}}}" Value="Success"/>
+                        <Condition Binding="{Binding Ingredients.Count}" Value="2"/>
+                        <Condition Binding="{Binding Ingredients[0].IsContainer}" Value="True"/>
+                        <Condition Binding="{Binding Ingredients[1].IsContainer}" Value="True"/>
+                    </MultiDataTrigger.Conditions>
+                    <Setter TargetName="Light" Property="Source" Value="pack://application:,,,/Core;component/Assets/Combine/combineAddition_active.png"/>
+                </MultiDataTrigger>
+                <MultiDataTrigger>
+                    <MultiDataTrigger.Conditions>
+                        <Condition Binding="{Binding Path=Tag, ElementName=Container, Converter={StaticResource NullToBoolTrueConverter}}" Value="False"/>
+                        <Condition Binding="{Binding DataContext.CurrentState, RelativeSource={RelativeSource AncestorType={x:Type ls:UIWidget}}}" Value="Success"/>
+                        <Condition Binding="{Binding Ingredients.Count}" Value="3"/>
+                        <Condition Binding="{Binding Ingredients[0].IsContainer}" Value="True"/>
+                        <Condition Binding="{Binding Ingredients[1].IsContainer}" Value="True"/>
+                        <Condition Binding="{Binding Ingredients[2].IsContainer}" Value="True"/>
+                    </MultiDataTrigger.Conditions>
+                    <Setter TargetName="Light" Property="Source" Value="pack://application:,,,/Core;component/Assets/Combine/combineAddition_active.png"/>
+                </MultiDataTrigger>
+                <MultiDataTrigger>
+                    <MultiDataTrigger.Conditions>
+                        <Condition Binding="{Binding Path=Tag, ElementName=Container, Converter={StaticResource NullToBoolTrueConverter}}" Value="False"/>
+                        <Condition Binding="{Binding DataContext.CurrentState, RelativeSource={RelativeSource AncestorType={x:Type ls:UIWidget}}}" Value="Success"/>
+                        <Condition Binding="{Binding Ingredients.Count}" Value="4"/>
+                        <Condition Binding="{Binding Ingredients[0].IsContainer}" Value="True"/>
+                        <Condition Binding="{Binding Ingredients[1].IsContainer}" Value="True"/>
+                        <Condition Binding="{Binding Ingredients[2].IsContainer}" Value="True"/>
+                        <Condition Binding="{Binding Ingredients[3].IsContainer}" Value="True"/>
+                    </MultiDataTrigger.Conditions>
+                    <Setter TargetName="Light" Property="Source" Value="pack://application:,,,/Core;component/Assets/Combine/combineAddition_active.png"/>
+                </MultiDataTrigger>
+                <!-- KELA -->
+
+                <!-- ORIGINAL -->
+                <!-- <MultiDataTrigger>
+                    <MultiDataTrigger.Conditions>
+                        <Condition Binding="{Binding Path=Tag, ElementName=Container, Converter={StaticResource NullToBoolTrueConverter}}" Value="False"/>
+                        <Condition Binding="{Binding DataContext.CurrentState, RelativeSource={RelativeSource AncestorType={x:Type ls:UIWidget}}}" Value="Success"/>
+                    </MultiDataTrigger.Conditions>
+                    <Setter TargetName="Light" Property="Source" Value="pack://application:,,,/Core;component/Assets/Combine/combineAddition_inactive.png"/>
+                </MultiDataTrigger> -->
+                <!-- ORIGINAL -->
+
                 <MultiDataTrigger>
                     <MultiDataTrigger.Conditions>
                         <Condition Binding="{Binding Path=Tag, ElementName=Container, Converter={StaticResource NullToBoolTrueConverter}}" Value="False"/>
@@ -424,7 +530,7 @@
 
                             <!-- Bottom combine button -->
                             <!-- CommandParameter is the action duration -->
-                            <ls:LSButton x:Name="CombineButton" Style="{StaticResource BrownButtonStyle}" VerticalAlignment="Bottom" HorizontalAlignment="Center" Content="{Binding Source='h040b1f64g325eg4b46gb957gc2347cf3fb0d', Converter={StaticResource TranslatedStringConverter}}" Command="{Binding StartActionCommand}" CommandParameter="0.6" BoundEvent="UICombine" SoundID="UI_HUD_Combine" Margin="0,0,0,112" IsEnabled="False">
+                            <ls:LSButton x:Name="CombineButton" Style="{StaticResource BrownButtonStyle}" VerticalAlignment="Bottom" HorizontalAlignment="Center" Content="{Binding Source='h040b1f64g325eg4b46gb957gc2347cf3fb0d', Converter={StaticResource TranslatedStringConverter}}" Command="{Binding StartActionCommand}" CommandParameter="0.6" SoundID="UI_HUD_Combine" Margin="0,0,0,112" IsEnabled="False">
                             </ls:LSButton>
                         </Grid>
                     </ls:LSNineSliceImage>
