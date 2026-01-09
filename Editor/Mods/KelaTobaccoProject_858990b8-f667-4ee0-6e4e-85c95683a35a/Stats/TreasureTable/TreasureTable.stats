@@ -37,7 +37,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_CONS_Herbs_Mugwort" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="2" />
-        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="25,1" />
       </fields>
     </stat_object>
     <stat_object is_substat="true">
@@ -46,6 +46,16 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fb4e44ad-b962-4c8d-80af-cd1aa874a018" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_0" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_CONS_Herbs_Belladonna" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ed70ba2a-a8e6-4650-9f13-2c2d29ed68b5" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_15" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_ALCH_Ingredient_Herb_BlackOleander" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
         <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
       </fields>

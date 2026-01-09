@@ -62,7 +62,7 @@ TemplateIsInInventory((ITEMROOT)_EmptyPouchTemplate,_Player,_Count)
 AND
 _Count > 0
 THEN
-ObjectTimerLaunch(_EmptyPouch,"TIMER_KTP_DeleteFakePouchTobacco",5);
+ObjectTimerLaunch(_EmptyPouch,"TIMER_KTP_DeleteFakePouchTobacco",30);
 //
 // After a long rest, we remove all tobacco statuses
 PROC
@@ -110,10 +110,10 @@ AND
 QRY_KTP_CheckHalsinPipe(_Player,_SmokingPipe,_Status)
 AND
 QRY_KTP_CheckForOverdose(_Player)
-AND
-Concatenate("USE PIPE KNOWN BLEND - ",_Status,_StringDebug)
+//AND
+//Concatenate("USE PIPE KNOWN BLEND - ",_Status,_StringDebug)
 THEN
-SetDualEntityEvent(_SmokingPipe,_SmokingPipe,_StringDebug);
+//SetDualEntityEvent(_SmokingPipe,_SmokingPipe,_StringDebug);
 PlayEffect(_Player,(EFFECTRESOURCE)VFX_Status_Tharchiate_False_Life_Apply_01_e34f6123-0933-e70d-339e-d5a8c3490cb0,"Chest_M",1.0);
 PlaySound(_Player, "GOB_GoblinKing_Scrying_SmokeStart");
 ApplyStatus(_Player,_Status,_StatusTurns,1);
@@ -138,7 +138,7 @@ QRY_KTP_CheckHalsinPipe(_Player,_SmokingPipe,_Status)
 AND
 QRY_KTP_CheckForOverdose(_Player)
 THEN
-SetDualEntityEvent(_SmokingPipe,_SmokingPipe,"USE PIPE UNKNOWN BLEND");
+//SetDualEntityEvent(_SmokingPipe,_SmokingPipe,"USE PIPE UNKNOWN BLEND");
 PlayEffect(_Player,(EFFECTRESOURCE)VFX_Status_Tharchiate_False_Life_Apply_01_e34f6123-0933-e70d-339e-d5a8c3490cb0,"Chest_M",1.0);
 PlaySound(_Player, "GOB_GoblinKing_Scrying_SmokeStart");
 ApplyStatus(_Player,_Status,_StatusTurns,1);
@@ -261,8 +261,8 @@ DB_KTP_HalsinsPipe(_SmokingPipe)
 AND
 NOT DB_KTP_StatusBad(_Status)
 AND
-IsTagged(_Player,(TAG)REALLY_SHADOWHEART_642d2aee-e3df-47e3-9f47-bbcd441bb9e0,1)
-//IsTagged(_Player,(TAG)REALLY_HALSIN_9b8709f9-8d2a-4b4e-a465-8505c561d7f5,1)
+//IsTagged(_Player,(TAG)REALLY_SHADOWHEART_642d2aee-e3df-47e3-9f47-bbcd441bb9e0,1)
+IsTagged(_Player,(TAG)REALLY_HALSIN_9b8709f9-8d2a-4b4e-a465-8505c561d7f5,1)
 THEN
 ApplyStatus(_Player,"KTP_HALSIN_HAPPY",120.0,1);
 //
@@ -274,13 +274,13 @@ DB_KTP_HalsinsPipe(_SmokingPipe)
 AND
 NOT DB_KTP_StatusBad(_Status)
 AND
-NOT IsTagged(_Player,(TAG)REALLY_SHADOWHEART_642d2aee-e3df-47e3-9f47-bbcd441bb9e0,1)
-//NOT IsTagged(_Player,(TAG)REALLY_HALSIN_9b8709f9-8d2a-4b4e-a465-8505c561d7f5,1)
+//NOT IsTagged(_Player,(TAG)REALLY_SHADOWHEART_642d2aee-e3df-47e3-9f47-bbcd441bb9e0,1)
+NOT IsTagged(_Player,(TAG)REALLY_HALSIN_9b8709f9-8d2a-4b4e-a465-8505c561d7f5,1)
 AND
 DB_ORI_Partnered(_Player,_Partner)
 AND
-IsTagged(_Partner,(TAG)REALLY_SHADOWHEART_642d2aee-e3df-47e3-9f47-bbcd441bb9e0,1)
-//IsTagged(_Player,(TAG)REALLY_HALSIN_9b8709f9-8d2a-4b4e-a465-8505c561d7f5,1)
+//IsTagged(_Partner,(TAG)REALLY_SHADOWHEART_642d2aee-e3df-47e3-9f47-bbcd441bb9e0,1)
+IsTagged(_Player,(TAG)REALLY_HALSIN_9b8709f9-8d2a-4b4e-a465-8505c561d7f5,1)
 THEN
 ApplyStatus(_Player,"KTP_HALSIN_PARTNER_HAPPY",60.0,1);
 //
@@ -415,10 +415,10 @@ AND
 _Count < 5
 AND
 IntegerSum(_Count,1,_NewCount)
-AND
-ConcatenateInteger("QRY_KTP_CheckForOverdose EXIST ",_NewCount,_StringDebug)
+//AND
+//ConcatenateInteger("QRY_KTP_CheckForOverdose EXIST ",_NewCount,_StringDebug)
 THEN
-SetDualEntityEvent(_Player,_Player,_StringDebug);
+//SetDualEntityEvent(_Player,_Player,_StringDebug);
 DB_KTP_Overdose(_Player,_NewCount);
 //
 // IF Count 3 we need apply status
@@ -429,7 +429,7 @@ DB_KTP_Overdose(_Player,_Count)
 AND
 _Count == 3
 THEN
-SetDualEntityEvent(_Player,_Player,"ApplyStatus KTP_OVERDOSE_3");
+//SetDualEntityEvent(_Player,_Player,"ApplyStatus KTP_OVERDOSE_3");
 ApplyStatus(_Player,"KTP_OVERDOSE_3",30.0,1);
 //
 // IF Count 4 we need apply status
@@ -440,7 +440,7 @@ DB_KTP_Overdose(_Player,_Count)
 AND
 _Count == 4
 THEN
-SetDualEntityEvent(_Player,_Player,"ApplyStatus KTP_OVERDOSE_4");
+//SetDualEntityEvent(_Player,_Player,"ApplyStatus KTP_OVERDOSE_4");
 ApplyStatus(_Player,"KTP_OVERDOSE_4",90.0,1);
 //
 // IF Count 5 we need apply status
@@ -451,7 +451,7 @@ DB_KTP_Overdose(_Player,_Count)
 AND
 _Count == 5
 THEN
-SetDualEntityEvent(_Player,_Player,"ApplyStatus KTP_OVERDOSE_5");
+//SetDualEntityEvent(_Player,_Player,"ApplyStatus KTP_OVERDOSE_5");
 ApplyStatus(_Player,"KTP_OVERDOSE_5",-1.0,1);
 //
 // New Overdose
@@ -460,7 +460,7 @@ QRY_KTP_CheckForOverdose((CHARACTER)_Player)
 AND
 NOT DB_KTP_Overdose(_Player,_)
 THEN
-SetDualEntityEvent(_Player,_Player,"QRY_KTP_CheckForOverdose NEW");
+//SetDualEntityEvent(_Player,_Player,"QRY_KTP_CheckForOverdose NEW");
 DB_KTP_Overdose(_Player,1);
 //
 // QRY Must always be successful
@@ -495,6 +495,25 @@ AND
 HasActiveStatus(_Player,_TobaccoStatus,1)
 THEN
 RemoveStatus(_Player,_TobaccoStatus);
+//
+// Applied if used ALCH_POTION_REST_SLEEP_GREATER_RESTORATION
+// Then we need remove all Tobacco Statuses and clear the overdose DB
+IF
+StatusApplied(_Player,"ALCH_POTION_REST_SLEEP_GREATER_RESTORATION",_,_)
+AND
+DB_KTP_StatusPouch(_,_,_TobaccoStatus,_)
+AND
+HasActiveStatus(_Player,_TobaccoStatus,1)
+THEN
+RemoveStatus(_Player,_TobaccoStatus);
+//
+IF
+StatusApplied(_Player,"ALCH_POTION_REST_SLEEP_GREATER_RESTORATION",_,_)
+THEN
+RemoveStatus(_Player,"KTP_OVERDOSE_3");
+RemoveStatus(_Player,"KTP_OVERDOSE_4");
+RemoveStatus(_Player,"KTP_OVERDOSE_5");
+SysClear("DB_KTP_Overdose",2);
 //
 // Singleton for DB_KTP_Overdose
 IF

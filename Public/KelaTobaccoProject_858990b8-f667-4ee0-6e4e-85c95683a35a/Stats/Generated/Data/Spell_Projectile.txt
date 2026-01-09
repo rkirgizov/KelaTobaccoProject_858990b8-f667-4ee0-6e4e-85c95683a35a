@@ -1,4 +1,4 @@
-new entry "Projectile_KAP_SneakAttack"
+new entry "Projectile_KTP_SneakAttack"
 type "SpellData"
 data "SpellType" "Projectile"
 using "Projectile_MainHandAttack"

@@ -1,0 +1,13 @@
+new entry "Interrupt_FairyEscape"
+type "InterruptData"
+data "DisplayName" "h75dce84cg05e2gce3eg53cfg9bf96cfc442a;1"
+data "Description" "h60b5ad80g4bcegab57g09f1g55f0560ac3cc;2"
+data "Icon" "PassiveFeature_Generic_Invisibility"
+data "InterruptContext" "OnPreDamage"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Properties" "ApplyStatus(MISTY_ESCAPE_INVISIBLE,100,1);SetRoll(0);"
+data "Cost" "ReactionActionPoint:1;"
+data "InterruptDefaultValue" "Enabled;Ask"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+

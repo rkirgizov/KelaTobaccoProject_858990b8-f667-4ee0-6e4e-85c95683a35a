@@ -6,10 +6,12 @@ new subtable "1,1"
 object category "I_OBJ_Pouch_Leather_A",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_OBJ_Smoking_Pipe",1,0,0,0,0,0,0,0
-new subtable "5,1"
+new subtable "25,1"
 object category "I_CONS_Herbs_Mugwort",2,0,0,0,0,0,0,0
 new subtable "5,1"
 object category "I_CONS_Herbs_Belladonna",1,0,0,0,0,0,0,0
+new subtable "5,1"
+object category "I_ALCH_Ingredient_Herb_BlackOleander",1,0,0,0,0,0,0,0
 new subtable "5,1"
 object category "I_CONS_Herbs_Mergrass",1,0,0,0,0,0,0,0
 new subtable "5,1"

@@ -4,7 +4,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4e820d39-326d-4bc5-b224-1847ab6784f5" />
-        <field name="Name" type="NameTableFieldDefinition" value="KAP_SneakAttack" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_SneakAttack" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="RangedMainWeaponRange" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedWeaponAttack)" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);DealDamage(1d4 + 1d4*(Level/2), MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand)" />

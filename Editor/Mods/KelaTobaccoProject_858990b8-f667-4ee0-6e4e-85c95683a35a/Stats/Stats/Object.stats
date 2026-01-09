@@ -11,7 +11,6 @@
         <field name="Weight" type="FloatTableFieldDefinition" value="0.1" />
         <field name="AddToBottomBar" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="KTP_SmokingPipe_Tooltip_Passive" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -22,9 +21,9 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9baa7663-eca5-40ef-90fe-8a559a8bd9eb" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="1f40e7a6-fb87-41ab-9da9-282a359b7e89" />
         <field name="InventoryTab" type="EnumerationTableFieldDefinition" value="Misc" enumeration_type_name="InventoryTabs" version="1" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="Value" type="IntegerTableFieldDefinition" value="3" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="KTP_TobaccoPouch_Tooltip_Passive" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="KTP_TobaccoPouchFilled_Tooltip_Passive;KTP_TobaccoWarning_Tooltip_Passive;" />
         <field name="ValueScale" type="FloatTableFieldDefinition" value="1" />
       </fields>
     </stat_object>
@@ -35,6 +34,8 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="a451f608-ff09-4fc7-a328-99ff05f70491" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2e40240b-77d3-400b-bd6a-caff66a85833" />
         <field name="Weight" type="FloatTableFieldDefinition" value="0.1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="KTP_TobaccoPouchEmpty_Tooltip_Passive;" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -45,7 +46,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="95ed990a-f363-4eb1-908d-d48c353a3d62" />
         <field name="Weight" type="FloatTableFieldDefinition" value="0.9" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="KTP_Mortar_Tooltip_Passive" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
   </stat_objects>
