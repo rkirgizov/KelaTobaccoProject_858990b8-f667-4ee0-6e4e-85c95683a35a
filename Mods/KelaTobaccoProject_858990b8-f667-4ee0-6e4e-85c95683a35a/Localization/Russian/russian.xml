@@ -1,0 +1,261 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<content contentuid="h9677c0a1gf292g4614g9a7cga744e4e518d9" version="20">Курительная трубка</content>
+<content contentuid="hd3d9d791g2f14g68a7g69c5g7f3109b34ab1" version="2">%%%TECHNICAL</content>
+<content contentuid="h16b8405eg6de9g8726gc6d9ga7a1add94645" version="6">Лунная вуаль</content>
+<content contentuid="h5f58df7ag7267g7e14g860dg893f2f2c1ed4" version="29">Опытные курильщики знают: смесь листьев белладонны и полыни даёт не яд, а стимулятор. Дым &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_BELLADONNA"&gt;проясняет ум и обостряет рефлексы&lt;/LSTag&gt;.</content>
+<content contentuid="h52cfff01ge443g4f2cg8879g046762a1db8e" version="8">Мешочек</content>
+<content contentuid="h87f45d67gd32fg47ecg91a4gfe6d85870c4d" version="8">Простой кожаный мешочек, стянутый сверху завязанным шнурком.</content>
+<content contentuid="h83ab2a58g218fgabe6g2ef3g32bd785bfe3d" version="17">Табачный кисет</content>
+<content contentuid="h07ed874cgb16ag6e99g1adegb3da183bb33e" version="17">Небольшой кожаный кисет с затягивающимся шнурком, обычно используется для хранения табака.</content>
+<content contentuid="hf49d8379g50e3g3538ge123gc89d34158aa2" version="26">Лунная вуаль</content>
+<content contentuid="h3f0536a8g0f41gbebagf446g3b508c0820d7" version="6">5 затяжек</content>
+<content contentuid="hfbdfcedcg33abg3fccg8508gecc43b65226e" version="16">Достаточно табака для [1]</content>
+<content contentuid="hd807c0f0g8a58g470fg2612g87814e6a836f" version="3">Наполнено табаком</content>
+<content contentuid="h73e86d26gb179g74b8g7db0g7867268abb5f" version="3">Ни крошки табака в этой трубке.</content>
+<content contentuid="h17d1b7f3g7ed9gd2efg06a8g267838a3ba96" version="13">Используется для набивки трубки.</content>
+<content contentuid="ha1ff8313g08a8g4a87gae20g3fb75656e6b9" version="15">Ступка и пестик</content>
+<content contentuid="h29f6595fg7a9fg47e9gb279gdef032640de9" version="15">Резкий аромат чеснока и специй навсегда въелся в этот каменный сосуд.</content>
+<content contentuid="hf8d239e7gec12g4ca9g8124g0221fa05eb1e" version="6">Позолоченные инструменты — не роскошь для серьёзного алхимика. Дерево сложно очищать, металл же часто вступает в реакцию с содержимым, что порой приводит к катастрофическим последствиям. Тонкий слой золота решает обе эти проблемы.</content>
+<content contentuid="h7a912132g7e91gfaeagc880ge2aa4ae2dfe6" version="4">4 затяжки</content>
+<content contentuid="h745d0d67gb805g0e47g7ce6g7a7897341490" version="4">3 затяжки</content>
+<content contentuid="h5405c71fge089gd931gbdadg81d54caa5af6" version="7">Чтобы сделать табак, используйте «Ступку и пестик» и Кисет с Полынью и вторым ингредиентом (можно добавить несколько разных ингредиентов).</content>
+<content contentuid="h3693fc95g35c8gb187g9e28g604776017323" version="10">Отладочный сундук с табаком</content>
+<content contentuid="hf005a496g6f6eg6bf2g7c81g58eecee848dd" version="10">Отладочный сундук с аксессуарами для курения</content>
+<content contentuid="h33acc3a2g90afg40fag0cd1g3b191b28686c" version="5">Даже запах табака вызывает у вас &lt;LSTag Type="Status" Tooltip="KTP_OVERDOSE_5"&gt;Тошноту&lt;/LSTag&gt;... Лучше сделать перерыв в курении.</content>
+<content contentuid="h71df1d62g8d9bgecffg7c5cg5118b8bbe21e" version="8">Частое курение приводит к ухудшению самочувствия персонажа. У него &lt;LSTag Type="Status" Tooltip="KTP_OVERDOSE_3_REMOVE_STATUSES"&gt;возникают трудности с концентрацией на заклинаниях&lt;/LSTag&gt;, а также &lt;LSTag Tooltip="Disadvantage"&gt;Помеха&lt;/LSTag&gt; к проверкам Ловкости &lt;LSTag Tooltip="AbilityCheck"&gt;&lt;/LSTag&gt;. &lt;br&gt;Если продолжать курить без длительного отдыха, могут появиться &lt;LSTag Type="Status" Tooltip="KTP_OVERDOSE_4"&gt;Головные боли&lt;/LSTag&gt;.</content>
+<content contentuid="h597a4da2g7f17gbb1cgadefg2a2560e190f9" version="3">Головные боли</content>
+<content contentuid="h35166656g93a8g1ddcga4e8gf8bb010cfb59" version="6">Частое курение вызывало головные боли. В дополнение к проблемам, вызванным &lt;LSTag Type="Status" Tooltip="KTP_OVERDOSE_3"&gt;Недомоганием&lt;/LSTag&gt;, концентрация на заклинаниях &lt;LSTag Type="Status" Tooltip="KTP_OVERDOSE_4_REMOVE_STATUSES"&gt;ещё сложнее&lt;/LSTag&gt;, а также присутствует &lt;LSTag Tooltip="Disadvantage"&gt;Помеха&lt;/LSTag&gt; к проверкам &lt;LSTag Tooltip="AbilityCheck"&gt;Харизмы&lt;/LSTag&gt; и &lt;LSTag Tooltip="AttackRoll"&gt;Атакам&lt;/LSTag&gt;. &lt;br&gt;Если продолжить курить без длительного отдыха, может наступить &lt;LSTag Type="Status" Tooltip="KTP_OVERDOSE_5"&gt;Никотиновая Интоксикация&lt;/LSTag&gt;.</content>
+<content contentuid="h5e6b576eg024cg99dfgf9bagf2fabdd3149d" version="3">Никотиновая Интоксикация</content>
+<content contentuid="hd6754809g865ag44cag6e39gae91f7356ff0" version="6">Персонаж отравлен никотином. Он получает дополнительный [1], не может колдовать, концентрация на заклинаниях почти невозможна, а также имеет &lt;LSTag Tooltip="Disadvantage"&gt;Помеху&lt;/LSTag&gt; ко всем &lt;LSTag Tooltip="AbilityCheck"&gt;проверкам характеристик&lt;/LSTag&gt; и &lt;LSTag Tooltip="AttackRoll"&gt;атакам&lt;/LSTag&gt;.</content>
+<content contentuid="h7449e829g0e96gd6f6g584dg7c6c317260d1" version="4">При Недомогании требуется &lt;LSTag Tooltip="DifficultyClass"&gt;CЛ&lt;/LSTag&gt;[1] &lt;LSTag Tooltip="SavingThrow"&gt;Cпасброска Телосложения&lt;/LSTag&gt;, иначе эффекты курения исчезнут, а концентрационные заклинания перестанут действовать.</content>
+<content contentuid="hc95bc592g849cg0e0bg26b0g8fed5b868da7" version="3">При Головных болях требуется &lt;LSTag Tooltip="DifficultyClass"&gt;CЛ&lt;/LSTag&gt;[1] &lt;LSTag Tooltip="SavingThrow"&gt;Cпасброска Телосложения&lt;/LСТаг&gt;, иначе эффекты курения исчезнут, а концентрационные заклинания перестанут действовать.</content>
+<content contentuid="hebb9a108gaec4g6141g974cgb7f903ea67d3" version="3">Никотиновая интоксикация требует &lt;LSTag Tooltip="DifficultyClass"&gt;СЛ&lt;/LSTag&gt; [1] &lt;LSTag Tooltip="SavingThrow"&gt;спасброска&lt;/LSTag&gt; Телосложения, иначе эффекты курения исчезнут, а поддерживаемые заклинания прекратятся.</content>
+<content contentuid="h8950f31egf8b0ge01aga14eg323eafffd796" version="7">Курильщик получает &lt;LSTag Tooltip="Advantage"&gt;преимущество&lt;/LSTag&gt; на &lt;LSTag Tooltip="SavingThrow"&gt;спасброски&lt;/LSTag&gt; против иллюзий и чар. Заклинательные &lt;LSTag Tooltip="AttackRoll"&gt;атаки&lt;/LSTag&gt; против курильщика совершаются с &lt;LSTag Tooltip="Disadvantage"&gt;помехой&lt;/LSTag&gt;. Дополнительно, Инициатива увеличивается на 3.</content>
+<content contentuid="h6b580e61g6122gacf4gf0e3gc9f77c0977af" version="2">Подземный Сорт</content>
+<content contentuid="h838ee762gffebg12b4g187egfc6581c53ad7" version="4">Предупреждение</content>
+<content contentuid="hcbb71db0geb91g841fg6823g4846bc2326fd" version="11">Регулярное курение накладывает штрафы на Инициативу и Телосложение. Длительное употребление может привести к &lt;LSTag Type="Status" Tooltip="KTP_OVERDOSE_3"&gt;Недомоганию&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="KTP_OVERDOSE_4"&gt;Головным болям&lt;/LSTag&gt;, или даже &lt;LSTag Type="Status" Tooltip="KTP_OVERDOSE_5"&gt;Никотиновой Интоксикации&lt;/LSTag&gt;</content>
+<content contentuid="h7369c6b6g49ebg2c1eg64a4g1e1d4f559800" version="9">Заметки курильщика</content>
+<content contentuid="he03c3697gc9fcga1a2g2d46ga63ce5b574ed" version="9">Удобная книга для записей о курении.</content>
+<content contentuid="he9d28129gdf1eg8982g0437g27d0b6f3de2e" version="7">Табачный мешочек неизвестного сорта</content>
+<content contentuid="h499060eeg06aagb6f2g63eeg6c59e62856b7" version="7">Мешочек с табаком неясного состава... Стоит ли попробовать его выкурить?</content>
+<content contentuid="h482dc7d5gacacg9dd7gb2e8g697dd9fa318a" version="3">Неизвестная смесь</content>
+<content contentuid="h7bf7a44cgcb50gc464g3642gf8bd8a507bd4" version="2">Трубка набита неизвестной смесью... Стоит ли рискнуть или лучше не экспериментировать?</content>
+<content contentuid="he22da098g1e62g2127gc166g8938a0b6ee83" version="60">&lt;b&gt;ЗАМЕТКИ КУРИЛЬЩИКА&lt;/b&gt;&lt;br&gt;&lt;i&gt;* для хранения записей о курении.&lt;/i&gt;&lt;br&gt;&lt;br&gt;Базовая основа: Полынь. &lt;br&gt;Стандартная забивка: 3 затяжки, длительность эффекта: 30 ходов.</content>
+<content contentuid="hb5243f7fga8c3ga557ge91cg1832b59f189c" version="6">Полынь с синешляпником</content>
+<content contentuid="h5f1eb083g6f41g723eg3c16gba64588e4998" version="3">Смесь полыни и грибов Подземья улучшает &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_UNDERDARKMUSHROOMS"&gt;тёмное зрение&lt;/LSTag&gt; курильщика.</content>
+<content contentuid="he7cb2df2g5de2g1175g3617g379a482ffe30" version="9">Помощник целителя</content>
+<content contentuid="hc448fc57gf835g0ec4gd5d5gf770e9c4ac21" version="6">Тоник</content>
+<content contentuid="h1c1755e5g0218gfca4ga188g747ea10af3a8" version="7">Горький Нектар Мускуса</content>  
+<content contentuid="h22ca172fgf781g3105gbac5ga3b03dc7f83f" version="7">Болотник</content>  
+<content contentuid="h5606571dga034g50f7ga8b4g0991f69d6932" version="7">Затяжка Старого Мага</content>  
+<content contentuid="hc6b54010ge052g3465gc099g28b765de9fa9" version="6">Борода Волшебника</content>  
+<content contentuid="h6fc7be84g85b7ga02ag3f51gfa97159f9f1e" version="7">Шёпот Кладбищенских Трав</content>  
+<content contentuid="hd884afd6g7a00g09c2g8024gea79b4508e87" version="6">Пламенный Палач</content>  
+<content contentuid="h287ea08dg31aag530cg52e8g99f07c149df4" version="6">Шёпоты Мёртвых</content>  
+<content contentuid="h1353fe6egb9f4g6757geb90g193273651de6" version="3">Полынь с </content>  
+<content contentuid="h55bf1fb4gd58bg3987g713bgc279255d88f5" version="2">Обычный табачный купаж на основе полыни</content>  
+<content contentuid="hdff2f723gfe14g0cceg3420g58f5304dda1b" version="4">Охотник за Трюфелями</content>  
+<content contentuid="h0c073603g3181geae1gc1bcg089fffe77080" version="3">Шёпоты Мёртвых</content>  
+<content contentuid="h2d723dddg8155g34dagb0ccg2a6332bc8429" version="2">Полынь с Бульбулячьей Трубой</content>  
+<content contentuid="hfbd5caeagd593g41e0g20cag7fa1ec7c66a1" version="2">Полынь с Пузырчатым Грибом</content>  
+<content contentuid="h2649eb86g6394gbaefg777eg4f03bfd3b3c0" version="2">Полынь с Синешляпником</content>  
+<content contentuid="h0e3a91bfg5bcagb28dgf6b4ga63bb0eeadf5" version="3">Шёпот Кладбищенских Трав</content>  
+<content contentuid="h0bb44876gfa30g3116gacf0g9a44b7875b8a" version="5">Помощник Лекаря</content>  
+<content contentuid="he995f18bga6d0g72a0ge6e5g6701135d3aad" version="4">Осенняя Дымка</content>  
+<content contentuid="h3bb3e690gadc9ge62agd3cegf196b9b905b4" version="3">Пылающий Палач</content>  
+<content contentuid="h771d686fg636cg856cg0d52g5216faf4a1ca" version="2">Полынь с Грибом Драконьего Яйца</content>  
+<content contentuid="h296cc5c1gc4f6g9d1cgf022gce715bb572b2" version="3">Фейский Побег</content>  
+<content contentuid="h4afe57fag6732g3b19gcdbcg1996006ef4e6" version="4">Охотник на Вампиров</content>  
+<content contentuid="h7b4b972eg9b6fg3739g4f3ag7d8a66351dd6" version="2">Полынь со Светящимся Грибом</content>  
+<content contentuid="h46d21f8egcd72gae1ag2450ge689d99a49fc" version="2">Полынь с Чудо-Ягодой</content>  
+<content contentuid="hb5879874gcf36g8490gf8dagce8ab8c3ff3c" version="2">Полынь с Ускоряющими Спорами</content>  
+<content contentuid="hd9d6c31dg77edg6abegb38ag81d5627a3bc9" version="5">Небесный Дым</content>  
+<content contentuid="hee95f3dfg2cf2g5da5gb1c9ge137877050e8" version="2">Полынь с Лимоном</content>  
+<content contentuid="h72e99ac6g18bbg70afgd6b0gdceaffe034a9" version="4">Болотник</content>  
+<content contentuid="h294dcc9ag3c80g96ebgdaccgc96f7367fb0d" version="3">Затяжка Старого Мага</content>  
+<content contentuid="h153560a8g5b73gf606gb18eg7987669133d1" version="2">Полынь с Благородным Грибом</content>  
+<content contentuid="h0c889957gc9fdgcfe3g319eg4451e85d2ccd" version="2">Полынь с Луком</content>  
+<content contentuid="hb9d14bd4gd58egcbe1g7f73g1d4136cc700b" version="2">Полынь с Апельсином</content>  
+<content contentuid="hb546b249g2b43gd44ag2a8fg272a68f15a85" version="3">Благородный Нос</content>  
+<content contentuid="h10793c54gae41gab9dg729dg3bc1ac12e863" version="2">Полынь с Ядовитой Спорой</content>  
+<content contentuid="h75ad99eeg001ag6bd7g4365gb90d44c7d17a" version="4">Плутовская</content>  
+<content contentuid="h3905aeebg5458g2a88g71dfg5b5f07b2d7be" version="3">Охотник на Магов</content>  
+<content contentuid="hae720b19g13f9gfc56g6a15g08444b4b9ad0" version="2">Полынь с роем поганок</content>
+<content contentuid="h3a592a49gcfccg71ecgd6d1g2b69649a07d2" version="2">Полынь со спорами тиммаски</content>
+<content contentuid="hf13d0639g7f8egf8b7g892dgf2fe01428082" version="2">Полынь с Языком Безумия</content>
+<content contentuid="hb8474437geb45g9445g9114g6013b9ad49b1" version="3">Борода Волшебника</content>
+<content contentuid="hc11bec5fg4d56g2a34ga3b2g8d427ecebcc6" version="2">Полынь с белым грибом</content>
+<content contentuid="h431d35ebga5b0gb3a9g0c63g46dd6ec89599" version="4">Тоник</content>
+<content contentuid="hd70c9a24g645aga32bg3c6aga399b9fc6df6" version="3">Высушенный Суссур</content>
+<content contentuid="hec3def4cg096ag390age2bag862a7e4579ac" version="4">Горький Нектар Мускуса</content>
+<content contentuid="h16598348gf733g244dg49ddgf79fb0e6a5d1" version="2">2 затяжки</content>
+<content contentuid="hab289e5cg9c95gca7bgbfe6g28b1b3d1aac5" version="2">1 затяжка</content>
+<content contentuid="h02ba6bcag24b3g7451gc786g3bd9ff3a5fbc" version="2">Курильщик</content>
+<content contentuid="hc8088bd9g74bcgc123gf890g659e23b25d21" version="7">Курильщик получает [1] к броскам инициативы, [2] к &lt;LSTag Tooltip="Constitution"&gt;Телосложению&lt;/LSTag&gt;, но имеет &lt;LSTag Tooltip="Disadvantage"&gt;Помеху&lt;/LSTag&gt; на &lt;LSTag Tooltip="SavingThrow"&gt;спасброски&lt;/LSTag&gt; Телосложения.</content>
+<content contentuid="he50147d8gbb4cg9d5fgedddgeb924f811d14" version="3">Ошибка</content>
+<content contentuid="h90de8460g6ea3g92f9g7b0cgdc1357f80d50" version="4">Что-то пошло не так</content>
+<content contentuid="h12dd4a2cga417gfd3cg1d74g25d079b565c8" version="8">Охотник за трюфелями</content>
+<content contentuid="hf66528e2g4b7cg29aagde82g7a25e0050818" version="6">Смесь для интуиции</content>
+<content contentuid="h550d8092g4c41gf1d4g55b7g2f09c126260a" version="6">Табак убийцы</content>
+<content contentuid="h89d78477g5eb1g36c0gd0dfga84cf542d17a" version="4">Полынь с луковичным грибом</content>
+<content contentuid="ha2b86c9agdde1g5b72g9605g3e47dca7add8" version="4">Полынь с бульбугской трубой</content>
+<content contentuid="h14460f69gd8bfg1baeg86e2g239c4342009a" version="4">Полынь с драконьим яйцегрибом</content>
+<content contentuid="h4e909fa6gd957g716cga6bdg4031225a6e19" version="5">Фейский табак</content>  
+<content contentuid="h25e81be8g8efbg7fd5g45d0ge8e3369d6213" version="8">Охотник на вампиров</content>  
+<content contentuid="h8df43b9eg6fa3g5db4gf486g848ba7c3fc6c" version="4">Полынь с ягодами удачи</content>  
+<content contentuid="h0a0860e1g03f9g05ddgf219g0f6f26f1a7eb" version="4">Полынь со спорами скорости</content>  
+<content contentuid="h54a180fage385gb9d3g46b3g6b5ed2b2fcc0" version="6">Небесный дым</content>  
+<content contentuid="he8e047b5gbf28gdf16g5dc4g932dfb32abd4" version="4">Полынь с лимоном</content>  
+<content contentuid="h874da533gcf67g976aga23dgeaf434f49c1e" version="4">Полынь с благородным грибом</content>  
+<content contentuid="hf1fceff1ga2faga8e3gd87cg71a0ec33dd37" version="4">Полынь с луком</content>  
+<content contentuid="hb1aa93bcg563cgbe67g5d65g86593806b063" version="4">Полынь с апельсином</content>  
+<content contentuid="h5bf28d58g3f02g6e11gbf45gd4078504a3ae" version="6">Благородный нос</content>  
+<content contentuid="hd7aa80f1g12b0geda1g765eg37d29034e9bd" version="4">Полынь со Споровой Отравой</content>  
+<content contentuid="hdea94602g84fegd392g0ad5ge9fe78ffc0f7" version="6">Плутовская</content>  
+<content contentuid="he6e0a917g03e6ge1ceg384cg485ad96ea42f" version="5">Проклятая Смесь</content>  
+<content contentuid="h4192f615g5d01g7f2eg42a7g2f2657f3d6eb" version="5">Охотник на Магов</content>  
+<content contentuid="hd5228457g30c7gf17fgfeb5gfe7638ba9af3" version="4">Полынь с Кишащим Поганками</content>  
+<content contentuid="he9887f4eg5eafg3150g2c64g2182074f006f" version="4">Полынь со Спорами Тиммаски</content>  
+<content contentuid="h68975f9bgc2d8g8febge618g3becba654195" version="4">Полынь с Языком Безумия</content>  
+<content contentuid="h68c59234ge8fag4844g32a5gcd4c84ba344a" version="4">Полынь с Белым Грибом</content>  
+<content contentuid="h98962c2fgee62g8b6fg0a19g9ac401905d94" version="5">Высушенный Суссур</content>  
+<content contentuid="h58bf5fabga715g5c9eg9510gb0a6f20930e9" version="6">Высушенный Суссур</content>  
+<content contentuid="h72238e02g65c6gd5b9g72e6g6bc474a75b24" version="57">&lt;br&gt;&lt;br&gt;&lt;b&gt;Лунная Вуаль&lt;/b&gt; (Белладонна) - Курильщик получает Преимущество на спасброски против иллюзий и чар. Атакующие заклинания против курильщика совершаются с Помехой. Дополнительно увеличивается инициатива.</content>
+<content contentuid="he208d28cg650eg9a5cg55ccg3e2426eabea0" version="56">&lt;br&gt;&lt;br&gt;&lt;b&gt;Охотник на магов&lt;/b&gt; (Цветок Суссура) - Курильщик получает преимущество на спасброски против заклинаний указанного уровня и ниже, а вражеские атаки заклинаниями совершаются с помехой. Кроме того, дым суссура воздействует на существ и магических автоматонов.</content>
+<content contentuid="h82379751g73efg091agae64g8dc5c1682a5e" version="56">&lt;br&gt;&lt;br&gt;&lt;b&gt;Полынь с роящимся поганками&lt;/b&gt; - ничем не примечательная табачная смесь на основе полыни.</content>
+<content contentuid="h3793462cg465ag59e9g1cd8g5b4ad1947cbc" version="56">&lt;br&gt;&lt;br&gt;&lt;b&gt;Полынь с Языком Безумия&lt;/b&gt; - ничем не примечательная табачная смесь на основе полыни.</content>
+<content contentuid="h7f4530b3g14aagffe9g46abg7b0fa3a6b72b" version="56">&lt;br&gt;&lt;br&gt;&lt;b&gt;Борода Волшебника&lt;/b&gt;(Паутинный мох) - Интеллект курильщика повышается. Также он получает Навыки: Магия, История, Анализ, Природа и Религия.</content>
+<content contentuid="h003cd2fbga208g017agf805g539a9da0ee7e" version="56">&lt;br&gt;&lt;br&gt;&lt;b&gt;Полынь с белыми грибами&lt;/b> - ничем не примечательная табачная смесь на основе полыни.</content>
+<content contentuid="h08756c14g73ebg9414gff04gcbc0d8efecd1" version="56">&lt;br&gt;&lt;br&gt;&lt;b&gt;Тоник&lt;/b&gt; (Дымчатый плющ) - Сила и Ловкость курильщика увеличиваются, а также он получает Владение спасбросками по этим характеристикам.</content>
+<content contentuid="hf071d6a7g4c35g800cg6cfeg1de964b1987e" version="56">&lt;br&gt;&lt;br&gt;&lt;b&gt;Иссушённый сассур&lt;/b&gt; (Увядший лепесток сассура) - Курильщик получает Преимущество на спасброски против заклинаний низкого уровня, тогда как вражеские атаки заклинаниями совершаются с Помехой. Дым иссушённого сассура более не подавляет магию у существ и автоматонов.</content>
+<content contentuid="hcdcd3b42g8dd9g6879g600bg2031a2db2689" version="56">&lt;br&gt;&lt;br&gt;&lt;b&gt;Горький мускусный нектар&lt;/b&gt; (Лепестки жёлтого мускусного плюща) - Курильщик получает Иммунитет к урону ядом и не может быть Отравлен. Также он получает Временные ПЗ и восстанавливает Здоровье каждый ход, если его уровень здоровья ниже 50%.</content>
+<content contentuid="hb75c5974g482fgbdffg4ea3ge398847446a8" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Охотник за трюфелями&lt;/b&gt; (Жёлудевый трюфель) - Курильщик получает бонус к броскам атаки и урона оружием против зверей. Кроме того, он может общаться с животными и получает Владение навыками Обращение с животными, Природа и Выживание.</content>
+<content contentuid="h0572e002g9e41g89b4g7f2bg5dbdf34cc3cb" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Осенний Дымок&lt;/b&gt; (Осенний шафран) — Курильщик получает защиту от нежити: атаки против него совершаются с Помехой.</content>
+<content contentuid="h23b7fd55g54c7ga35bg1286g68dcd0cb5c50" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Помощник Лекаря&lt;/b&gt; (Бальзамин) — Если у курильщика меньше 50% здоровья, он восстанавливает HP каждый ход.</content>
+<content contentuid="hbf8385d5gb29egcb20gcb9dgd5f53989e979" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Шёпот Кладбищенских Трав&lt;/b&gt; (Чёрный олеандр) — Курильщик получает Временные HP, иммунитет к некротическому урону, а его раны не кровоточат.</content>
+<content contentuid="ha2856eeeg6011gbeb6gfa01g6e6876d3bb89" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Полынь с Синешляпником&lt;/b&gt; — ничем не примечательная табачная смесь на основе полыни.</content>
+<content contentuid="h2f471eb0g0382g75adgcd6eg6108ff677fcc" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Cмесь Интуиции&lt;/b&gt; (Румяный гриб) — Даёт курильщику владение навыками Обмана, Убеждения и Выживания. Атаки дальнего боя гуманоидов против него совершаются с Помехой.</content>
+<content contentuid="hcc68ba9agc746gda6fg5dc4gbc55c453d0e0" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Табак Убийцы&lt;/b&gt; (Костяной Гриб) - Открывает доступ к скрытой атаке Убийцы с дополнительным уроном (зависит от уровня) и мгновенно восстанавливает действие и бонусное действие в начале боя.</content>
+<content contentuid="h9d955829g4656gd9ccg8325g8c9520dd6532" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Полынь с Луковичным Грибом&lt;/b&gt; - ничем не примечательная табачная смесь на основе полыни.</content>
+<content contentuid="hc064bc88gdd77gc9d3g52ddg81ca666b34cb" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Полынь с Бульваржьим Рожком&lt;/b&gt; - ничем не примечательная табачная смесь на основе полыни.</content>
+<content contentuid="h3507f3bfg7cf8g473cg508fg024e78c582ac" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Шёпот Мёртвых&lt;/b&gt; (Трупная Роза) - Курильщик получает иммунитет к урону ядом и не может быть отравлен. А также может говорить с мёртвыми.</content>
+<content contentuid="h96a00bd2g4a4dg7171g928ag7e11311f8ad7" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Пылающий Палач&lt;/b&gt; (Корень-Кинжал) - Даёт преимущество на проверки и спасброски Ловкости. Когда совершает бросок атаки в качестве реакции, делает его с преимуществом.</content>
+<content contentuid="hdf1db5d1g3184g974agd20fgbd9bb5eef5ae" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Полынь с Драконьим Яйцом&lt;/b&gt; - ничем не примечательная табачная смесь на основе полыни.</content>
+<content contentuid="hfb808f1dgaf38g8f29gbf26g7b4957f315b5" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Побег Феи&lt;/b&gt; (Завядший Цветок Фей) - Курильщик может реакцией исчезнуть перед ударом атакующего, подобно утренней фее в тумане, заставляя противника промахнуться.</content>
+<content contentuid="he36cefe4gca8fg32a0g9102g96fc53ee6288" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Охотник на Вампиров&lt;/b&gt; (Чеснок) - Атаки вампиров по курильщику совершаются с помехой. Дополнительно, чесночный дым воздействует на вампиров.</content>
+<content contentuid="hf0622ac5g7b10ge2d0gda44g41780e11ddc4" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Полынь с Грибами-Светляками&lt;/b&gt; - заурядная табачная смесь на основе Полыни.</content>
+<content contentuid="h88d1fc21g3c71g6e59gb0e8gb63aef423feb" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Полынь с Чудо-Ягодой&lt;/b&gt; - заурядная табачная смесь на основе Полыни.</content>
+<content contentuid="h666abe8dg75edg56dag197bg750b9b5c653f" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Полынь с Ускоряющими Спорами&lt;/b&gt; - заурядная табачная смесь на основе Полыни.</content>
+<content contentuid="hece84a90gd883g76a0g0233g87e1cf6cc7d3" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Небесный Дым&lt;/b&gt; (Волос Ки-Рин) - Если курильщик сосредоточен на курении: увеличивает максимальное HP и восстанавливает XP каждый ход при здоровье ниже 70%, благодаря легендарной магической сопротивляемости Ки-Рин. Но пахнет как палёная шерсть - Харизма снижена с Помехой на проверки.</content>
+<content contentuid="h7bcedf80gd4dfg7abaga735gab51d8b5ea24" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Полынь с лимоном&lt;/b&gt; - ничем не примечательная табачная смесь на основе полыни.</content>
+<content contentuid="hd85f2e72g3339gf31cg8643g193f2aa6ecb8" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Болотник&lt;/b&gt; (Болотная трава) - Даёт преимущество на проверки Обмана и Убеждения.</content>
+<content contentuid="h5e10af4ag3090g1b97g1d0ag641493c09d2f" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Старая затяжка мага&lt;/b&gt; (Ночная орхидея) - Если курильщик сконцентрирован пока действует этот табак, то каждый ход восстанавливается ячейка заклинаний 1 уровня, но он получает урон и длительность эффекта сокращается. Если у курильщика осталось менее 20% здоровья, эффект прекращается.</content>
+<content contentuid="h14f13d40gf8c7g0c50g28e6g0c568cb2affb" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Полынь с благородным грибом&lt;/b&gt; - ничем не примечательная табачная смесь на основе полыни.</content>
+<content contentuid="h21c5f7d1g7a97g867fgf665gd33995f86b23" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Полынь с луком&lt;/b&gt; - ничем не примечательная табачная смесь на основе полыни.</content>
+<content contentuid="h56eba790g7c51g0235g2ae3g980805e94797" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Полынь с апельсином&lt;/b&gt; - ничем не примечательная табачная смесь на основе полыни.</content>
+<content contentuid="h04bcfd0cgea03g94a5g513egda888c46edc8" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Благородная Смесь&lt;/b&gt; (Бледная Мята) - Курильщик получает навыки Обмана, Запугивания, Выступлений и Убеждения, дополнительное бонусное действие и иммунитет к очарованию.</content>
+<content contentuid="hed7abbabg2afbge6e1g36d3g9af24031023c" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Полынь с Ядовитыми Спорами&lt;/b&gt; - заурядная табачная смесь на основе полыни.</content>
+<content contentuid="hd0dffc05gbb54gd10bgb450g8aebedd98676" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Плутовская&lt;/b&gt; (Лакомый Кусок Плута) - Даёт дополнительное бонусное действие и преимущество на проверки Ловкости Рук.</content>
+<content contentuid="hea51a508g71fege78cgd09agc31a175099af" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Проклятая Смесь&lt;/b&gt; (Мешочек Тенекорня) - Курильщик получает сопротивление Теневому Проклятию, повышенный шанс критических ударов, но становится уязвим к некротическому урону, а его максимальное HP снижается.</content>
+<content contentuid="hb8348bebge4cdge852gc5d5ge03ac30907b8" version="55">&lt;br&gt;&lt;br&gt;&lt;b&gt;Полынь со Спорами Тиммаски&lt;/b&gt; - заурядная табачная смесь на основе полыни.</content>
+<content contentuid="h7c48a102g4502ge899g3befg0d29b4521159" version="5">Курильщик восстанавливает [1] HP каждый ход, если здоровье ниже 50%.</content>
+<content contentuid="ha05ae183g046dg5aa0g6a01g595d3946cfe0" version="7">Эта смесь Полыни и Бальзама часто используется целителями для окуривания пациентов, но ничто не мешает просто выкурить её. Целебные свойства Бальзама смягчают вред от курения и &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_BALSAM"&gt;частично восстанавливают здоровье&lt;/LSTag&gt;.</content>
+<content contentuid="h9a7b0cbcgc0b8g3001g2c33g91c0c88bf181" version="7">&lt;LSTag Tooltip="Strength"&gt;Сила&lt;/LSTag&gt; и &lt;LSTag Tooltip="Dexterity"&gt;Ловкость&lt;/LSTag&gt; курильщика увеличиваются на [1], а также он получает &lt;LSTag Tooltip="Proficiency"&gt;Владение&lt;/LSTag&gt; этими характеристиками в &lt;LSTag Tooltip="SavingThrow"&gt;Спасбросках&lt;/LSTag&gt;.</content>
+<content contentuid="h566a1cc0g9da6g3cd1g8361g658e2529b537" version="2">Недомогание</content>
+<content contentuid="h5cf6f6dbg5727gaa70g9526gb49e007c1594" version="3">Частое курение вызывает у персонажа недомогание. У него возникают &lt;LSTag Type="Status" Tooltip="KTP_OVERDOSE_3_REMOVE_STATUSES"&gt;проблемы с концентрацией на заклинаниях&lt;/LSTag&gt;, а также &lt;LSTag Tooltip="Disadvantage"&gt;помеха&lt;/LSTag&gt; на проверки &lt;LSTag Tooltip="AbilityCheck"&gt;Ловкости&lt;/LSTag&gt;.</content>
+<content contentuid="h4c517810g22b2g0d4agfcbcg2538dea3e73d" version="4">Табачная смесь из Полыни и Призрачной Травы расслабляет мышцы и &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_WISPWEED"&gt;усиливает физические способности&lt;/LSTag&gt; курильщика.</content>
+<content contentuid="h677737cfg5a97g0a2dg5a0bg4a9adb5ce53d" version="5">Если курильщик &lt;LSTag Type="Status" Tooltip="ALCH_ELIXIR_CONCENTRATION"&gt;сконцентрирован&lt;/LSTag&gt; на курении: максимальное HP увеличивается на [1], а здоровье восстанавливается на [2] каждый ход, если оно ниже 70%, благодаря легендарной магической сопротивляемости Ки-Рина. Однако запах напоминает палёную шерсть — Харизма снижается на [3] с &lt;LSTag Tooltip="Disadvantage"&gt;помехой&lt;/LSTag&gt; на её &lt;LSTag Tooltip="AbilityCheck"&gt;проверки&lt;/LSTag&gt;.</content>
+<content contentuid="h2afff2cbg659egada8g0a1fg27d7345bd3bb" version="4">Табачная смесь из Полыни и Волоса Ки-Рина, которая при правильном использовании даёт &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_KIRINHAIR"&gt;мощный эффект&lt;/LSTag&gt;.</content>
+<content contentuid="h07bcd347g8fabgc8d0g5a1bgaaa2256917c1" version="36">&lt;br&gt;&lt;br&gt;&lt;b&gt;Предупреждение&lt;/b&gt;&lt;br&gt;~~~~~~~~~~~~~~~~&lt;br&gt;&lt;i&gt;* о вредных последствиях курения&lt;/i&gt; &lt;br&gt;&lt;br&gt;Регулярное курение накладывает штраф на проверки Инициативы и Телосложения. Длительное употребление может привести к недомоганию, постоянным головным болям или даже никотиновой интоксикации.</content>
+<content contentuid="ha4360857g51b7g0e7bg8b6cg73d87fb6d13e" version="4">Даёт дополнительное бонусное действие и &lt;LSTag Tooltip="Advantage"&gt;Преимущество&lt;/LSTag&gt; на проверки &lt;LSTag Tooltip="AbilityCheck"&gt;Ловкости Рук&lt;/LSTag&gt;.</content>
+<content contentuid="h4b5b5c69g214ag1380gbda0gc2e4f96ce2ab" version="4">Эта смесь Полыни и Лакомства Плута одаривает курильщика &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_ROGUESMORSEL"&gt;воровской удачей&lt;/LSTag&gt;</content>
+<content contentuid="h5d675abdgea46g55e8gb7dcgd063d8748fe4" version="4">Охотничья Смесь</content>
+<content contentuid="h25b936fdg152dg3f82gf26fg8b9d3d67e131" version="4">Курильщик получает +[1] к броскам атаки и урона против зверей. Кроме того, он может общаться с животными и имеет &lt;LSTag Tooltip="Proficiency"&gt;владеет&lt;/LSTag&gt; навыками Обращение с животными, Природа и Выживание.</content>
+<content contentuid="h1ae3cf52gc20bg692eg002bg760c19b35374" version="6">Смесь полыни и трюфельного жёлудя, которая &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_ACORNTRUFFLE"&gt;сближает курильщика с миром животных&lt;/LSTag&gt;.</content>
+<content contentuid="hcb0198bbg61dcg125dg7a67geb9072321359" version="3">Курильщик защищён от нежити - она получает &lt;LSTag Tooltip="Disadvantage"&gt;помеху&lt;/LSTag&gt; на &lt;LSTag Tooltip="AttackRoll"&gt;броски атаки&lt;/LSTag&gt; против него.</content>
+<content contentuid="h8eeadf77g0fefg76d3gc5e5g3762e0df4d9c" version="21">Смесь полыни и безвременника осеннего, окутывающая курильщика дымом с золотистым свечением, &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_AUTUMNCROCUS"&gt;создавая слабый барьер против нежити&lt;/LSTag&gt;.</content>
+<content contentuid="he1f2a6e4g8829g995dg60a5ge3319fb6083e" version="3">Курильщик &lt;LSTag Tooltip="Immune"&gt;неуязвим&lt;/LSTag&gt; к урону ядом и не может быть &lt;LSTag Type="Status" Tooltip="POISONED"&gt;отравлен&lt;/LSTag&gt;. Также он получает [1] и восстанавливает [2] каждый ход, если здоровье ниже 50%.</content>
+<content contentuid="h2aab62a2g1b70gef01gcb4eg1cd9aa5b2503" version="4">Благодаря Полыни яд из трупных лепестков Жёлтого Мускусного Плюща нейтрализован, и эта смесь подтверждает, что &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_YELLOWMUSKCREEPERPETALS"&gt;яд становится лекарством&lt;/LSTag&gt;, если употреблять его правильно.</content>
+<content contentuid="hdec109fcg8590gab33gb577g4c9698ce9183" version="3">Даёт &lt;LSTag Tooltip="Advantage"&gt;преимущество&lt;/LSTag&gt; на проверки &lt;LSTag Tooltip="AbilityCheck"&gt;Обмана и Убеждения&lt;/LSTag&gt;.</content>
+<content contentuid="h2423263dg2261g69f5g4887g24ee51c7e786" version="5">Эта простая смесь Полыни и Мерграсса странным образом проясняет мысли курильщика и делает его &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_MERGRASS"&gt;необычайно убедительным в беседах&lt;/LSTag&gt;.</content>
+<content contentuid="h7fa44b7dg1ccbg49d4g7634gfe34b5f682e5" version="3">Дым Старого Мага</content>
+<content contentuid="h02020a6cga080g1169g79b7gf8c4e2c7d4dd" version="2">Полынь с травами</content>
+<content contentuid="h85f223d2gfe70g093cg0932g41ddf7140393" version="2">Обычная табачная смесь на основе Полыни и трав</content>
+<content contentuid="h5eff4059ge955g4098gccc9gdc71ab40b21b" version="2">Обычная табачная смесь на основе Полыни и грибов</content>
+<content contentuid="h46ccbe3fg80e4g28f9g8eddg1c262b2db7a3" version="2">Полынь с грибами</content>
+<content contentuid="ha9c0dca8g123ag3d9dg8bc1gf22c11d2e8bf" version="2">Обычная табачная смесь на основе Полыни и еды</content>
+<content contentuid="h976d3a18gcbf3gea73g46c4gb69977307a3b" version="2">Полынь с едой</content>
+<content contentuid="hae547230g74fag5f09gb15dgdbb87f1f34be" version="2">Обычная табачная смесь на основе Полыни и прочего</content>
+<content contentuid="h5e0f1d04gc6eagf8b2g0945gf192f892f2be" version="2">Полынь с добавками</content>  
+<content contentuid="hf1385e34g5c4eg6a8bgc668g4ff4fe22267d" version="12">Осенняя дымка</content>  
+<content contentuid="h05037a78g6d5egedc5gfbf0g3fb406b16081" version="3">Необходим для изготовления табака в ступке.</content>  
+<content contentuid="h0da1b3eag9b00g64ecge1ecg37f597a827b0" version="4">Простая, потрёпанная деревянная трубка с лёгким ароматом табака.</content>  
+<content contentuid="h929fef20g1040g824bgfd37gb4dbc4bd1da6" version="6">Обычный табачный купаж</content>  
+<content contentuid="h4dbac071gd836gca90g6792g1711cf840bfc" version="4">Курильщик получает [1] к броскам инициативы.</content>  
+<content contentuid="hb29d87cdg4a8ege511g8a1fg34493dd70f39" version="2">Лунная вуаль</content>  
+<content contentuid="h8649e803gf4beg20a0g5874g494d457fe576" version="4">Курильщик получает [1], имеет &lt;LSTag Tooltip="Immune"&gt;Иммунитет&lt;/LSTag&gt; к Некротическому урону, а его раны не &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;кровоточат&lt;/LSTag&gt;.</content>
+<content contentuid="h173969e2g9d14g18ecg4cfcgb6811075fe6f" version="4">Пробовал? На вкус — будто слизывал грязь с могилы. Но когда некротический туман окутывает тебя, а кожа начинает слезать, эта смесь из Полыни и Чёрного Олеандра позволяет держаться в бою. &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_BLACKOLEANDER"&gt;Она не лечит&lt;/LSTag&gt;, но не даёт упасть.</content>
+<content contentuid="hda726fbbg3ac1gdd9bg9999g218196272561" version="3">Курильщик имеет &lt;LSTag Tooltip="Immune"&gt;Иммунитет&lt;/LSTag&gt; к Ядовитому урону и не может быть &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Отравлен&lt;/LSTag&gt;, а также может использовать &lt;LSTag Type="Spell" Tooltip="Target_SpeakWithDead"&gt;"Говорить с мёртвыми"&lt;/LSTag&gt;, не тратя &lt;LSTag Tooltip="SpellSlot"&gt;ячейку заклинаний&lt;/LSTag&gt;.</content>
+<content contentuid="he82ae29ag522fgdecdg5b16ge40933c9dbdb" version="4">Табачная смесь из Трупной Розы и полыни, чей ледяной дым проникает в тело и разум курильщика, притупляя жизненные токи и приближая его &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_CORPSEROSE"&gt;к границе мира мёртвых&lt;/LSTag&gt; слегка притупляет боль, обостряет восприятие потусторонних шёпотов и придаёт коже мертвенно-серый оттенок.</content>
+<content contentuid="hcf968cacgec30gcde0g2bb8gf225aed02c96" version="2">Получает &lt;LSTag Tooltip="Advantage"&gt;преимущество&lt;/LSTag&gt; на проверки &lt;LSTag Tooltip="AbilityCheck"&gt;Ловкости&lt;/LSTag&gt; и &lt;LSTag Tooltip="SavingThrow"&gt;спасброски&lt;/LSTag&gt;. Когда вы совершаете &lt;LSTag Tooltip="AttackRoll"&gt;атаку&lt;/LSTag&gt; как &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;реакцию&lt;/LSTag&gt;, вы делаете её с &lt;LSTag Tooltip="Advantage"&gt;преимуществом&lt;/LSTag&gt;.</content>
+<content contentuid="h1cfcb832g4303g64cfge3a3gf7622f8a781f" version="2">Палач Огня</content>
+<content contentuid="h595e4471ga97bg3e2agb544gd3bb9d3206fc" version="4">Едкая смесь табака Кинжального корня и Полыни, чей обжигающий дым временно &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_DAGGERROOT"&gt;обостряет рефлексы и меткость&lt;/LSTag&gt;, словно сама рука палача направляет ваше лезвие.</content>
+<content contentuid="hb81117aaga77fg5569g1602g09b5864b2012" version="2">Фейский Побег</content>
+<content contentuid="h75dce84cg05e2gce3eg53cfg9bf96cfc442a" version="2">Фейский Побег</content>
+<content contentuid="h60b5ad80g4bcegab57g09f1g55f0560ac3cc" version="3">Исчезни перед ударом противника, как утренняя фея в тумане, заставив врага промахнуться.</content>
+<content contentuid="h6545eb40g3986g35eegc05cg8d17a0461120" version="3">Курильщик может потратить &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;реакцию&lt;/LSTag&gt;, чтобы исчезнуть перед атакой, подобно утренней фее в тумане, заставляя противника промахнуться.</content>
+<content contentuid="h21c3f884g02dfgbf90g483bg7ba14a9216b6" version="3">Редкая смесь Полыни и Засушенного Фейского Цветка не только обладает приятным ароматом, но и создаёт странный дым, который в моменты опасности будто &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_DRIEDFEYFLOWER"&gt;разрывает завесу между мирами&lt;/LSTag&gt;.</content>
+<content contentuid="hb17e7edcgf8e1g2f41g868eg0d5ce37f5b97" version="4">Если курильщик сохраняет &lt;LSTag Type="Status" Tooltip="ALCH_ELIXIR_CONCENTRATION"&gt;концентрацию&lt;/LSTag&gt; при активном эффекте табака, каждый ход восстанавливается &lt;LSTag Tooltip="SpellSlot"&gt;ячейка заклинаний&lt;/LSTag&gt; 1 уровня, но он получает [1] урона, а длительность эффекта сокращается на [2] хода. Если у курильщика осталось менее 20% здоровья, эффект прекращается. &lt;br&gt;По окончании действия накладывает &lt;LSTag Type="Status" Tooltip="KTP_MALAISE"&gt;Недомогание&lt;/LSTag&gt; на [3] хода.</content>
+<content contentuid="ha70c6edcgb82cg228dg49f9g49c9306d0e3b" version="5">Смесь Полыни и Ночной Орхидеи, чей густой лиловый дым собирает рассеянные искры магии, &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_NIGHTORCHID"&gt;восстанавливая утраченные магические контуры&lt;/LSTag&gt;, но за всё приходится платить.</content>
+<content contentuid="hdd6fa16cgcda5gec76gb9aeg1195232c559b" version="4">Ароматическая смесь Полыни и Бледной Мяты, дающая курильщику &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_PALEMINT"&gt;уверенность в себе и открывающая многие двери&lt;/LSTag&gt;.</content>
+<content contentuid="h7092e026gba01g2d4bga70bg9c48dd8f2056" version="2">Курильщик получает &lt;LSTag Tooltip="Proficiency"&gt;владение&lt;/LSTag&gt; навыками Обмана, Запугивания, Выступлений и Убеждения, дополнительное &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;бонусное действие&lt;/LSTag&gt; и не может быть &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;очарован&lt;/LSTag&gt;.</content>
+<content contentuid="h76016176g880cg010bg038ag23036fc274d8" version="2">Охотник на магов</content>
+<content contentuid="h55f1a89bgcb62g84d8gc14dg68608eaa0d4d" version="4">Дым Сусура</content>
+<content contentuid="h1dedf0f9gd0e3g5bfcgc8cdg3ac65a20c082" version="4">Любое существо в радиусе [1], провалившее &lt;LSTag Tooltip="Constitution"&gt;проверку Телосложения&lt;/LSTag&gt;, получает эффект &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_SUSSURBLOOM_AURA_CHAR_STATUS"&gt;"Ком в горле"&lt;/LSTag&gt;.</content>
+<content contentuid="hf65ce037g8a66g2cc2g1856g11bf8b309116" version="4">Любой магически анимированный автомат в радиусе [1], проваливший &lt;LSTag Tooltip="Constitution"&gt;сберегательный бросок по Телосложению&lt;/LSTag&gt;, получает эффект &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_SUSSURBLOOM_AURA_ANIMATED_STATUS"&gt;Хрупкие магические узы&lt;/LSTag&gt;.</content>  
+<content contentuid="h8d0472a5gac59g9cb8ge266g6ba6600d79ee" version="4">Ком в горле</content>  
+<content contentuid="h035914c6gc842gb63ag9919g0f0d84b2e047" version="4">Дым суссура раздражает голосовые связки и блокирует произнесение заклинаний с вербальным компонентом.</content>  
+<content contentuid="h378b32bcg2115gc97cg1625g079402337530" version="4">Курящий получает преимущество на спасброски против заклинаний [1] уровня и ниже, а вражеские атаки заклинаниями совершаются с помехой. Кроме того, дым суссура в радиусе [2] воздействует на &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_SUSSURBLOOM_AURA_CHAR"&gt;существ&lt;/LSTag&gt; и &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_SUSSURBLOOM_AURA_ANIMATED"&gt;магических автоматов&lt;/LSTag&gt;.</content>  
+<content contentuid="hcd4cbdd5gf5edg1f62g235bg758379bf0d54" version="3">Хрупкие магические узы</content>  
+<content contentuid="h89e3f0c4g4843gbac5gab97gfca6af86ea5c" version="3">Дым сассура ослабляет магические узы и снижает &lt;LSTag Tooltip="Constitution"&gt;Телосложение&lt;/LSTag&gt;, &lt;LSTag Tooltip="Strength"&gt;Силу&lt;/LSTag&gt; и &lt;LSTag Tooltip="ArmourClass"&gt;Класс Доспеха&lt;/LSTag&gt; на [1].</content>
+<content contentuid="h7f17d88cge2e1g34a0g4343g3473aae7cc17" version="3">Хотя полная антимагическая сила утрачена, эта крепкая смесь Полыни и Цветка Сассура всё же &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_SUSSURBLOOM"&gt;склоняет чашу весов&lt;/LSTag&gt; в пользу охотников на магов.</content>
+<content contentuid="h75b54febg2b6bgd57cg8fb3g9a1090539522" version="2">Интеллект курильщика увеличивается на [1], но не более чем на [2]. Кроме того, он получает &lt;LSTag Tooltip="Proficiency"&gt;Владение&lt;/LSTag&gt; навыками: Магия, История, Анализ, Природа и Религия.</content>
+<content contentuid="h4590ae3bg6301g85f9gde8egdcb243266bf6" version="5">Курильщик получает [1] к броскам Инициативы, [2] к &lt;LSTag Tooltip="Constitution"&gt;Телосложению&lt;/LSTag&gt;, но совершает спасброски Телосложения с &lt;LSTag Tooltip="Disadvantage"&gt;Помехой&lt;/LSTag&gt;&lt;LSTag Tooltip="SavingThrow"&gt;&lt;/LSTag&gt;. Кроме того, вражеские заклинания совершают &lt;LSTag Tooltip="AttackRoll"&gt;атаки&lt;/LSTag&gt; против курильщика с &lt;LSTag Tooltip="Advantage"&gt;Преимуществом&lt;/LSTag&gt;</content>
+<content contentuid="hbfb5d379gcbc6gb9afg05a7g2b867e291ad9" version="4">Невероятно горькая смесь Полыни и Ткацкого Мха не понравится никому — кроме тех, кто стремится &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_WEAVEMOSS"&gt;постичь Ткань Мироздания&lt;/LSTag&gt;; Это не табак для удовольствия, а инструмент — суровый, беспристрастный, требующий готовности принять знание вместе с его бременем.</content>
+<content contentuid="hd4292597g1482gd986gcf27g7e90c6669915" version="2">Курильщик получает преимущество на спасброски против заклинаний [1] уровня и ниже, тогда как вражеские атаки заклинаниями совершаются с помехой. Осушённый Сусуровый Дым более не подавляет магию у существ и автоматонов.</content>
+<content contentuid="h4649e2b1g89d5gefe6g507ag5e7dc7cdb705" version="2">Осушённый Сусур</content>
+<content contentuid="h83d5dd44gb62bg1cb1gf77eg4d18caa61803" version="3">Эта смесь Полыни и Осушённого Цветка Сусура слабее; сохраняет лишь &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_WITHEREDBLUEPETAL"&gt;слабые антимагические свойства&lt;/LSTag&gt;, воздействуя только на курильщика.</content>
+<content contentuid="h611d78feg2987g6a1bgba99g990e3c047982" version="3">Эта смесь Полыни и Осушённого Цветка Сусура слабее; сохраняет лишь &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_WITHEREDSUSSURPETAL"&gt;слабые антимагические свойства&lt;/LSTag&gt;, воздействуя только на курильщика.</content>
+<content contentuid="h5605360cg41ccg129cg3850g8af683e4ad81" version="3">Густой едкий дым с тошнотворным ароматом Тенекорневого Мешка и Полыни - эта мучительная смесь &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_SHADOWROOTSAC"&gt;позволяет выдерживать&lt;/LSTag&gt; ядовитые испарения, аномальную магию и прочие ужасы Проклятых Земель.</content>
+<content contentuid="h3bab022dg5e7cgc567g1cb7gd4fa92b914d8" version="2">Проклятая Смесь</content>
+<content contentuid="hdded59fag676eg9db9g02beg4b6bc1d0cc26" version="3">Курильщик получает сопротивление Проклятию Тени, облегчённый шанс нанести критический удар (-[1] к &lt;LSTag Tooltip="AttackRoll"&gt;броскам атаки&lt;/LSTag&gt;), но становится &lt;LSTag Tooltip="Vulnerable"&gt;уязвимым&lt;/LSTag&gt; к некротическому урону, а его максимальное HP снижается на [2].</content>
+<content contentuid="h4e0d582bgaba6ga244g1086g9944a1a5912c" version="3">Полынь с Ночным Папоротником</content>
+<content contentuid="h61315826g9b62g110cg9f95g236c0ea5a30e" version="2">Полынь с Ночным Папоротником</content>
+<content contentuid="hd29fb8aagca18g6cceg579dgb51cd265d815" version="4">Курильщик получает [1] к &lt;LSTag Tooltip="Initiative"&gt;броскам инициативы&lt;/LSTag&gt;, [2] к &lt;LSTag Tooltip="Constitution"&gt;телосложению&lt;/LSTag&gt;, но имеет &lt;LSTag Tooltip="Disadvantage"&gt;помеху&lt;/LSTag&gt; на &lt;LSTag Tooltip="SavingThrow"&gt;спасброски&lt;/LSTag&gt; телосложения. Зато курильщик может видеть в темноте на расстоянии до [3].</content>
+<content contentuid="hd41382bbgc15cg2bb8g032agb3435aab0356" version="2">Табак Убийцы</content>
+<content contentuid="h71981f02g149cg3beagd377g9bc9942c691e" version="2">Открывает доступ к скрытой атаке Убийцы с дополнительным уроном (зависит от уровня) и мгновенно восстанавливает ваше &lt;LSTag Tooltip="Action"&gt;действие&lt;/LSTag&gt; и &lt;LSTag Tooltip="Bonus_Action"&gt;бонусное действие&lt;/LSTag&gt; в начале боя.</content>
+<content contentuid="ha608ccd4g4cb1gbd05g5373gb12e7299325f" version="4">Мощная смесь Полыни и Костяного Шлема - при совместном курении усиливает свойства обоих компонентов, &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_BONECAP"&gt;пробуждая в курильщике самые тёмные убийственные инстинкты&lt;/LSTag&gt;.</content>
+<content contentuid="hb4c3664fg4055gf9b4g7627g87e6e591b6cd" version="4">Настойка на грибах Румяная Шляпка делает эту табачную смесь &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_BLUSHCAPMUSHROOM"&gt;мощным усилителем бдительности и интуитивного восприятия&lt;/LSTag&gt;.</content>
+<content contentuid="h76ec78f3ga72egcb3eg1bf0gd6ec26249bde" version="2">Смесь Интуиции</content>
+<content contentuid="hab010815gada0g6f5eg1a52g182a815cb6cc" version="3">Даёт курильщику &lt;LSTag Tooltip="Proficiency"&gt;власть&lt;/LSTag&gt; над Обманом, Убеждением и Выживанием. Атаки дальнего боя гуманоидов совершаются по курильщику с &lt;LSTag Tooltip="Disadvantage"&gt;помехой&lt;/LSTag&gt;.</content>
+<content contentuid="h1004ecbegcd87g4602g398fg0a8b966ac01a" version="3">Халсин с удовольствием курит свою любимую трубку. +2 ко всем &lt;LSTag Tooltip="AttackRoll"&gt;броскам атаки&lt;/LSTag&gt;, &lt;LSTag Tooltip="SavingThrow"&gt;спасброскам&lt;/LSTag&gt; и большинству &lt;LSTag Tooltip="AbilityCheck"&gt;проверок характеристик&lt;/LSTag&gt;.</content>
+<content contentuid="h4d585de8ge5cag7815g4b2eg364ded63239b" version="2">Партнёр Халсина счастлив выкурить его трубку. +1 ко всем &lt;LSTag Tooltip="AttackRoll"&gt;броскам атаки&lt;/LSTag&gt;, &lt;LSTag Tooltip="SavingThrow"&gt;спасброскам&lt;/LSTag&gt; и большинству &lt;LSTag Tooltip="AbilityCheck"&gt;проверок характеристик&lt;/LSTag&gt;.</content>
+<content contentuid="h7c8d54e1ga4c1g1817g0c77gfd23debab13e" version="2">Охотник на вампиров</content>
+<content contentuid="h9e54ab61g8c56gd1c2ge94dgd934cc886f44" version="3">Ожог чесноком</content>
+<content contentuid="h3d9d44aeg4517g4348gf8bcg7b429916b63d" version="5">Затронутый вампир получает -[1] ко всем броскам костей и становится &lt;LSTag Tooltip="VULNERABLE"&gt;уязвимым&lt;/LSTag&gt; к урону огнём.</content>  
+<content contentuid="h9c6b406bg3b6egfaf4ge786g30ebaedca81d" version="4">Атаки вампиров в ближнем бою против курильщиков совершаются с помехой. Кроме того, чесночный дым в радиусе [1] &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_GARLIC_AURA_VAMPIRE"&gt;влияет на вампиров&lt;/LSTag&gt;.</content>  
+<content contentuid="h0f7743d4gea92g658fg65cfg518eb16dd2de" version="2">Чесночный дым</content>  
+<content contentuid="h080f0a7fgc25bgf24agb62egf0c870a52ba6" version="3">Любой вампир в радиусе [1], проваливший &lt;LSTag Tooltip="Constitution"&gt;спасбросок&lt;/LSTag&gt; по &lt;LSTag Tooltip="Constitution"&gt;Телосложению&lt;/LSTag&gt;, получает эффект &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_GARLIC_AURA_VAMPIRE_STATUS"&gt;"Ожог чесноком"&lt;/LSTag&gt;.</content>  
+<content contentuid="ha8c6b6dag50d4gdec0g9407g9cef25269425" version="6">Смесь полыни и чеснока даёт едкий дым, который вызывает &lt;LSTag Type="Status" Tooltip="KTP_MUGWORT_GARLIC"&gt;слёзотечение и разъедает слизистые оболочки&lt;/LSTag&gt; у вампиров. Однако едкий запах жжёного чеснока делает любой разговор затруднительным.</content>
+<content contentuid="h07b30c5eg1114g1b3dg7601g376c97d6cef3" version="2">Хотя ступка и пестик выглядят чистыми, старая древесина пропитана едким запахом.</content>
+<content contentuid="he6d7e4a1gdd83ga09cg5561g763d67db8afc" version="1">Кальян</content>
+<content contentuid="hc7851890g9463g17f3g5c7eg58ebfd5cd61b" version="1">Табак</content>
+<content contentuid="hc9af14a4g32ecg6341g061bg414295ce9260" version="1">%%%EMPTY</content>
+<content contentuid="h56d4d4a8g9f55g45f1g5890g259e3ac8b90b" version="1">%%%EMPTY</content>
+<content contentuid="h68149499g0d6ag9379ge34bg8cf59a7ad559" version="1">Недомогание</content>  
+<content contentuid="ha6590db5gb1a6gb0c4g9e8dg8ad8fe0dcac8" version="1">Головные боли</content>  
+<content contentuid="h717a9626gdbf1g5e27gc17fg0a2896a68f5a" version="1">Никотиновая интоксикация</content>  
+<content contentuid="h06c97c6dg508dgca94gfe9dg9f9aad5df124" version="2">&lt;br&gt;&lt;br&gt;&lt;b&gt;Лунная вуаль&lt;/b&gt; (Белладонна) – Курильщик получает преимущество на спасброски против иллюзий и чар. Атакующие заклинания против него совершаются с помехой. Дополнительно увеличивается инициатива.</content>  
+<content contentuid="hbd7b9075g3c29g585bg04cagd38f9b4994a6" version="1">&lt;br&gt;&lt;br&gt;&lt;b&gt;Полынь с ночесветом&lt;/b&gt; – ничем не примечательная табачная смесь на основе полыни.</content>  
+</contentList>

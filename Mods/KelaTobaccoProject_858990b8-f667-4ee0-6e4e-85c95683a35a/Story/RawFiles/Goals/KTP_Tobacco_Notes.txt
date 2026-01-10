@@ -6,7 +6,7 @@ DB_KTP_Notes_Template((ITEMROOT)KTP_BOOK_SmokerNotes_25320b23-171e-4808-b829-98e
 DB_KTP_Notes_Header("KTP_Notes_Header");
 DB_KTP_Notes(0,"");
 
-DB_KTP_Known_Blend("KTP_MUGWORT_MERGRASS",KTP_MUGWORT_MERGRASS_d497d5ea-eaa1-4fc3-96c5-cca66131c883);
+DB_KTP_Known_Blend("KTP_MUGWORT_ACORNTRUFFLE",KTP_MUGWORT_ACORNTRUFFLE_c842de2e-bd40-4d91-b64b-69f5a33bae43);
 KBSECTION
 IF
 TemplateUseStarted(_User, _Template, _Item)

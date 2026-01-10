@@ -51,7 +51,7 @@
                 </node>
                 <node id="TextureAtlasPath">
                     <attribute id="Path" type="string" value="Assets/Textures/Icons/Icons_Skills.dds"/>
-                    <attribute id="UUID" type="FixedString" value="14dfe0b1-45f6-b89f-4e35-a4178a532eac"/>
+                    <attribute id="UUID" type="FixedString" value="0c4cb70b-1128-8627-e5fa-7b924720c2be"/>
                 </node>
                 <node id="TextureAtlasTextureSize">
                     <attribute id="Height" type="int32" value="512"/>

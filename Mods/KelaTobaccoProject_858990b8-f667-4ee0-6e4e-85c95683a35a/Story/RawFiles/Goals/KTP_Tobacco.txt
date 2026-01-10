@@ -47,10 +47,19 @@ AND
 _SmokingPipeStats == "OBJ_Smoking_Pipe"
 THEN
 //SetDualEntityEvent(_SmokingPipe,_SmokingPipe,"FILL PIPE WITH UNKNOWN BLEND");
+PROC_KTP_ClearUnknownBlendOnThisPipe(_SmokingPipe);
 SetTag(_SmokingPipe,KTP_FILLED_d0575f41-9d81-4f26-9f34-530c2162c110); // for condition KTPHasTobaccoStatus()
 DB_KTP_FilledPipesUnknownBlend(_SmokingPipe,_TobaccoPouchUnknownStatusPattern);
 NOT DB_KTP_UnknownBlendPouch(_TobaccoPouchUnknown,_TobaccoPouchUnknownTemplate,_TobaccoPouchUnknownStatusPattern);
 PROC_KTP_RemoveOrLeaveFakePouchTobacco(_Player,_EmptyPouch); 
+//
+// If there is unknown blend in the pipe, then we need clear it
+PROC
+PROC_KTP_ClearUnknownBlendOnThisPipe((ITEM)_SmokingPipe)
+AND
+DB_KTP_FilledPipesUnknownBlend(_SmokingPipe,_TobaccoPouchUnknownStatusPattern)
+THEN
+NOT DB_KTP_FilledPipesUnknownBlend(_SmokingPipe,_TobaccoPouchUnknownStatusPattern);
 // 
 // If there is no empty pouch in the inventory, then we leave a new one, if there is, we delete it
 PROC
