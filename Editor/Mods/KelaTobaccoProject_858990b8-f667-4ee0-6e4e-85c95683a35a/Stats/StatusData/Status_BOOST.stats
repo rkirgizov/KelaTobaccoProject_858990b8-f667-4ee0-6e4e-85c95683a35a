@@ -5,17 +5,18 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1d4c7a21-275d-4819-afb4-80b5510c4415" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_TOBACCO" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd3d9d791g2f14g68a7g69c5g7f3109b34ab1" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd3d9d791g2f14g68a7g69c5g7f3109b34ab1" version="2" />
         <field name="StackId" type="StringTableFieldDefinition" value="KTP_TOBACCO" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h56d4d4a8g9f55g45f1g5890g259e3ac8b90b" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ccaa0a74-8dd5-420f-93c8-56a00f9375f6" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_UNKNOWN" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h482dc7d5gacacg9dd7gb2e8g697dd9fa318a" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7bf7a44cgcb50gc464g3642gf8bd8a507bd4" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h482dc7d5gacacg9dd7gb2e8g697dd9fa318a" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7bf7a44cgcb50gc464g3642gf8bd8a507bd4" version="2" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisableOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1d4c7a21-275d-4819-afb4-80b5510c4415" />
       </fields>
@@ -24,8 +25,8 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3f06672c-68a6-450b-8e09-bb1f82a6dfc1" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_PUFF_COUNT_5" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3f0536a8g0f41gbebagf446g3b508c0820d7" version="5" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfbdfcedcg33abg3fccg8508gecc43b65226e" version="15" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3f0536a8g0f41gbebagf446g3b508c0820d7" version="6" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfbdfcedcg33abg3fccg8508gecc43b65226e" version="16" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisableOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="5 puffs" />
         <field name="StackId" type="StringTableFieldDefinition" value="KTP_PUFF_COUNT" />
@@ -38,7 +39,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="759b3e42-55ba-4563-b95d-0a0263cf3640" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_PUFF_COUNT_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3f06672c-68a6-450b-8e09-bb1f82a6dfc1" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7a912132g7e91gfaeagc880ge2aa4ae2dfe6" version="3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7a912132g7e91gfaeagc880ge2aa4ae2dfe6" version="4" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="4 puffs" />
       </fields>
     </stat_object>
@@ -47,7 +48,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="87117960-1a7d-4dcb-837a-866cee4cf0bf" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_PUFF_COUNT_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3f06672c-68a6-450b-8e09-bb1f82a6dfc1" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h745d0d67gb805g0e47g7ce6g7a7897341490" version="3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h745d0d67gb805g0e47g7ce6g7a7897341490" version="4" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="3 puffs" />
       </fields>
     </stat_object>
@@ -56,7 +57,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="789aab90-7192-4338-84f2-ee3114fedccc" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_PUFF_COUNT_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3f06672c-68a6-450b-8e09-bb1f82a6dfc1" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h16598348gf733g244dg49ddgf79fb0e6a5d1" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h16598348gf733g244dg49ddgf79fb0e6a5d1" version="2" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="2 puffs" />
       </fields>
     </stat_object>
@@ -65,8 +66,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="75b83664-52e9-4728-8b96-acb3254a27a0" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_PUFF_COUNT_1" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3f06672c-68a6-450b-8e09-bb1f82a6dfc1" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hab289e5cg9c95gca7bgbfe6g28b1b3d1aac5" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfc721663g25b0g33c1gd521g43e1d505abbc" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hab289e5cg9c95gca7bgbfe6g28b1b3d1aac5" version="2" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="1 puff" />
       </fields>
     </stat_object>
@@ -74,10 +74,10 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="480fa48a-1539-49cc-be26-a982e51e8425" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1353fe6egb9f4g6757geb90g193273651de6" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1353fe6egb9f4g6757geb90g193273651de6" version="3" />
         <field name="StackId" type="StringTableFieldDefinition" value="KTP_TOBACCO" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h55bf1fb4gd58bg3987g713bgc279255d88f5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h55bf1fb4gd58bg3987g713bgc279255d88f5" version="2" />
         <field name="Passives" type="StringTableFieldDefinition" value="KTP_SmokerDebuff_Base_Passive;" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisableOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
@@ -89,8 +89,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c69d4191-647b-40a7-b8cf-6f63818da993" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_HERBAL" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="480fa48a-1539-49cc-be26-a982e51e8425" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h02020a6cga080g1169g79b7gf8c4e2c7d4dd" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h85f223d2gfe70g093cg0932g41ddf7140393" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h02020a6cga080g1169g79b7gf8c4e2c7d4dd" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h85f223d2gfe70g093cg0932g41ddf7140393" version="2" />
       </fields>
     </stat_object>
     <stat_object color="#FF008000" is_substat="false">
@@ -98,8 +98,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="76120498-98a7-4afe-b0a1-3012d1eab464" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_AUTUMNCROCUS" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c69d4191-647b-40a7-b8cf-6f63818da993" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he995f18bga6d0g72a0ge6e5g6701135d3aad" version="3" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcb0198bbg61dcg125dg7a67geb9072321359" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he995f18bga6d0g72a0ge6e5g6701135d3aad" version="4" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcb0198bbg61dcg125dg7a67geb9072321359" version="3" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(Tagged('UNDEAD', context.Source)):Disadvantage(AttackTarget);" />
       </fields>
     </stat_object>
@@ -108,8 +108,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="09baee5a-cf40-449b-b0cd-b51e3a87108a" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_BALSAM" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c69d4191-647b-40a7-b8cf-6f63818da993" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0bb44876gfa30g3116gacf0g9a44b7875b8a" version="4" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7c48a102g4502ge899g3befg0d29b4521159" version="4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0bb44876gfa30g3116gacf0g9a44b7875b8a" version="5" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7c48a102g4502ge899g3befg0d29b4521159" version="5" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(1d4)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasHPPercentageLessThan(50)):RegainHitPoints(1d4)" />
@@ -121,8 +121,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="28428a22-ebf1-45f5-9667-fcc83af03cc5" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_BELLADONNA" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c69d4191-647b-40a7-b8cf-6f63818da993" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h16b8405eg6de9g8726gc6d9ga7a1add94645" version="5" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8950f31egf8b0ge01aga14eg323eafffd796" version="6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h16b8405eg6de9g8726gc6d9ga7a1add94645" version="6" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8950f31egf8b0ge01aga14eg323eafffd796" version="7" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="3" />
         <field name="Passives" type="StringTableFieldDefinition" value="KTP_Mugwort_Belladonna_Passive;KTP_SmokerDebuff_Belladonna_Passive;" />
       </fields>
@@ -132,8 +132,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e68d170a-d8a2-428e-a63d-ec73b634a15e" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_BLACKOLEANDER" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c69d4191-647b-40a7-b8cf-6f63818da993" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0e3a91bfg5bcagb28dgf6b4ga63bb0eeadf5" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8649e803gf4beg20a0g5874g494d457fe576" version="3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0e3a91bfg5bcagb28dgf6b4ga63bb0eeadf5" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8649e803gf4beg20a0g5874g494d457fe576" version="4" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="GainTemporaryHitPoints(10);" />
         <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(10);Resistance(Necrotic, Immune);StatusImmunity(BLEEDING);" />
       </fields>
@@ -143,8 +143,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5a662e97-10ae-4d85-a6cb-5fe0fe31726d" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_CORPSEROSE" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c69d4191-647b-40a7-b8cf-6f63818da993" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0c073603g3181geae1gc1bcg089fffe77080" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hda726fbbg3ac1gdd9bg9999g218196272561" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0c073603g3181geae1gc1bcg089fffe77080" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hda726fbbg3ac1gdd9bg9999g218196272561" version="3" />
         <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Poisoned);Resistance(Poison, Immune);" />
         <field name="Passives" type="StringTableFieldDefinition" value="KTP_SmokerDebuff_Base_Passive;WhispersOfTheGrave;" />
       </fields>
@@ -154,8 +154,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1a35d80a-beab-45b4-9f08-cb4c96470975" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_DAGGERROOT" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c69d4191-647b-40a7-b8cf-6f63818da993" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3bb3e690gadc9ge62agd3cegf196b9b905b4" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcf968cacgec30gcde0g2bb8gf225aed02c96" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3bb3e690gadc9ge62agd3cegf196b9b905b4" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcf968cacgec30gcde0g2bb8gf225aed02c96" version="2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Ability, Dexterity);Advantage(SavingThrow, Dexterity);" />
         <field name="Passives" type="StringTableFieldDefinition" value="KTP_SmokerDebuff_Base_Passive;KTP_Mugwort_Daggerroot_Passive;" />
       </fields>
@@ -165,8 +165,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a7d2b5dc-0ef4-40f7-b795-29d5dd420e00" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_DRIEDFEYFLOWER" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c69d4191-647b-40a7-b8cf-6f63818da993" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h296cc5c1gc4f6g9d1cgf022gce715bb572b2" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6545eb40g3986g35eegc05cg8d17a0461120" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h296cc5c1gc4f6g9d1cgf022gce715bb572b2" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6545eb40g3986g35eegc05cg8d17a0461120" version="3" />
         <field name="Passives" type="StringTableFieldDefinition" value="KTP_SmokerDebuff_Base_Passive;KTP_Mugwort_DriedFeyFlower_Passive;" />
       </fields>
     </stat_object>
@@ -175,8 +175,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d0b2c769-a4da-4c58-a48a-2d2e3c90be71" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_MERGRASS" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c69d4191-647b-40a7-b8cf-6f63818da993" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h72e99ac6g18bbg70afgd6b0gdceaffe034a9" version="3" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdec109fcg8590gab33gb577g4c9698ce9183" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h72e99ac6g18bbg70afgd6b0gdceaffe034a9" version="4" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdec109fcg8590gab33gb577g4c9698ce9183" version="3" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Skill,Persuasion);Advantage(Skill,Deception)" />
       </fields>
     </stat_object>
@@ -185,8 +185,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d634f7fa-f75e-4d67-8e53-844c09a6750c" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_NIGHTORCHID" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c69d4191-647b-40a7-b8cf-6f63818da993" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h294dcc9ag3c80g96ebgdaccgc96f7367fb0d" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb17e7edcgf8e1g2f41g868eg0d5ce37f5b97" version="3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h294dcc9ag3c80g96ebgdaccgc96f7367fb0d" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb17e7edcgf8e1g2f41g868eg0d5ce37f5b97" version="4" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Psychic);5;5" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('ALCH_ELIXIR_CONCENTRATION') and not Dead() and (not HasActionResource('SpellSlot', 100, 1, true) and HasPassive('UnlockedSpellSlotLevel1'))):ApplyStatus(KTP_MUGWORT_NIGHTORCHID_TECHNICAL_OTHER,100,0);IF(HasStatus('ALCH_ELIXIR_CONCENTRATION') and not Dead() and (not HasActionResource('WarlockSpellSlot', 100, 1, true) and HasPassive('UnlockedWarlockSpellSlotLevel1'))):ApplyStatus(KTP_MUGWORT_NIGHTORCHID_TECHNICAL_WARLOCK,100,0)" />
@@ -197,26 +197,24 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ac847f4c-0d5b-4380-bc72-b0998ff02437" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_NIGHTORCHID_TECHNICAL_OTHER" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he22e1126ge04fgc438g6f71gad5b2ab0bac7" version="1" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d4,Psychic);SetStatusDuration(KTP_MUGWORT_NIGHTORCHID,-5,Add);IF(HasHPPercentageEqualOrLessThan(20)):RemoveStatus(KTP_MUGWORT_NIGHTORCHID)" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb265b8begecfegc1b3g58ebge4a555d39c43" version="1" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(SpellSlot,1,1)" />
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="b88e4a1e-4eef-470c-8d12-6db53c48a1e8" />
         <field name="StackId" type="StringTableFieldDefinition" value="KTP_MUGWORT_NIGHTORCHID_TECHNICAL_OTHER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d4c7a21-275d-4819-afb4-80b5510c4415" />
       </fields>
     </stat_object>
     <stat_object color="#FF008000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="89b2edaa-e1bc-42ee-aa89-902d4fabaf9c" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_NIGHTORCHID_TECHNICAL_WARLOCK" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h68167bc5g1f00gb588g5cc7g4f08b02226cd" version="1" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d4,Psychic);SetStatusDuration(KTP_MUGWORT_NIGHTORCHID,-5,Add);IF(HasHPPercentageEqualOrLessThan(20)):RemoveStatus(KTP_MUGWORT_NIGHTORCHID)" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6f0e8252gd175gdfa1gd7d0g9f346618e7b7" version="1" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(WarlockSpellSlot,1,1)" />
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="b88e4a1e-4eef-470c-8d12-6db53c48a1e8" />
         <field name="StackId" type="StringTableFieldDefinition" value="KTP_MUGWORT_NIGHTORCHID_TECHNICAL_WARLOCK" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d4c7a21-275d-4819-afb4-80b5510c4415" />
       </fields>
     </stat_object>
     <stat_object color="#FF008000" is_substat="false">
@@ -224,8 +222,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="15fce278-086a-4b0c-be64-237096248c53" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_PALEMINT" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c69d4191-647b-40a7-b8cf-6f63818da993" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb546b249g2b43gd44ag2a8fg272a68f15a85" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7092e026gba01g2d4bga70bg9c48dd8f2056" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb546b249g2b43gd44ag2a8fg272a68f15a85" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7092e026gba01g2d4bga70bg9c48dd8f2056" version="2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(BonusActionPoint,1,0);ProficiencyBonus(Skill,Persuasion);ProficiencyBonus(Skill,Deception);ProficiencyBonus(Skill,Intimidation);Tag(CHARMED_ADV)" />
       </fields>
     </stat_object>
@@ -234,10 +232,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7cb34766-c287-4b1c-a695-2e33fdcaed10" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_SUSSURBLOOM" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c69d4191-647b-40a7-b8cf-6f63818da993" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3905aeebg5458g2a88g71dfg5b5f07b2d7be" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3905aeebg5458g2a88g71dfg5b5f07b2d7be" version="3" />
         <field name="Passives" type="StringTableFieldDefinition" value="KTP_SmokerDebuff_Base_Passive;KTP_Mugwort_SussurBloom_Passive;" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(KTP_MUGWORT_SUSSURBLOOM_AURA)" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h378b32bcg2115gc97cg1625g079402337530" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h378b32bcg2115gc97cg1625g079402337530" version="4" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;Distance(6)" />
       </fields>
     </stat_object>
@@ -245,20 +243,19 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="72dd55cf-373e-4955-8f3f-b282ee8c3e3e" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_SUSSURBLOOM_AURA" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6534f107gab56g77f5gff9fge2875603b8ab" version="2" />
         <field name="AuraRadius" type="IntegerTableFieldDefinition" value="6" />
         <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF((Character() or Tagged('UND_SUSSUR_SUSCEPTIBLE')) and not HasStatus('KTP_MUGWORT_SUSSURBLOOM_AURA') and not HasPassive('AntimagicSusceptibility') and not HasPassive('Multiattack_Automaton')):ApplyStatus(KTP_MUGWORT_SUSSURBLOOM_AURA_CHAR);TARGET:IF((Character() or Tagged('UND_SUSSUR_SUSCEPTIBLE')) and not HasStatus('KTP_MUGWORT_SUSSURBLOOM_AURA') and (HasPassive('AntimagicSusceptibility') or HasPassive('Multiattack_Automaton'))):ApplyStatus(KTP_MUGWORT_SUSSURBLOOM_AURA_ANIMATED)" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h94648637gea43g92d2gc423gad86b88a015b" version="1" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="KTP_MUGWORT_SUSSURBLOOM_AURA" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d4c7a21-275d-4819-afb4-80b5510c4415" />
       </fields>
     </stat_object>
     <stat_object color="#FF008000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="187fa95a-0ee9-48fa-a6a5-d90ceed22135" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_SUSSURBLOOM_AURA_CHAR" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h55f1a89bgcb62g84d8gc14dg68608eaa0d4d" version="3" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1dedf0f9gd0e3g5bfcgc8cdg3ac65a20c082" version="3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h55f1a89bgcb62g84d8gc14dg68608eaa0d4d" version="4" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1dedf0f9gd0e3g5bfcgc8cdg3ac65a20c082" version="4" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(6)" />
         <field name="StackId" type="StringTableFieldDefinition" value="KTP_MUGWORT_SUSSURBLOOM_AURA_CHAR" />
@@ -271,8 +268,8 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b544b330-8a66-4c30-bcde-443e6b3ffc0f" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_SUSSURBLOOM_AURA_CHAR_STATUS" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8d0472a5gac59g9cb8ge266g6ba6600d79ee" version="3" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h035914c6gc842gb63ag9919g0f0d84b2e047" version="3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8d0472a5gac59g9cb8ge266g6ba6600d79ee" version="4" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h035914c6gc842gb63ag9919g0f0d84b2e047" version="4" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Debuff" />
         <field name="StackId" type="StringTableFieldDefinition" value="KTP_MUGWORT_SUSSURBLOOM_AURA_CHAR_STATUS" />
         <field name="Boosts" type="StringTableFieldDefinition" value="BlockVerbalComponent();" />
@@ -291,22 +288,19 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="daf9837d-31a1-463f-9d0f-b3820978b7c8" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_SUSSURBLOOM_AURA_ANIMATED" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdeb876b2g2365g88ecgaaf5gb645f5abcc45" version="3" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf65ce037g8a66g2cc2g1856g11bf8b309116" version="3" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(6)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf65ce037g8a66g2cc2g1856g11bf8b309116" version="4" />
         <field name="StackId" type="StringTableFieldDefinition" value="KTP_MUGWORT_SUSSURBLOOM_AURA_ANIMATED" />
-        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Constitution, 15)):ApplyStatus(KTP_MUGWORT_SUSSURBLOOM_AURA_ANIMATED_STATUS,100, 1)" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Constitution, 15)):ApplyStatus(KTP_MUGWORT_SUSSURBLOOM_AURA_ANIMATED_STATUS,100, 1)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="187fa95a-0ee9-48fa-a6a5-d90ceed22135" />
       </fields>
     </stat_object>
     <stat_object color="#FF008000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2fc33024-2003-4ae5-a923-4effb586cbdf" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_SUSSURBLOOM_AURA_ANIMATED_STATUS" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcd4cbdd5gf5edg1f62g235bg758379bf0d54" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h89e3f0c4g4843gbac5gab97gfca6af86ea5c" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcd4cbdd5gf5edg1f62g235bg758379bf0d54" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h89e3f0c4g4843gbac5gab97gfca6af86ea5c" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Debuff" />
         <field name="StackId" type="StringTableFieldDefinition" value="KTP_MUGWORT_SUSSURBLOOM_AURA_ANIMATED_STATUS" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Constitution, -4);Ability(Strength, -4);AC(-4);" />
@@ -322,8 +316,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="bee9aa6d-cb0e-452f-a255-7bb7fe298e48" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_WEAVEMOSS" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c69d4191-647b-40a7-b8cf-6f63818da993" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb8474437geb45g9445g9114g6013b9ad49b1" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h75b54febg2b6bgd57cg8fb3g9a1090539522" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb8474437geb45g9445g9114g6013b9ad49b1" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h75b54febg2b6bgd57cg8fb3g9a1090539522" version="2" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="2;18" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Intelligence,2,18);ProficiencyBonus(Skill,Arcana);ProficiencyBonus(Skill,History);ProficiencyBonus(Skill,Nature);ProficiencyBonus(Skill,Religion);ProficiencyBonus(Skill,Investigation);" />
         <field name="Passives" type="StringTableFieldDefinition" value="KTP_SmokerDebuff_Weavemoss_Passive;" />
@@ -334,8 +328,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c078bc0e-ae2d-43f9-990c-6ed16c2aeaa1" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_WISPWEED" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c69d4191-647b-40a7-b8cf-6f63818da993" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h431d35ebga5b0gb3a9g0c63g46dd6ec89599" version="3" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9a7b0cbcgc0b8g3001g2c33g91c0c88bf181" version="6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h431d35ebga5b0gb3a9g0c63g46dd6ec89599" version="4" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9a7b0cbcgc0b8g3001g2c33g91c0c88bf181" version="7" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Ability(Strength,2);Ability(Dexterity,2);ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);" />
       </fields>
@@ -345,8 +339,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ee2d9354-fa88-48f0-b508-0173546e9957" />
         <field name="Name" type="NameTableFieldDefinition" color="#FF008000" value="KTP_MUGWORT_WITHEREDSUSSURPETAL" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c69d4191-647b-40a7-b8cf-6f63818da993" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd70c9a24g645aga32bg3c6aga399b9fc6df6" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd4292597g1482gd986gcf27g7e90c6669915" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd70c9a24g645aga32bg3c6aga399b9fc6df6" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd4292597g1482gd986gcf27g7e90c6669915" version="2" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="2" />
         <field name="Passives" type="StringTableFieldDefinition" value="KTP_SmokerDebuff_Base_Passive;KTP_Mugwort_WitheredBluePetal_Passive;" />
       </fields>
@@ -356,8 +350,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e8dd73a2-b243-4b9e-a4c3-1c737ed006fc" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_YELLOWMUSKCREEPERPETALS" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c69d4191-647b-40a7-b8cf-6f63818da993" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hec3def4cg096ag390age2bag862a7e4579ac" version="3" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he1f2a6e4g8829g995dg60a5ge3319fb6083e" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hec3def4cg096ag390age2bag862a7e4579ac" version="4" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he1f2a6e4g8829g995dg60a5ge3319fb6083e" version="3" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="GainTemporaryHitPoints(10);RegainHitPoints(2)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Poisoned);Resistance(Poison, Immune);TemporaryHP(10) " />
@@ -369,8 +363,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="af7a37b9-1ca5-4cdb-88d9-a521c4bbadcc" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_MUSHROOMS" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="480fa48a-1539-49cc-be26-a982e51e8425" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5eff4059ge955g4098gccc9gdc71ab40b21b" version="1" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h46ccbe3fg80e4g28f9g8eddg1c262b2db7a3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5eff4059ge955g4098gccc9gdc71ab40b21b" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h46ccbe3fg80e4g28f9g8eddg1c262b2db7a3" version="2" />
       </fields>
     </stat_object>
     <stat_object color="#FF800080" is_substat="false">
@@ -378,8 +372,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3ae36f7f-7af7-4f29-a2e2-f7f748bea1af" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_ACORNTRUFFLE" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="af7a37b9-1ca5-4cdb-88d9-a521c4bbadcc" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdff2f723gfe14g0cceg3420g58f5304dda1b" version="3" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h25b936fdg152dg3f82gf26fg8b9d3d67e131" version="3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdff2f723gfe14g0cceg3420g58f5304dda1b" version="4" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h25b936fdg152dg3f82gf26fg8b9d3d67e131" version="4" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Tag(PETPAL);ProficiencyBonus(Skill,AnimalHandling);ProficiencyBonus(Skill,Survival);ProficiencyBonus(Skill,Nature);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="1d4" />
         <field name="Passives" type="StringTableFieldDefinition" value="KTP_SmokerDebuff_Base_Passive;KTP_Mugwort_AcornTruffle_Passive;" />
@@ -390,7 +384,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="50d352f5-300d-42a8-9804-6987019790dd" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_BLUECAP" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="af7a37b9-1ca5-4cdb-88d9-a521c4bbadcc" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2649eb86g6394gbaefg777eg4f03bfd3b3c0" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2649eb86g6394gbaefg777eg4f03bfd3b3c0" version="2" />
         <field name="Passives" type="StringTableFieldDefinition" value="KTP_SmokerDebuff_Base_Underdark_Passive;" />
       </fields>
     </stat_object>
@@ -399,8 +393,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f168d42c-debf-4692-85d9-62cecdb69bdd" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_BLUSHCAPMUSHROOM" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="af7a37b9-1ca5-4cdb-88d9-a521c4bbadcc" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h76ec78f3ga72egcb3eg1bf0gd6ec26249bde" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hab010815gada0g6f5eg1a52g182a815cb6cc" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h76ec78f3ga72egcb3eg1bf0gd6ec26249bde" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hab010815gada0g6f5eg1a52g182a815cb6cc" version="3" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill,Persuasion);ProficiencyBonus(Skill,Deception);ProficiencyBonus(Skill,Survival);IF(Tagged('HUMANOID') and DistanceToTargetGreaterThan(3)):Disadvantage(AttackTarget);" />
         <field name="Passives" type="StringTableFieldDefinition" value="KTP_SmokerDebuff_BlushcapMushroom_Passive;" />
       </fields>
@@ -410,8 +404,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7090b5b6-a97d-4cfd-9701-5ba69a207dc5" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_BONECAP" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="af7a37b9-1ca5-4cdb-88d9-a521c4bbadcc" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd41382bbgc15cg2bb8g032agb3435aab0356" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h71981f02g149cg3beagd377g9bc9942c691e" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd41382bbgc15cg2bb8g032agb3435aab0356" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h71981f02g149cg3beagd377g9bc9942c691e" version="2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(SneakAttack_Charge,1,0);UnlockSpell(Target_KTP_SneakAttack,,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,);UnlockSpell(Projectile_KTP_SneakAttack,,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,);" />
         <field name="Passives" type="StringTableFieldDefinition" value="Assassinate_Resource;KTP_SmokerDebuff_Base_Passive;" />
       </fields>
@@ -421,7 +415,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6d37affe-c199-4741-9d69-e7ff0f37c289" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_BULBOUSFUNGUS" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="af7a37b9-1ca5-4cdb-88d9-a521c4bbadcc" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfbd5caeagd593g41e0g20cag7fa1ec7c66a1" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfbd5caeagd593g41e0g20cag7fa1ec7c66a1" version="2" />
       </fields>
     </stat_object>
     <stat_object color="#FF800080" is_substat="false">
@@ -429,7 +423,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4e3e1b69-9e7c-4869-80fb-3e9dde6c7df6" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_BULLYWUGTRUMPET" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="af7a37b9-1ca5-4cdb-88d9-a521c4bbadcc" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2d723dddg8155g34dagb0ccg2a6332bc8429" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2d723dddg8155g34dagb0ccg2a6332bc8429" version="2" />
         <field name="Passives" type="StringTableFieldDefinition" value="KTP_SmokerDebuff_Base_Underdark_Passive;" />
       </fields>
     </stat_object>
@@ -438,7 +432,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7b5434ae-22b5-4c90-bf36-955a0af20389" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_DRAGONEGGMUSHROOM" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="af7a37b9-1ca5-4cdb-88d9-a521c4bbadcc" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h771d686fg636cg856cg0d52g5216faf4a1ca" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h771d686fg636cg856cg0d52g5216faf4a1ca" version="2" />
       </fields>
     </stat_object>
     <stat_object color="#FF800080" is_substat="false">
@@ -446,7 +440,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7be7e3ce-7d36-4957-a467-06774bc9be30" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_GLOWCAPMUSHROOM" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="af7a37b9-1ca5-4cdb-88d9-a521c4bbadcc" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7b4b972eg9b6fg3739g4f3ag7d8a66351dd6" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7b4b972eg9b6fg3739g4f3ag7d8a66351dd6" version="2" />
       </fields>
     </stat_object>
     <stat_object color="#FF800080" is_substat="false">
@@ -454,7 +448,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b6de9eb2-71e2-46e3-85fb-5dfb25a50a7b" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_HASTENINGSPORES" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="af7a37b9-1ca5-4cdb-88d9-a521c4bbadcc" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb5879874gcf36g8490gf8dagce8ab8c3ff3c" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb5879874gcf36g8490gf8dagce8ab8c3ff3c" version="2" />
       </fields>
     </stat_object>
     <stat_object color="#FF800080" is_substat="false">
@@ -462,7 +456,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e55d1628-3df8-4ce0-80b2-e53cabc21f86" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_NIGHTLIGHTPIECE" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="af7a37b9-1ca5-4cdb-88d9-a521c4bbadcc" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h61315826g9b62g110cg9f95g236c0ea5a30e" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h61315826g9b62g110cg9f95g236c0ea5a30e" version="2" />
         <field name="Passives" type="StringTableFieldDefinition" value="KTP_SmokerDebuff_Base_Underdark_Passive;" />
       </fields>
     </stat_object>
@@ -471,7 +465,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="46ef07b4-7f78-4b6a-84c3-626b0811c1eb" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_NOBLESTALK" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="af7a37b9-1ca5-4cdb-88d9-a521c4bbadcc" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h153560a8g5b73gf606gb18eg7987669133d1" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h153560a8g5b73gf606gb18eg7987669133d1" version="2" />
         <field name="Passives" type="StringTableFieldDefinition" value="KTP_SmokerDebuff_Base_Underdark_Passive;" />
       </fields>
     </stat_object>
@@ -480,7 +474,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0b977272-74a1-4b3d-94b3-c34e0748ea25" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_POISONSPORE" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="af7a37b9-1ca5-4cdb-88d9-a521c4bbadcc" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h10793c54gae41gab9dg729dg3bc1ac12e863" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h10793c54gae41gab9dg729dg3bc1ac12e863" version="2" />
       </fields>
     </stat_object>
     <stat_object color="#FF800080" is_substat="false">
@@ -488,8 +482,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8d3f38d6-bfb0-4063-9ae3-40697b378642" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_ROGUESMORSEL" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="af7a37b9-1ca5-4cdb-88d9-a521c4bbadcc" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h75ad99eeg001ag6bd7g4365gb90d44c7d17a" version="3" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha4360857g51b7g0e7bg8b6cg73d87fb6d13e" version="3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h75ad99eeg001ag6bd7g4365gb90d44c7d17a" version="4" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha4360857g51b7g0e7bg8b6cg73d87fb6d13e" version="4" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Skill, SleightOfHand)" />
         <field name="Passives" type="StringTableFieldDefinition" value="FastHands;KTP_SmokerDebuff_Base_Passive;" />
       </fields>
@@ -499,8 +493,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a879b886-28b0-4490-8594-55728b764c92" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_SHADOWROOTSAC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="af7a37b9-1ca5-4cdb-88d9-a521c4bbadcc" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3bab022dg5e7cgc567g1cb7gd4fa92b914d8" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdded59fag676eg9db9g02beg4b6bc1d0cc26" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3bab022dg5e7cgc567g1cb7gd4fa92b914d8" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdded59fag676eg9db9g02beg4b6bc1d0cc26" version="3" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="2;10" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ReduceCriticalAttackThreshold(2);Tag(SHADOW);IncreaseMaxHP(-10);Resistance(Necrotic,Vulnerable);" />
       </fields>
@@ -510,7 +504,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7c921981-9d51-4261-b022-77267ac4f5f7" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_SWARMINGTOADSTOOL" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="af7a37b9-1ca5-4cdb-88d9-a521c4bbadcc" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hae720b19g13f9gfc56g6a15g08444b4b9ad0" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hae720b19g13f9gfc56g6a15g08444b4b9ad0" version="2" />
         <field name="Passives" type="StringTableFieldDefinition" value="KTP_SmokerDebuff_Base_Underdark_Passive;" />
       </fields>
     </stat_object>
@@ -519,7 +513,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="601cd024-2eab-47ec-9fc0-3c859dba9fbf" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_TIMMASKSPORES" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="af7a37b9-1ca5-4cdb-88d9-a521c4bbadcc" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3a592a49gcfccg71ecgd6d1g2b69649a07d2" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3a592a49gcfccg71ecgd6d1g2b69649a07d2" version="2" />
         <field name="Passives" type="StringTableFieldDefinition" value="KTP_SmokerDebuff_Base_Underdark_Passive;" />
       </fields>
     </stat_object>
@@ -528,7 +522,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="91920500-8973-4af5-b0f2-577694de0bb8" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_TONGUEOFMADNESS" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="af7a37b9-1ca5-4cdb-88d9-a521c4bbadcc" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf13d0639g7f8egf8b7g892dgf2fe01428082" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf13d0639g7f8egf8b7g892dgf2fe01428082" version="2" />
         <field name="Passives" type="StringTableFieldDefinition" value="KTP_SmokerDebuff_Base_Underdark_Passive;" />
       </fields>
     </stat_object>
@@ -537,7 +531,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8e133b52-20d2-4975-b966-6d4d9afb96b6" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_WHITEMUSHROOM" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="af7a37b9-1ca5-4cdb-88d9-a521c4bbadcc" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc11bec5fg4d56g2a34ga3b2g8d427ecebcc6" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc11bec5fg4d56g2a34ga3b2g8d427ecebcc6" version="2" />
       </fields>
     </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
@@ -545,8 +539,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="db52138f-4520-479b-91fe-d0ef9e501e4b" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_FOOD" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="480fa48a-1539-49cc-be26-a982e51e8425" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha9c0dca8g123ag3d9dg8bc1gf22c11d2e8bf" version="1" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h976d3a18gcbf3gea73g46c4gb69977307a3b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha9c0dca8g123ag3d9dg8bc1gf22c11d2e8bf" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h976d3a18gcbf3gea73g46c4gb69977307a3b" version="2" />
       </fields>
     </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
@@ -554,8 +548,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f054a9d3-f422-4f0a-9311-b4c00901ea24" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_GARLIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="db52138f-4520-479b-91fe-d0ef9e501e4b" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4afe57fag6732g3b19gcdbcg1996006ef4e6" version="3" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9c6b406bg3b6egfaf4ge786g30ebaedca81d" version="3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4afe57fag6732g3b19gcdbcg1996006ef4e6" version="4" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9c6b406bg3b6egfaf4ge786g30ebaedca81d" version="4" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(6)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Skill, Persuasion);Disadvantage(Skill, Deception);Disadvantage(Ability, Charisma);" />
         <field name="Passives" type="StringTableFieldDefinition" value="KTP_SmokerDebuff_Base_Passive;KTP_Mugwort_Garlic_Passive;" />
@@ -566,20 +560,19 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="873d6c9d-3520-439c-8826-54e450aeb21d" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_GARLIC_AURA" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc6e0333cgebd8gee34g63cbg736b6a79679e" version="1" />
         <field name="AuraRadius" type="IntegerTableFieldDefinition" value="6" />
         <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Character() and (Tagged('VAMPIRE') or HasPassive('Regeneration_Vampire'))):ApplyStatus(KTP_MUGWORT_GARLIC_AURA_VAMPIRE);" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h17bc9ebdg4a7fgca95g09c1g19261344c139" version="1" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="KTP_MUGWORT_GARLIC_AURA" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d4c7a21-275d-4819-afb4-80b5510c4415" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9c536c64-7f37-4a16-b359-2c62e34bf247" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_GARLIC_AURA_VAMPIRE" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f7743d4gea92g658fg65cfg518eb16dd2de" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h080f0a7fgc25bgf24agb62egf0c870a52ba6" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0f7743d4gea92g658fg65cfg518eb16dd2de" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h080f0a7fgc25bgf24agb62egf0c870a52ba6" version="3" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(6)" />
         <field name="StackId" type="StringTableFieldDefinition" value="KTP_MUGWORT_GARLIC_AURA_VAMPIRE" />
@@ -593,8 +586,8 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9240d2aa-f93e-43ad-9463-ec765c29069b" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_GARLIC_AURA_VAMPIRE_STATUS" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9e54ab61g8c56gd1c2ge94dgd934cc886f44" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3d9d44aeg4517g4348gf8bcg7b429916b63d" version="4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9e54ab61g8c56gd1c2ge94dgd934cc886f44" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3d9d44aeg4517g4348gf8bcg7b429916b63d" version="5" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Debuff" />
         <field name="StackId" type="StringTableFieldDefinition" value="KTP_MUGWORT_GARLIC_AURA_VAMPIRE_STATUS" />
         <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(Attack,-1d4);RollBonus(SavingThrow,-1d4);RollBonus(SkillCheck,-1d4);RollBonus(RawAbility,-1d4);Resistance(Fire,Vulnerable);" />
@@ -611,7 +604,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="cef33796-ec7e-467b-9ed9-080bb1467a64" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_GOODBERRY" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="db52138f-4520-479b-91fe-d0ef9e501e4b" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h46d21f8egcd72gae1ag2450ge689d99a49fc" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h46d21f8egcd72gae1ag2450ge689d99a49fc" version="2" />
       </fields>
     </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
@@ -619,7 +612,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ba3501a0-d49e-4e58-a7fc-a2b5b71e80e4" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_LEMON" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="db52138f-4520-479b-91fe-d0ef9e501e4b" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hee95f3dfg2cf2g5da5gb1c9ge137877050e8" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hee95f3dfg2cf2g5da5gb1c9ge137877050e8" version="2" />
       </fields>
     </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
@@ -627,7 +620,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="deb01bbd-f61a-4103-afe1-c4a8b7ea93f2" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_ONION" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="db52138f-4520-479b-91fe-d0ef9e501e4b" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0c889957gc9fdgcfe3g319eg4451e85d2ccd" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0c889957gc9fdgcfe3g319eg4451e85d2ccd" version="2" />
       </fields>
     </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
@@ -635,7 +628,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3aaadf43-76f4-44dd-9f90-8fba07b0a1c5" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_ORANGE" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="db52138f-4520-479b-91fe-d0ef9e501e4b" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb9d14bd4gd58egcbe1g7f73g1d4136cc700b" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb9d14bd4gd58egcbe1g7f73g1d4136cc700b" version="2" />
       </fields>
     </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">
@@ -643,8 +636,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3960f2b0-b227-4370-9bf2-1e287d3afd27" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_OTHER" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="480fa48a-1539-49cc-be26-a982e51e8425" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hae547230g74fag5f09gb15dgdbb87f1f34be" version="1" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5e0f1d04gc6eagf8b2g0945gf192f892f2be" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hae547230g74fag5f09gb15dgdbb87f1f34be" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5e0f1d04gc6eagf8b2g0945gf192f892f2be" version="2" />
       </fields>
     </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">
@@ -652,8 +645,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f34f52dd-f868-457d-8306-9c33205b8e70" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MUGWORT_KIRINHAIR" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3960f2b0-b227-4370-9bf2-1e287d3afd27" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd9d6c31dg77edg6abegb38ag81d5627a3bc9" version="4" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h677737cfg5a97g0a2dg5a0bg4a9adb5ce53d" version="4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd9d6c31dg77edg6abegb38ag81d5627a3bc9" version="5" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h677737cfg5a97g0a2dg5a0bg4a9adb5ce53d" version="5" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not Item() and not HasStatus('ALCH_ELIXIR_CONCENTRATION') and not SavingThrow(Ability.Constitution, 13)):ApplyStatus(KTP_POISONED,100,5);IF(not Item() and not HasStatus('ALCH_ELIXIR_CONCENTRATION')):RemoveStatus(KTP_MUGWORT_KIRINHAIR)" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="10;3;3" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
@@ -673,8 +666,7 @@
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;DisableOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha6c89352ga426g0131gce15g737364fd777a" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1004ecbegcd87g4602g398fg0a8b966ac01a" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1004ecbegcd87g4602g398fg0a8b966ac01a" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Buff" />
         <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,2);RollBonus(Attack,2);RollBonus(SkillCheck,2);RollBonus(RawAbility,2);" />
       </fields>
@@ -685,7 +677,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="KTP_HALSIN_PARTNER_HAPPY" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="94c4f3a2-3c88-4362-b417-6f17a881fea3" />
         <field name="StackId" type="StringTableFieldDefinition" value="KTP_HALSIN_PARTNER_HAPPY" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4d585de8ge5cag7815g4b2eg364ded63239b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4d585de8ge5cag7815g4b2eg364ded63239b" version="2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow,1);RollBonus(Attack,1);RollBonus(SkillCheck,1);RollBonus(RawAbility,1);" />
       </fields>
     </stat_object>
@@ -694,8 +686,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3afc34c4-8956-46f9-9d74-3aaadcab6cb9" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MALAISE" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest;ForceOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h566a1cc0g9da6g3cd1g8361g658e2529b537" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5cf6f6dbg5727gaa70g9526gb49e007c1594" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h566a1cc0g9da6g3cd1g8361g658e2529b537" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5cf6f6dbg5727gaa70g9526gb49e007c1594" version="3" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Debuff" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability, Dexterity)" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec;SG_Disease;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
@@ -711,8 +703,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="dbd47a72-cdab-480f-8d9f-dc6b121363f2" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_OVERDOSE_3" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest;ForceOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdf735b57gb7f7ge98ag9c24g632f66cb3673" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h71df1d62g8d9bgecffg7c5cg5118b8bbe21e" version="7" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h71df1d62g8d9bgecffg7c5cg5118b8bbe21e" version="8" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Debuff" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability, Dexterity)" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec;SG_Disease;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
@@ -722,6 +713,7 @@
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(KTP_OVERDOSE_3_REMOVE_STATUSES)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(IsConcentrating() and not HasStatus('KTP_OVERDOSE_3_REMOVE_STATUSES')):ApplyStatus(KTP_OVERDOSE_3_REMOVE_STATUSES,100,-1)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3afc34c4-8956-46f9-9d74-3aaadcab6cb9" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -729,8 +721,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="16c5a912-46d2-4a8b-940e-8125e98daa72" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_OVERDOSE_4" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest;ForceOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h597a4da2g7f17gbb1cgadefg2a2560e190f9" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35166656g93a8g1ddcga4e8gf8bb010cfb59" version="5" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h597a4da2g7f17gbb1cgadefg2a2560e190f9" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35166656g93a8g1ddcga4e8gf8bb010cfb59" version="6" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Debuff" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(Ability, Dexterity);Disadvantage(Ability, Charisma);Disadvantage(AttackRoll)" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(KTP_OVERDOSE_3);ApplyStatus(KTP_OVERDOSE_4_REMOVE_STATUSES,100,-1)" />
@@ -747,8 +739,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="83b47ed2-cd4f-4067-91e2-4f6c9cbd960a" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_OVERDOSE_5" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest;ForceOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5e6b576eg024cg99dfgf9bagf2fabdd3149d" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd6754809g865ag44cag6e39gae91f7356ff0" version="5" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5e6b576eg024cg99dfgf9bagf2fabdd3149d" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd6754809g865ag44cag6e39gae91f7356ff0" version="6" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1,Poison)" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Debuff" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
@@ -775,7 +767,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="34742622-cbf5-4e3b-b7de-d26055b415bb" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_POISONED" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c55d0a13-1ef8-48a2-9c94-fba4f93072d3" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h76cda2e6gaf4cg2c71g2891g4fcabff0d87d" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Item_GRN_Poison_vial_A" />
         <field name="StackId" type="StringTableFieldDefinition" value="KTP_POISONED" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
@@ -793,8 +784,8 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="301762a2-ba9b-4b61-b488-a9aca15d92d4" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_OVERDOSE_3_REMOVE_STATUSES" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h061c3737gbbddg0bf1g67dcgbd5547429637" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7449e829g0e96gd6f6g584dg7c6c317260d1" version="3" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h68149499g0d6ag9379ge34bg8cf59a7ad559" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7449e829g0e96gd6f6g584dg7c6c317260d1" version="4" />
         <field name="StackId" type="StringTableFieldDefinition" value="KTP_OVERDOSE_3_REMOVE_STATUSES" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisableOverhead;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -810,8 +801,8 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6e74c8e2-b959-4789-b1b2-5debccd29add" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_OVERDOSE_4_REMOVE_STATUSES" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf48780c8g8a13g127eg48cfg67a5fcb1a25f" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc95bc592g849cg0e0bg26b0g8fed5b868da7" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha6590db5gb1a6gb0c4g9e8dg8ad8fe0dcac8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc95bc592g849cg0e0bg26b0g8fed5b868da7" version="3" />
         <field name="StackId" type="StringTableFieldDefinition" value="KTP_OVERDOSE_4_REMOVE_STATUSES" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisableOverhead;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -827,8 +818,8 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7ef68013-4d0c-4b5d-992d-82d8a9585efc" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_OVERDOSE_5_REMOVE_STATUSES" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8fe001d0g8a63g1de0g8b43g022e5c8a5b9e" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hebb9a108gaec4g6141g974cgb7f903ea67d3" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h717a9626gdbf1g5e27gc17fg0a2896a68f5a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hebb9a108gaec4g6141g974cgb7f903ea67d3" version="3" />
         <field name="StackId" type="StringTableFieldDefinition" value="KTP_OVERDOSE_5_REMOVE_STATUSES" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisableOverhead;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -844,29 +835,27 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="fc4c11ac-6fa9-4693-bb24-42180d706581" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_REMOVE_STATUSES" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7a07c094g42c9gd722g8d83gbec3dbd0802f" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h94b41779g1623g7028gf396g9933ae1d724b" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="KTP_REMOVE_STATUSES" />
-        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;DisableOverhead;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d4c7a21-275d-4819-afb4-80b5510c4415" />
       </fields>
     </stat_object>
     <stat_object color="#FF008080" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dc7138dd-3ace-402c-b092-1e79363fb2eb" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MESSAGE_ERROR" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he50147d8gbb4cg9d5fgedddgeb924f811d14" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he50147d8gbb4cg9d5fgedddgeb924f811d14" version="3" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="ForceOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Tooltip_Error_Cross" />
-        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdd9c0590ga726gcc61gefbag1156d2b73b64" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d4c7a21-275d-4819-afb4-80b5510c4415" />
+        <field name="StackId" type="StringTableFieldDefinition" value="KTP_MESSAGE_ERROR" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c0351ad5-ec49-48bb-bf11-eb911536424b" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_MESSAGE_ERROR_NOT_RESULT" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h90de8460g6ea3g92f9g7b0cgdc1357f80d50" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h90de8460g6ea3g92f9g7b0cgdc1357f80d50" version="4" />
         <field name="Icon" type="StringTableFieldDefinition" value="Tooltip_Error_Cross" />
         <field name="StackId" type="StringTableFieldDefinition" value="KTP_MESSAGE_ERROR_NOT_RESULT" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="dc7138dd-3ace-402c-b092-1e79363fb2eb" />

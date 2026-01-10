@@ -33,6 +33,16 @@
     <stat_object is_substat="true">
       <fields>
         <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="11c6db7d-d18e-4802-946c-a46120af67f0" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_37" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Smoking_Pipe" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
         <field name="UUID" type="IdTableFieldDefinition" value="2b1a9db4-4641-43a7-b48d-1bf16e5d4fa6" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_1" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_CONS_Herbs_Mugwort" />
@@ -46,6 +56,216 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fb4e44ad-b962-4c8d-80af-cd1aa874a018" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_0" />
         <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_CONS_Herbs_Belladonna" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0f5cf585-8de0-4f07-aa10-ba1529c2a3eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_16" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_SCL_Distillery_PurpleWormPoisonIngredient" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="00dc393d-769f-4eed-8068-3fa898e8e658" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_17" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_CONS_Herbs_Daggeroot" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b7297125-c86f-4e45-a076-80636decaf20" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_18" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_ALCH_Extract_RegenerationPreventionGrenade" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="91a83f1f-a77e-407c-bb1c-22092b1e6d8a" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_19" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_UND_SussurTree_Flower" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8c1c3d56-34ca-4728-8b04-a24dea54ac29" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_20" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_CONS_Herbs_Weavemoss" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="edc4ce2a-2c52-467f-93ce-7cb20af55e6c" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_21" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_CONS_FOOD_GlowcapMushroom" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="61456e72-026c-40b4-a441-c0e42a2c63b3" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_22" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_CONS_Mushrooms_Bonecap" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4a900f6f-4849-46b1-ba28-86cfdc31d559" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_23" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_CONS_Mushrooms_BullywugTrumpet" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b97705f0-2dce-4480-b904-66a11270b4d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_24" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_CONS_Mushrooms_DragonEggMushroom" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="73d36e52-b47a-4f69-9517-f94e99d93501" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_25" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_ALCH_Ingredient_Part_MyconidSpore_Haste" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="08998fd2-9ac2-4886-a9f9-9557779ecece" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_26" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_ALCH_Ingredient_Part_MyconidSpore_Poison" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b941cd71-ed5d-49ef-879b-a19cb836b93a" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_27" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_UND_Noblestalk" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6bbd7b4d-d301-420b-97c6-fcc2cc06ff09" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_28" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_CONS_Mushrooms_SwarmingToadstool" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="26f1c9c8-1c4f-4d19-a2e1-8c46fc63b8a6" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_29" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_CONS_Mushrooms_SporeTimmask" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="051a9aac-cdfe-430a-b0c1-16a2de73404b" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_30" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_CONS_Mushrooms_TongueOfMadness" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fc1fef48-f215-40a9-ae02-a83757fb1f7b" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_31" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_CONS_Mushrooms_Nightlight_Piece" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="da6f9a93-4dc3-46ca-a6f8-d0a60ce9218f" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_32" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_CONS_FOOD_Vegetable_Garlic" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="48e27d81-8cdf-4a45-8df3-837e454c0d2b" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_33" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_CONS_FOOD_Fruit_Goodberry" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cea4a00f-5500-40e6-99d8-a95ec61d0288" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_34" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_CONS_FOOD_Fruit_Lemon" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ce94ed74-ca07-445e-9ff3-9f2515a4ecec" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_35" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_CONS_FOOD_YellowOnion" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c183413-12b5-45fe-ac85-2fdf5161f1f3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="93c25174-314b-4f34-b202-7b36cd7f995a" />
+        <field name="Name" type="NameTableFieldDefinition" value="KTP_DEBUG_TOBACCO_substat_36" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_CONS_FOOD_Fruit_Orange" />
         <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
         <field name="DropCount" type="StringTableFieldDefinition" value="5,1" />
       </fields>

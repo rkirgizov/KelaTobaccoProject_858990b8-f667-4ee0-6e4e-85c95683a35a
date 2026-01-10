@@ -6,7 +6,13 @@ https://github.com/rkirgizov/KelaTobaccoProject_858990b8-f667-4ee0-6e4e-85c95683
 Telegram @rkirgizov | Email rkirgizov@yandex.ru
 
 ## Hand-making of tobacco
-To make tobacco, use a "Mortar and Pestle" and a Pouch containing Mugwort and a second ingredient (you can add several different ingredients).
+To make tobacco, use a "Mortar and Pestle" and a Pouch containing Mugwort and a second ingredient (you can add several different ingredients).  
+Standard base ingredient: Mugwort.
+
+## Smoking
+Use a tobacco pouch to fill the pipe with tobacco.  
+Typical pipe load: 3 puffs.
+Typical effect duration: 30 turns per puff.
 
 ## Warning
 Regular smoking imposes a penalty on Initiative and Constitution checks. Prolonged use may result in malaise, persistent headaches, or even nicotine toxicity.

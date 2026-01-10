@@ -5,34 +5,8 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4e820d39-326d-4bc5-b224-1847ab6784f5" />
         <field name="Name" type="NameTableFieldDefinition" value="KTP_SneakAttack" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="RangedMainWeaponRange" />
-        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedWeaponAttack)" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);DealDamage(1d4 + 1d4*(Level/2), MainRangedWeaponDamageType);ExecuteWeaponFunctors(MainHand)" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self() and not Dead() and ((HasAdvantage(AttackType.RangedWeaponAttack) or HasAllyWithinRange('SG_Incapacitated',1.5)) and not HasDisadvantage(AttackType.RangedWeaponAttack))" />
-        <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
-        <field name="Trajectories" type="StringTableFieldDefinition" value="52f94ae8-7b9d-4410-9290-91a8a909b612,b50a1c9f-0414-6136-3910-4579d6f162f9,5d0c3de8-d2cd-0f2f-1274-821d99ad1dcf" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_SneakAttack_Ranged" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8ff7509bgf8d0g9dd1g9784gf324643b38d6" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4400c622gde52g0230g58dag7b33c1a8f482" version="1" />
-        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SneakAttack_Charge:1" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="a0be34b6-48c6-4ff7-a57a-b2e9fccbdda0,,;ceace50f-ceef-4cdd-9995-b18aed12acd5,,;71cc648d-73f2-4db8-ae9f-76e649c7613f,,;7765e1e7-f20a-4323-af19-ad3752626797,,;a097bbc5-568d-4c01-a84d-56960e2f6545,,;,,;f920a0a6-f257-4ce4-8d17-2dcaa7bb7bbb,,;,,;,," />
-        <field name="WeaponType" type="EnumerationListTableFieldDefinition" value="Ammunition" enumeration_type_name="WeaponFlags" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;CannotTargetItems;CannotTargetTerrain" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_SneakAttackProjectile" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="dc75f60c-beac-4588-a14a-43834eeb8f8f" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+ LevelMapValue(SneakAttack), MainRangedWeaponDamageType)" />
-        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedWeaponAttack" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hbd1e3a2agfcc1g3a91ge189g70f9d49a1c94" version="1" />
-        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
-        <field name="DualWieldingSpellAnimation" type="CastAnimationsTableFieldDefinition" value="73afb4e5-8cfe-4479-95cf-16889597fee3,,;45bcbbd4-f9ca-4b19-88c2-822c5e2b0d8b,,;466e7470-712f-4a67-8ef1-5908a20b0449,,;c1713221-163b-4bae-95de-e6681d665c76,,;6ec808e1-e128-44ef-9361-a713bf86de8f,,;,,;f920a0a6-f257-4ce4-8d17-2dcaa7bb7bbb,,;,,;,," />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="62fa9d2f-ec0b-4900-a455-ec9b5e6e3eb4" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="bf5fa9ef-7d14-4061-b393-10852789ff1b" />
-        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
-        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Ranged" enumeration_type_name="SpellSheathing" version="1" />
-        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasActionResource('SneakAttack_Charge',1,0,false,false,context.Source)" />
-        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="IF(HasStatus('YSRSLIDFWWADNIWHWIHLY')):SpawnExtraProjectiles(Projectile_SneakAttack);ApplyStatus(YSRSLIDFWWADNIWHWIHLY_YWNK,100,1)" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1a3ee454-7f4e-4a48-ac31-756e8d28a024" />
       </fields>
     </stat_object>
   </stat_objects>

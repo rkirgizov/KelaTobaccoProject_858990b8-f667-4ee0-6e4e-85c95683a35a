@@ -6,8 +6,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6b435f5b-931f-4d26-aa61-656582325124" />
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_FairyEscape" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Invisibility" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h75dce84cg05e2gce3eg53cfg9bf96cfc442a" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h60b5ad80g4bcegab57g09f1g55f0560ac3cc" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h75dce84cg05e2gce3eg53cfg9bf96cfc442a" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h60b5ad80g4bcegab57g09f1g55f0560ac3cc" version="3" />
         <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPreDamage" enumeration_type_name="InterruptContext" version="1" />
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
         <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
